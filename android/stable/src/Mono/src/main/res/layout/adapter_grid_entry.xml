@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/grid_item"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:src="@drawable/app_2x"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App"
+        android:id="@+id/grid_item_label"
+        android:layout_below="@+id/grid_item_image"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:singleLine="false"
+        android:lines="2"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/grid_item_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/grid_item_image"
+        android:layout_alignRight="@+id/grid_item_image"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:background="@color/primary3"
+        android:layout_alignParentEnd="false"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageRemove"
+        android:src="@drawable/close_circle_25"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/grid_item_notification"
+        android:layout_alignLeft="@+id/grid_item_notification"
+        android:layout_alignStart="@+id/grid_item_notification" />
+</RelativeLayout>

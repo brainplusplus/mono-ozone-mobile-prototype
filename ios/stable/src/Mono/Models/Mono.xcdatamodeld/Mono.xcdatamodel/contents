@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MNOAppsMall" representedClassName="MNOAppsMall" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="widgets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MNOWidget" inverseName="appsMall" inverseEntity="MNOWidget" syncable="YES"/>
+    </entity>
+    <entity name="MNOCachedData" representedClassName="MNOCachedData" syncable="YES">
+        <attribute name="contentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="eTag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expirationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="expirationTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="refreshDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="refreshTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongsTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOWidget" inverseName="cacheData" inverseEntity="MNOWidget" syncable="YES"/>
+    </entity>
+    <entity name="MNODashboard" representedClassName="MNODashboard" syncable="YES">
+        <attribute name="dashboardId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wasCreatedOnDesktop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOUser" inverseName="dashboards" inverseEntity="MNOUser" syncable="YES"/>
+        <relationship name="widgets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MNOWidget" inverseName="dashboard" inverseEntity="MNOWidget" syncable="YES"/>
+    </entity>
+    <entity name="MNOGroup" representedClassName="MNOGroup" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOUser" inverseName="groups" inverseEntity="MNOUser" syncable="YES"/>
+    </entity>
+    <entity name="MNOIntentSubscriberSaved" representedClassName="MNOIntentSubscriberSaved" syncable="YES">
+        <attribute name="action" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isReceiver" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="autoReceiveIntent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOIntentSubscriberSaved" inverseName="autoSendIntent" inverseEntity="MNOIntentSubscriberSaved" syncable="YES"/>
+        <relationship name="autoSendIntent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOIntentSubscriberSaved" inverseName="autoReceiveIntent" inverseEntity="MNOIntentSubscriberSaved" syncable="YES"/>
+        <relationship name="widget" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOWidget" inverseName="intentRegister" inverseEntity="MNOWidget" syncable="YES"/>
+    </entity>
+    <entity name="MNOLoginInfo" representedClassName="MNOLoginInfo" syncable="YES">
+        <attribute name="certData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="certName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MNOMapTile" representedClassName="MNOMapTile" syncable="YES">
+        <attribute name="cacheDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="tileData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="tileHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tileType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="zoom" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="MNOSettings" representedClassName="MNOSettings" syncable="YES">
+        <attribute name="allowsIntents" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="belongsTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOUser" inverseName="settings" inverseEntity="MNOUser" syncable="YES"/>
+    </entity>
+    <entity name="MNOUser" representedClassName="MNOUser" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dashboards" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MNODashboard" inverseName="user" inverseEntity="MNODashboard" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MNOGroup" inverseName="user" inverseEntity="MNOGroup" syncable="YES"/>
+        <relationship name="settings" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOSettings" inverseName="belongsTo" inverseEntity="MNOSettings" syncable="YES"/>
+        <relationship name="widgets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MNOWidget" inverseName="user" inverseEntity="MNOWidget" syncable="YES"/>
+    </entity>
+    <entity name="MNOWidget" representedClassName="MNOWidget" syncable="YES">
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headerIconUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instanceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="largeIconUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobileReady" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="original" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="smallIconUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="widgetId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="appsMall" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOAppsMall" inverseName="widgets" inverseEntity="MNOAppsMall" syncable="YES"/>
+        <relationship name="cacheData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MNOCachedData" inverseName="belongsTo" inverseEntity="MNOCachedData" syncable="YES"/>
+        <relationship name="dashboard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNODashboard" inverseName="widgets" inverseEntity="MNODashboard" syncable="YES"/>
+        <relationship name="intentRegister" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MNOIntentSubscriberSaved" inverseName="widget" inverseEntity="MNOIntentSubscriberSaved" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MNOUser" inverseName="widgets" inverseEntity="MNOUser" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MNOAppsMall" positionX="90" positionY="153" width="128" height="90"/>
+        <element name="MNOCachedData" positionX="160" positionY="192" width="128" height="193"/>
+        <element name="MNODashboard" positionX="0" positionY="0" width="128" height="118"/>
+        <element name="MNOGroup" positionX="0" positionY="0" width="128" height="73"/>
+        <element name="MNOIntentSubscriberSaved" positionX="0" positionY="0" width="128" height="148"/>
+        <element name="MNOLoginInfo" positionX="90" positionY="153" width="128" height="90"/>
+        <element name="MNOMapTile" positionX="90" positionY="153" width="128" height="148"/>
+        <element name="MNOSettings" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="MNOUser" positionX="0" positionY="0" width="128" height="178"/>
+        <element name="MNOWidget" positionX="0" positionY="0" width="128" height="298"/>
+    </elements>
+</model>

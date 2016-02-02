@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ozone Mobile</string>
+    <string name="debug_tag">Ozone Mobile</string>
+    <string name="autoLoginPreference">autoLogin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- UI Strings -->
+    <string name="widgets_description">OWF Widgets are distributed web applications running inside an iframe. They provide flexible versions of the tools that you use every day. Consider creating widgets for e-mail accounts, maps, word processing and spreadsheet tools, useful websites or anything else you\'d like to access from a single screen.</string>
+    <string name="intents_clear_text">All preferences within the {0} will be cleared</string>
+    <string name="intents_queue_number">There are {0} intents in the queue.</string>
+
+    <!-- Shared url Paths -->
+    <string name="groupsPath">group</string>
+    <string name="profilePath">prefs/person/whoami</string>
+    <string name="widgetListPath">prefs/widgetList</string>
+    <string name="userPath">user/</string>
+    <string name="configPath">access/getConfig</string>
+    <string name="app_package">com.fourtwosix.mono</string>
+    <string name="database_version">1</string>
+    <string name="keychain_label">Key Chain Installation</string>
+    <string name="keychain_install">Install</string>
+    <string name="keychain_installed">Update</string>
+    <string name="private_key_label">Private Key</string>
+    <string name="cert_label">Certificate</string>
+    <string name="client_cert_password">password</string>
+    <string name="tile_cache_service">http://a.tile.openstreetmap.org/</string>
+    <string name="aerial_cache_service">http://otile1.mqcdn.com/tiles/1.0.0/sat/</string>
+    <string name="max_request_tiles">10000</string>
+
+    <!-- preferences -->
+    <string name="serverUrlPreference">serverBaseUrl</string>
+    <string name="syncAppsPreference">syncApps</string>
+    <string name="enableIntentsPreference">enableIntents</string>
+    <string name="showAllWidgetsPreference">showAllWidgets</string>
+    <string name="trustedServerPreference">trustedServer</string>
+    <string name="trustedServerListPreference">trustedServerList</string>
+    <string name="checkServerTrustPreference">checkServerTrust</string>
+    <string name="widgetCachingService">Widget Caching Service</string>
+    <string name="widgetCacheServiceCompletionText">Widgets: (0/0)\n</string>
+
+    <bool name="widgetCachingServiceStatusFailed">false</bool>
+
+    <string name="cacheServicesLastRanPreference">cacheServiceLastRan</string>
+    <string name="cacheServiceLastRan">---</string>
+    <string name="urlCachingService">Url Caching Service</string>
+    <string name="urlCacheService">Url Caching Service</string>
+    <string name="urlCachingServiceCompletionText">Resources: (0/0)\n</string>
+
+    <bool name="urlCachingServiceStatusFailed">false</bool>
+
+    <string name="nomiumServiceUrl">http://nominatim.openstreetmap.org/search</string>
+    <string name="widgetUrlGetParameters">\?lang=en_US&amp;themeName=a_default&amp;themeContrast=standard&amp;themeFontSize=12&amp;owf=true&amp;mobile=true&amp;usePrefix=false</string>
+    <string name="marketplaceAddText">Enter Store URL</string>
+    <string name="marketplaceNameText">Enter Store Name</string>
+    <string name="storeListPreference">STORE_LIST</string>
+    <string name="loading_widget">Loading Widget</string>
+    <string name="title_activity_start">Ozone Mobile</string>
+
+</resources>

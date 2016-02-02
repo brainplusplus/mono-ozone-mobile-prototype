@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InvalidPackage">
+        <ignore path="Mono/src/main/resources/TestFlightLib.jar" />
+    </issue>
+
+    <issue id="UnusedResources" severity="ignore" />
+
+    <issue id="HandlerLeak" severity="ignore" />
+
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="ContentDescription" severity="ignore" />
+
+</lint>

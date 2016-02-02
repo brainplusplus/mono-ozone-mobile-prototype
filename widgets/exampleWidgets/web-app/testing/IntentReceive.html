@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Intents 2</title>
+    <script type="text/javascript" src="../js/lib/jc2cui-common/common/javascript/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../js/widget/owf-widget-min.js"></script>
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script>
+        function errorLog(sender, intent, logline)
+        {
+            var errorLogDiv = document.getElementById("errorlog");
+            errorLogDiv.innerHTML = errorLogDiv.innerHTML + "\nData:" + logline;
+            if (intent)
+            {
+               errorLogDiv.innerHTML = errorLogDiv.innerHTML + "\nIntent:" + intent;
+            }
+            if (sender)
+            {
+                errorLogDiv.innerHTML = errorLogDiv.innerHTML + "\nSender" + sender;
+            }
+        }
+
+        OWF.Intents.receive(
+            {action: "test", dataType: "test/type"},
+            function(sender, intent, data) {
+                errorLog(JSON.stringify(sender), JSON.stringify(intent), JSON.stringify(data));
+            }
+        );
+
+    </script>
+    <div>
+        <pre id="errorlog" />
+    </div>
+</body>
+</html>

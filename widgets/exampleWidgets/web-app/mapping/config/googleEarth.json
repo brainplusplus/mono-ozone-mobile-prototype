@@ -1,0 +1,19 @@
+{
+    "name": "Google Earth",
+    "path": "javascript/google.earth.all.min.js",
+    "key": apiKeyfile.google, //"ABQIAAAA-pC_oS-OZ7GbCZiGocTKoxSOtEWFSFLLHS4H_1kktxZ58WEJVBSNEYct8Piia7bhbahzPyWgsheq_A",
+    "ajaxLoadUrl": "https://www.google.com/jsapi",
+    "earthApiUrlHide": {
+        "url": "https://gvsgoogleglobe.nga.smil.mil/js/earth_plugin_loader.js",
+        "errorUrl": "https://gvsgoogleglobe.nga.smil.mil/earth/error.html",
+        "database": "https://gvsgoogleglobe.nga.smil.mil/"
+    },
+    "sidebar": {
+        "animate": false,
+        "drawing": true
+    },
+    "useShim": true,
+    "constraints": {
+        "maxPlacemarks": 50000
+    }
+}

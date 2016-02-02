@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/page">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Account"
+            style="@style/pageTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            style="@style/settingsCategoryTitle"
+            />
+
+        <View style="@style/divider" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgMenu"
+                android:src="@drawable/placeholder_2x"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="8dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUserName"
+                    style="@style/SmallText"
+                    android:hint="No user specified"
+                    android:scrollHorizontally="false"
+                    android:ellipsize="none"
+                    android:singleLine="false"
+                    android:textColor="#fff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUserEmail"
+                    android:layout_column="1"
+                    android:textColor="@color/textGray"
+                    style="@style/SmallText"
+                    android:hint="No email specified"
+                    android:scrollHorizontally="false"
+                    android:ellipsize="none"
+                    android:singleLine="false"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUserGroups"
+            android:layout_column="1"
+            android:textColor="#FFF"
+            style="@style/SmallText"
+            android:hint="No groups specified"
+            android:scrollHorizontally="false"
+            android:ellipsize="none"
+            android:singleLine="false"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OZONE INSTANCE"
+            style="@style/settingsCategoryTitle"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginTop="20dp"/>
+
+        <View style="@style/divider"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@android:drawable/ic_lock_idle_lock"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtServer"
+                style="@style/SmallText"
+                android:layout_gravity="center_vertical"
+                android:singleLine="false"
+                android:layout_weight="1"
+                android:ellipsize="none"
+                android:scrollHorizontally="false"
+                android:hint="https://monover.42six.com/owf/"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+{
+    "name": "Google Maps V3",
+    "path": "javascript/google.maps.v3.all.min.js",
+    "server": "https://maps.googleapis.com/maps/api/js",
+    "sidebar": {
+        "animate": true,
+        "drawing": true
+    },
+    "options" : {
+        "labels": {
+            "text": "Show placemark labels",
+            "value": false
+        },
+        "clustering": {
+            "text": "Cluster placemarks",
+            "value": false
+        }
+    },
+    "proxy": "../sage/proxyNorthcom?id=",
+    "constraints": {
+        "chrome": {
+            "default": {
+                "maxFileSize": 50,
+                "maxPlacemarks": 75000
+            }
+        },
+        "firefox": {
+            "default": {
+                "maxFileSize": 30,
+                "maxPlacemarks": 50000
+            }
+        },
+        "ie": {
+            "default": {
+                "maxFileSize": 10,
+                "maxPlacemarks": 10000
+            },
+            "9": {
+                "maxFileSize": 30,
+                "maxPlacemarks": 50000
+            }
+        }
+    }
+}

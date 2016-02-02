@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="98dp"
+        android:id="@+id/appIcon"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignStart="@id/imgMenu"
+        android:layout_marginTop="14dp"
+        android:maxHeight="100dp"
+        android:src="@drawable/app_2x" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/appTitle"
+        android:maxLines="2"
+        android:lines="2"
+        android:layout_alignTop="@+id/appIcon"
+        android:layout_toRightOf="@+id/appIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Description"
+        android:id="@+id/appDescriptionLabel"
+        android:layout_below="@+id/appIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/appDescriptionLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/appDescription" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="bottom"
+        android:baselineAligned="false"
+        android:background="@drawable/border_gray_top">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/cancel"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_weight=".5"
+            android:background="@color/buttonSecondaryBackground"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/add"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_weight=".5"
+            style="@style/GreenButton"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+</RelativeLayout>

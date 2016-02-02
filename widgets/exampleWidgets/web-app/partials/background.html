@@ -1,0 +1,48 @@
+<!-- Background info -->
+
+<div id="backgrounds" class="text-body" ng-repeat="background in $parent.slideBackgrounds">
+	<div id="bgGuid-{{background.guid}}" class="viewerHidden">
+		<div id="bg-{{$index}}" class="background-content">
+			<a href="#" onclick="closeBackground('{{background.guid}}')"><i class="icon-cancel-6"></i></a>
+			<h3>Background</h3>
+			<div editable class="background-info" id="{{background.guid}}" ng-model="$parent.slideBackgrounds[$index].description"
+				ng-bind="$parent.slideBackgrounds[$index].description || 'Insert your content here'"></div>
+
+            <div id="files" >
+                <img style="width:100%" src="../uploads/{{file.id}}" ng_repeat="file in background.images" />
+                <audio controls width="100%" ng_repeat="file in background.audios">
+                	<source src="../uploads/{{file.id}}" type="audio/mpeg" >
+                	<source src="../uploads/{{file.id}}" type="audio/ogg" >
+                	<source src="../uploads/{{file.id}}" type="audio/wav" >
+               	</audio>
+               	<video controls width="100%"  ng_repeat="file in background.videos">
+               		<source src="../uploads/{{file.id}}" type="video/{{file.fileType}}">
+               	</video>
+            </div>
+            <div id="uploadContent_{{background.guid}}" editableNoModel class="viewerHidden"></div>
+			
+			<p class="backgroundMenu viewerHidden">
+            	Add
+            	<i class="icon-photo-circled" title="Image"></i>
+            	<i class="icon-mic-circled" title="Audio"></i>
+                <i class="icon-video-circled" title="Video"></i>
+                <i class="icon-location-circled" title="Map"></i>
+            </p>
+            <p class="backgroundMenu viewerHidden">
+            	Save &nbsp;|&nbsp; Cancel &nbsp;|&nbsp; <a ng-click='removeBackground($index)' class="viewerHidden">Delete</a>
+            </p>
+			
+		</div>
+		<div class="viewerHidden" id="uploadSection">
+		    <form method="post" enctype="multipart/form-data">		    
+		    	<input class="fileUploadButton" type="button" value="Upload Background"/>
+		        <input class="fileUploadInputHidden" type="file" name="attachmentFile_{{background.guid}}" id="attachmentFile_{{background.guid}}" accept="audio/*,video/mp4,image/*"
+		        	onchange="javascript: document.getElementById('uploadFileLink_{{background.guid}}').click();"/>
+		        <br />
+		        <input type="hidden" name="bg_guid" id="bg_guid" value="{{background.guid}}" />
+		        
+		        <a id="uploadFileLink_{{background.guid}}" style="position:fixed; top:-20000000px" ng-click="uploadFile(background.guid)"></a><span id="uploadStatus_{{background.guid}}"></span>
+		    </form>
+		</div>
+	</div>
+</div>

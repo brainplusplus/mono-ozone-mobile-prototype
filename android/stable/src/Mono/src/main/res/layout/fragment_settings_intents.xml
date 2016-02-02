@@ -1,0 +1,215 @@
+<ScrollView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context="com.fourtwosix.mono.fragments.settings.SyncSettingsFragment"
+            android:fillViewport="false"
+            style="@style/page">
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/rlTitle"
+            android:background="@drawable/clickable_view">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/arrow_back_2x"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings:"
+                android:id="@+id/textView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_centerVertical="true"
+                style="@style/pageTitle"
+                android:layout_marginRight="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intents"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-thin"
+                style="@style/pageTitle"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_centerVertical="true"
+                android:textColor="#fff"/>
+        </RelativeLayout>
+
+        <View style="@style/divider"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENABLE INTENTS"
+            style="@style/settingsCategoryTitle"/>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MediumText"
+                android:text="Intents allows apps to send and receive info within Ozone."
+                android:layout_marginRight="34dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkIntents"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:layout_gravity="center_vertical"
+                android:button="@drawable/checkbox_button"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"/>
+        </RelativeLayout>
+
+        <View style="@style/divider"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="INTENT PREFERENCES"
+            style="@style/settingsCategoryTitle"/>
+
+        <TextView
+            style="@style/MediumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear saved intent preferences"
+            android:id="@+id/textView3"
+            />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="By Composite App:"
+                        style="@style/MediumText"
+                        android:layout_marginTop="8dp"/>
+
+                    <Spinner
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spnDashboards"
+                        style="@style/GenericSpinner"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tblRowApps"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="2">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="By App:"
+                        android:layout_gravity="center_vertical"
+                        style="@style/MediumText"
+                        android:layout_marginTop="8dp"/>
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spnApp"
+                        style="@style/GenericSpinner"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tblRowActions"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Intents:"
+                        style="@style/MediumText"
+                        android:layout_marginTop="8dp"/>
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spnAction"
+                        style="@style/GenericSpinner"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/intents_clear_text"
+                style="@style/MediumText"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txtClear"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:id="@+id/btnDelete"
+                android:layout_weight="4"
+                style="@style/GreenButton"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

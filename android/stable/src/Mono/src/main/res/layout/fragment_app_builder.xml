@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/page">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:id="@+id/editText"
+                android:hint="Enter your app name"
+                android:textAlignment="textStart"
+                android:text=""
+                android:layout_gravity="center_horizontal"
+                style="@style/editText">
+                <requestFocus />
+            </EditText>
+
+            <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/apps_in_composite"
+                android:numColumns="4"
+                android:horizontalSpacing="5dip"
+                android:verticalSpacing="5dip"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="false"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="50dp"
+                android:layout_below="@+id/editText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click the add button below to start adding your apps from the AppsMall"
+                android:id="@+id/textAddLabel"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="@dimen/abc_action_bar_title_text_size"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:baselineAligned="true"
+            android:id="@+id/bottom_bar"
+            android:measureWithLargestChild="false"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:background="@color/primary1"
+            >
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:id="@+id/rlAddApps"
+                android:background="@drawable/clickable_view">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/addApps"
+                    android:src="@drawable/addapp_2x"
+                    android:layout_centerVertical="true"
+                    android:tint="@color/textGray"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/addApps"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#fff"/>
+
+            </RelativeLayout>
+            <View style="@style/divider" android:layout_width="1dp" android:layout_height="fill_parent" />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:id="@+id/rlRemoveapps"
+                android:background="@drawable/clickable_view">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/removeApps"
+                    android:src="@drawable/trash_2x"
+                    android:layout_centerVertical="true"
+                    android:tint="@color/textGray"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remove"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/removeApps"
+                    android:textColor="#fff"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

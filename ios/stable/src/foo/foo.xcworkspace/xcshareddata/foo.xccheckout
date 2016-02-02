@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0CDEBA4-BD2C-42C8-A4EB-CCD6D111685B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>foo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EA1E1B9C-1F7E-487A-A6B9-9D506D399E26</key>
+		<string>ssh://git.lab76.org/mono/owf-7-x.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>native-apps/ios/foo/foo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EA1E1B9C-1F7E-487A-A6B9-9D506D399E26</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git.lab76.org/mono/owf-7-x.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EA1E1B9C-1F7E-487A-A6B9-9D506D399E26</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA1E1B9C-1F7E-487A-A6B9-9D506D399E26</string>
+			<key>IDESourceControlWCCName</key>
+			<string>owf-7-x</string>
+		</dict>
+	</array>
+</dict>
+</plist>

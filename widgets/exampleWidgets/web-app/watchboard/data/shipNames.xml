@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<collection>
+  <afloatSupplyPointResult>
+    <dodaac>N24086</dodaac>
+    <name>Evergreen State</name>
+    <siteKey>8A113874124B4D5D94AA54BDBB7299D4</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21621</dodaac>
+    <name>USNS Big Horn</name>
+    <siteKey>377D6F13B1294A729034016EE5D7729F</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>R21856</dodaac>
+    <name>USNS Guadalupe</name>
+    <siteKey>5B2B6F29ED4441CEB23EA23BDD12D332</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21870</dodaac>
+    <name>USNS Laramie</name>
+    <siteKey>3F2279C2FD21466F8C227E21DE0819CC</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>R21869</dodaac>
+    <name>USNS Yukon</name>
+    <siteKey>C2147360034D44C097923523DEE91A2D</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21581</dodaac>
+    <name>USNS Kanawha</name>
+    <siteKey>A5611A678BE54108B615C3711FF3CB85</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21412</dodaac>
+    <name>WASHINGTON G</name>
+    <shipName>WASHINGTON G</shipName>
+    <siteKey>862FE2EAA5E8499B964E186AD4569C2A</siteKey>
+    <uic>N21412</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21623</dodaac>
+    <name>COWPENS</name>
+    <shipName>COWPENS</shipName>
+    <siteKey>032373B965014EEF9DCF202210EF367E</siteKey>
+    <uic>N21623</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21657</dodaac>
+    <name>SHILOH</name>
+    <shipName>SHILOH</shipName>
+    <siteKey>BFD77A9B03A1458191E60BA5EE009901</siteKey>
+    <uic>N21657</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N21640</dodaac>
+    <name>USS Wilbur</name>
+    <shipName>WILBUR C</shipName>
+    <siteKey>87242AE02E004A6B91BA4CFAECAC94D3</siteKey>
+    <uic>N21640</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N21686</dodaac>
+    <name>USS John S McCain</name>
+    <shipName>MCCAIN JS</shipName>
+    <siteKey>6A0976D62C004C44B252468655A3B67E</siteKey>
+    <uic>N21686</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N21824</dodaac>
+    <name>USS Fitzgerald</name>
+    <shipName>FITZGERALD</shipName>
+    <siteKey>6AF187EFB6D64E11930A7F21BBD61ED0</siteKey>
+    <uic>N21824</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N21825</dodaac>
+    <name>USS Stethem</name>
+    <shipName>STETHEM</shipName>
+    <siteKey>90CF4F3FEA9A424981774BEDADFE7D1D</siteKey>
+    <uic>N21825</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N21956</dodaac>
+    <name>USS Lessen</name>
+    <shipName>LASSEN</shipName>
+    <siteKey>507940BAC16A4AFA9EC18E160416C3AD</siteKey>
+    <uic>N21956</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N22997</dodaac>
+    <name>USS Mustin</name>
+    <shipName>MUSTIN</shipName>
+    <siteKey>A5DDA31084944E73A01A0D23D0F94FA7</siteKey>
+    <uic>N22997</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21345</dodaac>
+    <name>BUNKER HILL</name>
+    <shipName>BUNKER HILL</shipName>
+    <siteKey>85EA8E21749346BA8B935F0F0203084F</siteKey>
+    <uic>N21345</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21857</dodaac>
+    <name>USNS Patuxent</name>
+    <siteKey>0D527E817184483EA968937E8ED95691</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>R21622</dodaac>
+    <name>USNS Tippecanoe</name>
+    <siteKey>D9F6775EB0AF4E3FADF359A16636724C</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21377</dodaac>
+    <name>USNS John Lenthall</name>
+    <siteKey>29620E971D234665AC798D7A22D7A947</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Frigates</afloatGroupName>
+    <dodaac>N21108</dodaac>
+    <name>USS McClusky</name>
+    <shipName>MCCLUSKY</shipName>
+    <siteKey>9023D0C69A9846D0A3C3BEDB3D4ECD10</siteKey>
+    <uic>N21108</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Frigates</afloatGroupName>
+    <dodaac>N21198</dodaac>
+    <name>USS Rentz</name>
+    <shipName>RENTZ</shipName>
+    <siteKey>0266ADF60A0F44DA82EA72C00BC6483A</siteKey>
+    <uic>N21198</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20993</dodaac>
+    <name>VINSON C</name>
+    <shipName>VINSON C</shipName>
+    <siteKey>7BE69CA048EB4F1FB566D2F2BCC12B79</siteKey>
+    <uic>N20993</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N23151</dodaac>
+    <name>USS Gridley</name>
+    <shipName>GRIDLEY</shipName>
+    <siteKey>3DE62DD4E33F4318949F4876C9A8CF86</siteKey>
+    <uic>N23151</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21428</dodaac>
+    <name>LAKE CHAMPLAIN</name>
+    <shipName>LAKE CHAMPLAIN</shipName>
+    <siteKey>E3A1F7992C694DE79229A94440FAD09F</siteKey>
+    <uic>N21428</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>Destroyers</afloatGroupName>
+    <dodaac>N23163</dodaac>
+    <name>USS Stockdale</name>
+    <shipName>STOCKDALE</shipName>
+    <siteKey>FFFB80982FFC40E09C9D3B5050AB9940</siteKey>
+    <uic>N23163</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>R21524</dodaac>
+    <name>UNSN John Ericsson</name>
+    <siteKey>88CBCB4A247F4411886B60CCAA5BCB83</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21525</dodaac>
+    <name>USNS Leroy Grumman</name>
+    <siteKey>C7D4F092DB72476A8B7C2B48C53DEB43</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V48974</dodaac>
+    <name>USNS J. Humphreys</name>
+    <siteKey>ED174501A1CA4A1E90233516C34EE6BD</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>V21307</dodaac>
+    <name>USNS Henry Kaiser</name>
+    <siteKey>8CE1BBD6A9E6409698584FFE25E93AB1</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>R21582</dodaac>
+    <name>USNS Pecos</name>
+    <siteKey>22C8ACC9A5A34C2CA6FB1E5E24B9918D</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <afloatGroupName>RO/RO /Prepo</afloatGroupName>
+    <dodaac>N21629</dodaac>
+    <name>USNS Bobo</name>
+    <siteKey>35DF9CA979714D68B5B70BE411699FBC</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21829</dodaac>
+    <name>VELLA GULF</name>
+    <shipName>VELLA GULF</shipName>
+    <siteKey>CD0BCBCBA1D04E0FB043D990AE07E140</siteKey>
+    <uic>N21829</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21830</dodaac>
+    <name>PORT ROYAL</name>
+    <shipName>PORT ROYAL</shipName>
+    <siteKey>CD09E6C193BA41F38C0121386DADEFD2</siteKey>
+    <uic>N21830</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21834</dodaac>
+    <name>SEAWOLF</name>
+    <shipName>SEAWOLF</shipName>
+    <siteKey>283BAA9325244645BC1A52D3354DD803</siteKey>
+    <uic>N21834</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21839</dodaac>
+    <name>SUPPLY</name>
+    <shipName>SUPPLY</shipName>
+    <siteKey>7C2756F0F27840D4871F9B0972CB8A1A</siteKey>
+    <uic>N21839</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21846</dodaac>
+    <name>WYOMING</name>
+    <shipName>WYOMING</shipName>
+    <siteKey>3BC0FC8A2D464EB79AFC71D4F6AA8ED6</siteKey>
+    <uic>N21846</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21861</dodaac>
+    <name>LOUISIANA</name>
+    <shipName>LOUISIANA</shipName>
+    <siteKey>28710B4540E442D686E18DE4BDF8A57A</siteKey>
+    <uic>N21861</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21872</dodaac>
+    <name>RAINIER</name>
+    <shipName>RAINIER</shipName>
+    <siteKey>5C1575D3487C472CBA8CD217A8A02E88</siteKey>
+    <uic>N21872</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21907</dodaac>
+    <name>ARCTIC</name>
+    <shipName>ARCTIC</shipName>
+    <siteKey>E7B68E60038C4672B083D16B91260A82</siteKey>
+    <uic>N21907</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21951</dodaac>
+    <name>OKANE</name>
+    <shipName>OKANE</shipName>
+    <siteKey>5E9342C8421A44C29200F28825D99E45</siteKey>
+    <uic>N21951</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21979</dodaac>
+    <name>BRIDGE</name>
+    <shipName>BRIDGE</shipName>
+    <siteKey>54F7DD945D2C48C2BCD1FA35AF67B07D</siteKey>
+    <uic>N21979</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22219</dodaac>
+    <name>TSGT JOHN A CHAPMAN</name>
+    <siteKey>3B5AC636B540409FB91007D5C2D4BBF7</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22241</dodaac>
+    <name>SHUGHART</name>
+    <shipName>SHUGHART</shipName>
+    <siteKey>BFBBAED980FF4424A20726EB7039163B</siteKey>
+    <uic>N22241</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22242</dodaac>
+    <name>GORDON</name>
+    <shipName>GORDON</shipName>
+    <siteKey>51EB25D5ED714AC5908A1CCE7F942B42</siteKey>
+    <uic>N22242</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22243</dodaac>
+    <name>YANO</name>
+    <shipName>YANO</shipName>
+    <siteKey>C5AEDEA05F6A4790912E8E1157320DF4</siteKey>
+    <uic>N22243</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22244</dodaac>
+    <name>GILLILAND</name>
+    <shipName>GILLILAND</shipName>
+    <siteKey>7CF499050D5E46909963FD0C768142ED</siteKey>
+    <uic>N22244</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22246</dodaac>
+    <name>BOB HOPE</name>
+    <shipName>BOB HOPE</shipName>
+    <siteKey>841325A9FE614E9A9A48540D3D9835C6</siteKey>
+    <uic>N22246</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22248</dodaac>
+    <name>SEAY</name>
+    <shipName>SEAY</shipName>
+    <siteKey>8BE31045F7644B71A773686FA4A3FEFB</siteKey>
+    <uic>N22248</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22249</dodaac>
+    <name>MENDONCA</name>
+    <shipName>MENDONCA</shipName>
+    <siteKey>0D7853364F32416E823F05D5756A5F39</siteKey>
+    <uic>N22249</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22250</dodaac>
+    <name>PILILAAU</name>
+    <shipName>PILILAAU</shipName>
+    <siteKey>96CCD7F69F0048A5B319084A6D9F7D9E</siteKey>
+    <uic>N22250</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22251</dodaac>
+    <name>BRITTIN</name>
+    <shipName>BRITTIN</shipName>
+    <siteKey>F86611C9149E4A0BAECB111B48E5BB7A</siteKey>
+    <uic>N22251</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22252</dodaac>
+    <name>BENAVIDEZ</name>
+    <shipName>BENAVIDEZ</shipName>
+    <siteKey>C0CC64E2E80345E897BC9C92FFEADB6E</siteKey>
+    <uic>N22252</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22256</dodaac>
+    <name>WATSON</name>
+    <shipName>WATSON</shipName>
+    <siteKey>F3FE645D10BE4C939DF2D2269B9985A7</siteKey>
+    <uic>N22256</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22259</dodaac>
+    <name>RED CLOUD</name>
+    <shipName>RED CLOUD</shipName>
+    <siteKey>17AA92E1BBF9473BB9261BEBBA1EE332</siteKey>
+    <uic>N22259</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22261</dodaac>
+    <name>WATKINS</name>
+    <shipName>WATKINS</shipName>
+    <siteKey>37ACC61FE74449BA8554B7A3CAE82DF5</siteKey>
+    <uic>N22261</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22262</dodaac>
+    <name>POMEROY</name>
+    <shipName>POMEROY</shipName>
+    <siteKey>1B079E6CD11F47CA92E995E1B3D78349</siteKey>
+    <uic>N22262</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22263</dodaac>
+    <name>SODERMAN</name>
+    <shipName>SODERMAN</shipName>
+    <siteKey>13719792AA4F4B15ABCF5563BDC04399</siteKey>
+    <uic>N22263</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23013</dodaac>
+    <name>VIRGINIA</name>
+    <shipName>VIRGINIA</shipName>
+    <siteKey>9A91C573DA3940EB9863CFC4E7387539</siteKey>
+    <uic>N23013</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23028</dodaac>
+    <name>TEXAS</name>
+    <shipName>TEXAS</shipName>
+    <siteKey>A4DA8C10F0A44107AB6A2EC66B90E5CB</siteKey>
+    <uic>N23028</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23146</dodaac>
+    <name>CHUNG HOON</name>
+    <shipName>CHUNG HOON</shipName>
+    <siteKey>22B684CD337345D28227734122C77604</siteKey>
+    <uic>N23146</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23150</dodaac>
+    <name>FARRAGUT</name>
+    <shipName>FARRAGUT</shipName>
+    <siteKey>79C06EF347E64A79AE7F0F37749DF0A0</siteKey>
+    <uic>N23150</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23172</dodaac>
+    <name>NEW HAMPSHIRE</name>
+    <shipName>NEW HAMPSHIRE</shipName>
+    <siteKey>CE1357B3106547DE88CCE5E8E4B002B7</siteKey>
+    <uic>N23172</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23183</dodaac>
+    <name>NEW MEXICO</name>
+    <shipName>NEW MEXICO</shipName>
+    <siteKey>505D759D9F43438F92C98507C8B80AE0</siteKey>
+    <uic>N23183</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23190</dodaac>
+    <name>NORTH CAROLINA</name>
+    <shipName>NORTH CAROLINA</shipName>
+    <siteKey>79F0DBF3B0A94EE7A0964225AC7CF1AF</siteKey>
+    <uic>N23190</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23191</dodaac>
+    <name>LEWIS AND CLARK</name>
+    <shipName>LEWIS AND CLARK</shipName>
+    <siteKey>DF581596891C4601B7F89E1E6C2EBBFC</siteKey>
+    <uic>N23191</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23192</dodaac>
+    <name>SACAGAWEA</name>
+    <shipName>SACAGAWEA</shipName>
+    <siteKey>D038C6CB197F4F39ADFB8F025A58CE48</siteKey>
+    <uic>N23192</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23193</dodaac>
+    <name>ALAN SHEPARD</name>
+    <shipName>ALAN SHEPARD</shipName>
+    <siteKey>6D0E04D6F9D145FB8BF6B04B16705A30</siteKey>
+    <uic>N23193</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23194</dodaac>
+    <name>BYRD RE</name>
+    <shipName>BYRD RE</shipName>
+    <siteKey>913540F93CFA4A25B6E24554F852F88D</siteKey>
+    <uic>N23194</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23195</dodaac>
+    <name>PEARY RE</name>
+    <shipName>PEARY RE</shipName>
+    <siteKey>D22061FD9074463181805779D3912F17</siteKey>
+    <uic>N23195</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23196</dodaac>
+    <name>EARHART A</name>
+    <shipName>EARHART A</shipName>
+    <siteKey>03725CDE8F5042CCA4F2D9B421F5A48B</siteKey>
+    <uic>N23196</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23197</dodaac>
+    <name>CARL BRASHEAR</name>
+    <shipName>CARL BRASHEAR</shipName>
+    <siteKey>D2E762E19E91417A8E934E6DFBAF1ED5</siteKey>
+    <uic>N23197</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23198</dodaac>
+    <name>WALLY SCHIRRA</name>
+    <shipName>WALLY SCHIRRA</shipName>
+    <siteKey>43AF31848AA04CB2801478F8F686B74B</siteKey>
+    <uic>N23198</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23199</dodaac>
+    <name>MATTHEW C PERRY</name>
+    <siteKey>970BA5C0AA714C27B32C9A2B04FC4CC5</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23276</dodaac>
+    <name>FISHER</name>
+    <siteKey>0FBDBB065B7A4B11A08F68D56C6AAC50</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23423</dodaac>
+    <name>LTC JOHN U D PAGE</name>
+    <siteKey>C4F6CE1003264F7B8589BCDB42FEDAAA</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23602</dodaac>
+    <name>CHARLES DREW</name>
+    <siteKey>AD2FB0F6B39F4C61A738227E8EA2A20D</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23726</dodaac>
+    <name>WASHINGTON CHAMBERS</name>
+    <siteKey>8F6E2C13DC784C69B1E85BE0FFB1F741</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N24146</dodaac>
+    <name>GREEN WAVE</name>
+    <siteKey>FA805CA888954632A4FAE17C9CF9D2F1</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N29001</dodaac>
+    <name>WILLIAM MCLEAN</name>
+    <siteKey>38C02585966543F7AB1A79E6AC4EDCB7</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>W902FT</dodaac>
+    <name>CHARLTON</name>
+    <siteKey>2D6CD7ED4F134629AAB1284A151EE8E6</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11403</dodaac>
+    <name>MELLON</name>
+    <shipName>MELLON</shipName>
+    <siteKey>4BE799E519F547F8804F79D5FA558218</siteKey>
+    <uic>E11403</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11405</dodaac>
+    <name>BOUTWELL</name>
+    <shipName>BOUTWELL</shipName>
+    <siteKey>8FEAC8DE50324E539A8B901E3A117E5D</siteKey>
+    <uic>E11405</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11406</dodaac>
+    <name>SHERMAN</name>
+    <shipName>SHERMAN</shipName>
+    <siteKey>286B2C39412D40C3A7FCF8666B1781D3</siteKey>
+    <uic>E11406</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11407</dodaac>
+    <name>GALLATIN</name>
+    <shipName>GALLATIN</shipName>
+    <siteKey>FA4B314481014876A86903E459EFB7E7</siteKey>
+    <uic>E11407</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11408</dodaac>
+    <name>MORGENTHAU</name>
+    <shipName>MORGENTHAU</shipName>
+    <siteKey>1A996BF4879C40B09673E638F46ED41B</siteKey>
+    <uic>E11408</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11409</dodaac>
+    <name>RUSH</name>
+    <shipName>RUSH</shipName>
+    <siteKey>493AE319C7A04D6EBD5CDA65AA7F440B</siteKey>
+    <uic>E11409</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11410</dodaac>
+    <name>MUNRO</name>
+    <shipName>MUNRO</shipName>
+    <siteKey>52468D2CC00A4FFBAE7100B94EEB252B</siteKey>
+    <uic>E11410</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11411</dodaac>
+    <name>JARVIS</name>
+    <shipName>JARVIS</shipName>
+    <siteKey>09BB6DEB256240EEA6F94C2D23A2BB8D</siteKey>
+    <uic>E11411</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11412</dodaac>
+    <name>MIDGETT</name>
+    <shipName>MIDGETT</shipName>
+    <siteKey>80252EE9E5A64C10BAA98D188F83DC8C</siteKey>
+    <uic>E11412</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11501</dodaac>
+    <name>BEAR</name>
+    <shipName>BEAR</shipName>
+    <siteKey>15BB6D961F954D0387B2840523A157F2</siteKey>
+    <uic>E11501</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11502</dodaac>
+    <name>TAMPA</name>
+    <shipName>TAMPA</shipName>
+    <siteKey>B01CB9304A0F424C9EEA8AFB11B4D29D</siteKey>
+    <uic>E11502</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>R20635</dodaac>
+    <name>USS Emory S Land</name>
+    <siteKey>6710D6990EA34C268DA4E884D3694BAE</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>FV2023</dodaac>
+    <name>CHAPMAN</name>
+    <siteKey>6A3F50703E784CF586CEE90DD1D23BDA</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N03368</dodaac>
+    <name>NIMITZ</name>
+    <shipName>NIMITZ</shipName>
+    <siteKey>6C47A6E5916945398A4EF238E2298472</siteKey>
+    <uic>N03368</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20002</dodaac>
+    <name>MISSOURI</name>
+    <shipName>MISSOURI</shipName>
+    <siteKey>007B2328FC8242CB939810E26826FC36</siteKey>
+    <uic>N20002</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20080</dodaac>
+    <name>MISSISSIPPI</name>
+    <shipName>MISSISSIPPI</shipName>
+    <siteKey>D2F2FC0E964943E7802448C93C459D18</siteKey>
+    <uic>N20080</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20113</dodaac>
+    <name>FLINT</name>
+    <shipName>FLINT</shipName>
+    <siteKey>BF3993EA724C4A4098C80DA26A284E02</siteKey>
+    <uic>N20113</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20635</dodaac>
+    <name>LAND ES</name>
+    <shipName>LAND ES</shipName>
+    <siteKey>3B8FC0B813AE4A7082B692F96AF9D552</siteKey>
+    <uic>N20635</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20825</dodaac>
+    <name>JACKSONVILLE</name>
+    <shipName>JACKSONVILLE</shipName>
+    <siteKey>E004350EA67A48CA8A07062127BD6F2D</siteKey>
+    <uic>N20825</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20826</dodaac>
+    <name>LA JOLLA</name>
+    <shipName>LA JOLLA</shipName>
+    <siteKey>423937C66DDA4F7A85D4C99A45BD9ADE</siteKey>
+    <uic>N20826</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20865</dodaac>
+    <name>CABLE F</name>
+    <shipName>CABLE F</shipName>
+    <siteKey>830D2D64F6E54E7BB3CAB3F216F27BC4</siteKey>
+    <uic>N20865</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20887</dodaac>
+    <name>SAN FRANCISCO</name>
+    <shipName>SAN FRANCISCO</shipName>
+    <siteKey>AF536D3A687C454792795C24DEBE65E8</siteKey>
+    <uic>N20887</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20994</dodaac>
+    <name>HOUSTON</name>
+    <shipName>HOUSTON</shipName>
+    <siteKey>71607C3A40DE4B32BD0448A84BC2A141</siteKey>
+    <uic>N20994</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N20995</dodaac>
+    <name>NORFOLK</name>
+    <shipName>NORFOLK</shipName>
+    <siteKey>D1E4ECD2967B465482406CC159D94AC8</siteKey>
+    <uic>N20995</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21024</dodaac>
+    <name>OLYMPIA</name>
+    <shipName>OLYMPIA</shipName>
+    <siteKey>68084BE8B0BB4AE591ECC0B0295B3D82</siteKey>
+    <uic>N21024</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21029</dodaac>
+    <name>PROVIDENCE</name>
+    <shipName>PROVIDENCE</shipName>
+    <siteKey>D265886DE20549AAA9D49ADDEADDE42F</siteKey>
+    <uic>N21029</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21030</dodaac>
+    <name>PITTSBURGH</name>
+    <shipName>PITTSBURGH</shipName>
+    <siteKey>5C3A63EA71684D8BB4418EC6A5418806</siteKey>
+    <uic>N21030</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21036</dodaac>
+    <name>OHIO</name>
+    <shipName>OHIO</shipName>
+    <siteKey>9528EE8174DF473D8672CE33FDAE2644</siteKey>
+    <uic>N21036</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21037</dodaac>
+    <name>MICHIGAN</name>
+    <shipName>MICHIGAN</shipName>
+    <siteKey>83214174A2BD4DC8AB21CE937FD192DE</siteKey>
+    <uic>N21037</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21038</dodaac>
+    <name>FLORIDA</name>
+    <shipName>FLORIDA</shipName>
+    <siteKey>871E66DD03134C638F804F4276CFC003</siteKey>
+    <uic>N21038</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21039</dodaac>
+    <name>GEORGIA</name>
+    <shipName>GEORGIA</shipName>
+    <siteKey>2B9F5B88A98D4C70A1349C1FD9968C9C</siteKey>
+    <uic>N21039</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21040</dodaac>
+    <name>JACKSON HM</name>
+    <shipName>JACKSON HM</shipName>
+    <siteKey>0C618D94BB6A4EB6B1E4EE5F5A555301</siteKey>
+    <uic>N21040</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21297</dodaac>
+    <name>LINCOLN A</name>
+    <shipName>LINCOLN A</shipName>
+    <siteKey>39774469264E429F9D90FA77F441A58C</siteKey>
+    <uic>N21297</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N03369</dodaac>
+    <name>EISENHOWER DD</name>
+    <shipName>EISENHOWER DD</shipName>
+    <siteKey>7FA0383C561441AE90092C0E61259F1A</siteKey>
+    <uic>N03369</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N03365</dodaac>
+    <name>ENTERPRISE</name>
+    <shipName>ENTERPRISE</shipName>
+    <siteKey>17E53D4C0A1F445B83A7817F06E49DF1</siteKey>
+    <uic>N03365</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N23170</dodaac>
+    <name>BUSH G</name>
+    <shipName>BUSH G</shipName>
+    <siteKey>3226740A58EB4E08AEE3979E6FB53B8A</siteKey>
+    <uic>N23170</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21853</dodaac>
+    <name>TRUMAN HS</name>
+    <shipName>TRUMAN HS</shipName>
+    <siteKey>D279107AB53349BEB918DFBFBED635B9</siteKey>
+    <uic>N21853</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21847</dodaac>
+    <name>STENNIS JC</name>
+    <shipName>STENNIS JC</shipName>
+    <siteKey>6EEB2D803AF24A28B8A44291597F258E</siteKey>
+    <uic>N21847</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N22178</dodaac>
+    <name>REAGAN R</name>
+    <shipName>REAGAN R</shipName>
+    <siteKey>456B0BE89E964BEEBC085341ECCB3846</siteKey>
+    <uic>N22178</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21247</dodaac>
+    <name>ROOSEVELT T</name>
+    <shipName>ROOSEVELT T</shipName>
+    <siteKey>1D0BA3CBBD3D4A8C8A85A2E052C56640</siteKey>
+    <uic>N21247</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21041</dodaac>
+    <name>ALABAMA</name>
+    <shipName>ALABAMA</shipName>
+    <siteKey>BE171C8AB586472B8DED673771D01B25</siteKey>
+    <uic>N21041</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21042</dodaac>
+    <name>ALASKA</name>
+    <shipName>ALASKA</shipName>
+    <siteKey>8A3D64E5C2AB4EE7A86B0644CF654550</siteKey>
+    <uic>N21042</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21043</dodaac>
+    <name>NEVADA</name>
+    <siteKey>632F4AFC6B654398875843CC8811B2C4</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21044</dodaac>
+    <name>TENNESSEE</name>
+    <shipName>TENNESSEE</shipName>
+    <siteKey>7173F5795FEF4806BDA8625E16F22AF0</siteKey>
+    <uic>N21044</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21045</dodaac>
+    <name>PENNSYLVANIA</name>
+    <shipName>PENNSYLVANIA</shipName>
+    <siteKey>96428EBB14A84C7DA7FBCD7315255AD7</siteKey>
+    <uic>N21045</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21101</dodaac>
+    <name>KEY WEST</name>
+    <shipName>KEY WEST</shipName>
+    <siteKey>5C7D596E058F4B149059F0804D6289DA</siteKey>
+    <uic>N21101</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21102</dodaac>
+    <name>OKLAHOMA CITY</name>
+    <shipName>OKLAHOMA CITY</shipName>
+    <siteKey>5491BE1E5A3E430CB4054CD5E3EE47F7</siteKey>
+    <uic>N21102</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21104</dodaac>
+    <name>CROMMELIN</name>
+    <shipName>CROMMELIN</shipName>
+    <siteKey>3EE68C9F825F43C9832594602599FAA9</siteKey>
+    <uic>N21104</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21107</dodaac>
+    <name>HALYBURTON</name>
+    <shipName>HALYBURTON</shipName>
+    <siteKey>A6867DFBBDB64ADF9B036D17634FF277</siteKey>
+    <uic>N21107</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21109</dodaac>
+    <name>KLAKRING</name>
+    <shipName>KLAKRING</shipName>
+    <siteKey>5122A31AC4944477802B079352FF8A9D</siteKey>
+    <uic>N21109</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21197</dodaac>
+    <name>DE WERT</name>
+    <shipName>DE WERT</shipName>
+    <siteKey>622FCD4FA82D4BEFB2A966AF1FAFC724</siteKey>
+    <uic>N21197</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21201</dodaac>
+    <name>BRADLEY RG</name>
+    <shipName>BRADLEY RG</shipName>
+    <siteKey>8522142AC3A3471BADA55BB12528CEDA</siteKey>
+    <uic>N21201</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21231</dodaac>
+    <name>TAYLOR</name>
+    <shipName>TAYLOR</shipName>
+    <siteKey>9B78EA791B84487BBADA52A47717F87D</siteKey>
+    <uic>N21231</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21302</dodaac>
+    <name>LOUISVILLE</name>
+    <shipName>LOUISVILLE</shipName>
+    <siteKey>AE963FB9DA4B4FEAA52143B31FBF5720</siteKey>
+    <uic>N21302</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21312</dodaac>
+    <name>SAN JUAN</name>
+    <shipName>SAN JUAN</shipName>
+    <siteKey>E842FC57CD8B476C949B7245BBB1A5C1</siteKey>
+    <uic>N21312</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21346</dodaac>
+    <name>MOBILE BAY</name>
+    <shipName>MOBILE BAY</shipName>
+    <siteKey>9B205F8FF8E242FB98B7DC16E63610BD</siteKey>
+    <uic>N21346</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21350</dodaac>
+    <name>SIMPSON</name>
+    <shipName>SIMPSON</shipName>
+    <siteKey>E3FBBAACE9514DB7B022F908C000B7B5</siteKey>
+    <uic>N21350</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21351</dodaac>
+    <name>JAMES R</name>
+    <shipName>JAMES R</shipName>
+    <siteKey>7C97C49232E5419BA401F5F4B3BB29B5</siteKey>
+    <uic>N21351</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21352</dodaac>
+    <name>ROBERTS SB</name>
+    <shipName>ROBERTS SB</shipName>
+    <siteKey>690C72E9699A45548FE95225D46DCD08</siteKey>
+    <uic>N21352</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21365</dodaac>
+    <name>WEST VIRGINIA</name>
+    <shipName>WEST VIRGINIA</shipName>
+    <siteKey>3E73C8DECE46403B9AB30B4ACA135881</siteKey>
+    <uic>N21365</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21377</dodaac>
+    <name>JOHN LENTHALL</name>
+    <shipName>JOHN LENTHALL</shipName>
+    <siteKey>7AB2443648224B9CB07C3122DA831F4E</siteKey>
+    <uic>N21377</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21387</dodaac>
+    <name>ANTIETAM</name>
+    <shipName>ANTIETAM</shipName>
+    <siteKey>9E48716A337E4A94AD01C372664DA770</siteKey>
+    <uic>N21387</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21388</dodaac>
+    <name>LEYTE GULF</name>
+    <shipName>LEYTE GULF</shipName>
+    <siteKey>110AB373656142E4809B1C4F7859FBD4</siteKey>
+    <uic>N21388</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21389</dodaac>
+    <name>SAN JACINTO</name>
+    <shipName>SAN JACINTO</shipName>
+    <siteKey>93AB0FA89BAF4209AFB98DB2457F470B</siteKey>
+    <uic>N21389</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21413</dodaac>
+    <name>PASADENA</name>
+    <shipName>PASADENA</shipName>
+    <siteKey>1C61CAAAD602496F8B7A1C90DDA3BE14</siteKey>
+    <uic>N21413</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21429</dodaac>
+    <name>PHILIPPINE SEA</name>
+    <shipName>PHILIPPINE SEA</shipName>
+    <siteKey>ECFCFF91BA894558BE259839B956CBFC</siteKey>
+    <uic>N21429</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21433</dodaac>
+    <name>KENTUCKY</name>
+    <shipName>KENTUCKY</shipName>
+    <siteKey>8BA18196E3074161BFF91DF788D0579F</siteKey>
+    <uic>N21433</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21447</dodaac>
+    <name>PRINCETON</name>
+    <shipName>PRINCETON</shipName>
+    <siteKey>D90991AF935F44919D9F4103E9982E11</siteKey>
+    <uic>N21447</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21449</dodaac>
+    <name>NORMANDY</name>
+    <shipName>NORMANDY</shipName>
+    <siteKey>F32B1B20FCF44C409582D18F3F746662</siteKey>
+    <uic>N21449</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21450</dodaac>
+    <name>MONTEREY</name>
+    <shipName>MONTEREY</shipName>
+    <siteKey>E805BAA8ECF04EF198E53B126F406C95</siteKey>
+    <uic>N21450</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21451</dodaac>
+    <name>CHANCELLORSVILLE</name>
+    <shipName>CHANCELLORSVILLE</shipName>
+    <siteKey>D10802FA32FC4F4392F717D2AFE4ED19</siteKey>
+    <uic>N21451</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21460</dodaac>
+    <name>MARYLAND</name>
+    <shipName>MARYLAND</shipName>
+    <siteKey>6EB4090E65DC483B97CAE9B4D58C331C</siteKey>
+    <uic>N21460</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21461</dodaac>
+    <name>NEBRASKA</name>
+    <shipName>NEBRASKA</shipName>
+    <siteKey>04E3873FE4D945E18794D440D2BC6DD4</siteKey>
+    <uic>N21461</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21463</dodaac>
+    <name>TOPEKA</name>
+    <shipName>TOPEKA</shipName>
+    <siteKey>D57068509D5E44888B4C112668B61564</siteKey>
+    <uic>N21463</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21547</dodaac>
+    <name>USNS SGT MATEJ KOCAK</name>
+    <siteKey>01CB377D3A5E48ED9C7362DB6A33F21F</siteKey>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21605</dodaac>
+    <name>JEFFERSON CITY</name>
+    <shipName>JEFFERSON CITY</shipName>
+    <siteKey>57D48FBB843D497B9E384469122B1B45</siteKey>
+    <uic>N21605</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21624</dodaac>
+    <name>GETTYSBURG</name>
+    <shipName>GETTYSBURG</shipName>
+    <siteKey>C1B2DC8639F347B89E94D49EA6CCB2CC</siteKey>
+    <uic>N21624</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21625</dodaac>
+    <name>CHOSIN</name>
+    <shipName>CHOSIN</shipName>
+    <siteKey>F6B52AA19ADB4177A33BC6946EF00F41</siteKey>
+    <uic>N21625</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21656</dodaac>
+    <name>HUE CITY</name>
+    <shipName>HUE CITY</shipName>
+    <siteKey>5D58D028F7544CB5B2C0E4AA90DCFD76</siteKey>
+    <uic>N21656</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21658</dodaac>
+    <name>ANZIO</name>
+    <shipName>ANZIO</shipName>
+    <siteKey>86B626D7E9174A1699DB6837A7DBC115</siteKey>
+    <uic>N21658</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21682</dodaac>
+    <name>RHODE ISLAND</name>
+    <shipName>RHODE ISLAND</shipName>
+    <siteKey>3FE7B4C6145B4BD8967F739BD526995F</siteKey>
+    <uic>N21682</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21684</dodaac>
+    <name>VICKSBURG</name>
+    <shipName>VICKSBURG</shipName>
+    <siteKey>CF9C1F237369430DADA217A518440E10</siteKey>
+    <uic>N21684</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21693</dodaac>
+    <name>SANTA FE</name>
+    <shipName>SANTA FE</shipName>
+    <siteKey>40CDDE2C82284ABD8DF7770A4740CEB4</siteKey>
+    <uic>N21693</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21762</dodaac>
+    <name>MONTPELIER</name>
+    <shipName>MONTPELIER</shipName>
+    <siteKey>ABADE28B28134FBCA5DA11B78E5DA0A1</siteKey>
+    <uic>N21762</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21807</dodaac>
+    <name>TOLEDO</name>
+    <shipName>TOLEDO</shipName>
+    <siteKey>4D56A141F78A4A2DA29CC2BD3CB0B777</siteKey>
+    <uic>N21807</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21816</dodaac>
+    <name>TUCSON</name>
+    <shipName>TUCSON</shipName>
+    <siteKey>0EBF70CC38324BD2AFC95F4983A170AE</siteKey>
+    <uic>N21816</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21822</dodaac>
+    <name>HAMILTON P</name>
+    <shipName>HAMILTON P</shipName>
+    <siteKey>555619F520E744ACBC8E7F3760925C5F</siteKey>
+    <uic>N21822</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21826</dodaac>
+    <name>MAINE</name>
+    <shipName>MAINE</shipName>
+    <siteKey>4E6F2F9741C04A19830E560A151C88BF</siteKey>
+    <uic>N21826</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21827</dodaac>
+    <name>LAKE ERIE</name>
+    <shipName>LAKE ERIE</shipName>
+    <siteKey>6B4AB4F87BED488299B336BBB3D7EBF3</siteKey>
+    <uic>N21827</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>N21828</dodaac>
+    <name>CAPE ST GEORGE</name>
+    <shipName>CAPE ST GEORGE</shipName>
+    <siteKey>89680318361C44B5AC4888E4BDFBAF51</siteKey>
+    <uic>N21828</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11503</dodaac>
+    <name>HARRIET LANE</name>
+    <shipName>HARRIET LANE</shipName>
+    <siteKey>EB9577C035C5464F9B47AAF02CE42A21</siteKey>
+    <uic>E11503</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11504</dodaac>
+    <name>NORTHLAND</name>
+    <shipName>NORTHLAND</shipName>
+    <siteKey>06E2922E29444BE6BC322D8ED37C140E</siteKey>
+    <uic>E11504</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11505</dodaac>
+    <name>SPENCER</name>
+    <shipName>SPENCER</shipName>
+    <siteKey>F5639C7337DB4C85B880C8CE9D15558F</siteKey>
+    <uic>E11505</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11506</dodaac>
+    <name>SENECA</name>
+    <shipName>SENECA</shipName>
+    <siteKey>4F6BD0B42D2F4C7DBE5837F749597944</siteKey>
+    <uic>E11506</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11508</dodaac>
+    <name>TAHOMA</name>
+    <shipName>TAHOMA</shipName>
+    <siteKey>813DBEB1615A405AA6E1F1A32C00AA49</siteKey>
+    <uic>E11508</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11509</dodaac>
+    <name>CAMPBELL</name>
+    <shipName>CAMPBELL</shipName>
+    <siteKey>7E6F967BF86F4E41B29562898531E840</siteKey>
+    <uic>E11509</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11510</dodaac>
+    <name>THETIS</name>
+    <shipName>THETIS</shipName>
+    <siteKey>887E0FD25D974CE6B0C2451DD7773E53</siteKey>
+    <uic>E11510</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11511</dodaac>
+    <name>FORWARD</name>
+    <shipName>FORWARD</shipName>
+    <siteKey>4D712959097F436A8D4DFECE5B78093A</siteKey>
+    <uic>E11511</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11512</dodaac>
+    <name>LEGARE</name>
+    <shipName>LEGARE</shipName>
+    <siteKey>299F3E1CE27C4976B92F9D65C1F47D10</siteKey>
+    <uic>E11512</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z11513</dodaac>
+    <name>MOHAWK</name>
+    <shipName>MOHAWK</shipName>
+    <siteKey>C0650BE9FC0446C3AE6C273D22DE54C7</siteKey>
+    <uic>E11513</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12101</dodaac>
+    <name>RELIANCE</name>
+    <shipName>RELIANCE</shipName>
+    <siteKey>093109BC3AC94C579176B7E71FA024EF</siteKey>
+    <uic>E12101</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12102</dodaac>
+    <name>DILIGENCE</name>
+    <shipName>DILIGENCE</shipName>
+    <siteKey>8CA71A23675C48ECBE53F712E0ED2B52</siteKey>
+    <uic>E12102</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12103</dodaac>
+    <name>VIGILANT</name>
+    <shipName>VIGILANT</shipName>
+    <siteKey>BA74E930321248A386CD75D3C4FA4247</siteKey>
+    <uic>E12103</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12104</dodaac>
+    <name>ACTIVE</name>
+    <shipName>ACTIVE</shipName>
+    <siteKey>1EEB0584874543CDB5C14E78C0B05580</siteKey>
+    <uic>E12104</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12105</dodaac>
+    <name>CONFIDENCE</name>
+    <shipName>CONFIDENCE</shipName>
+    <siteKey>D86AE92162F14C88BD76C53849C3C111</siteKey>
+    <uic>E12105</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12106</dodaac>
+    <name>RESOLUTE</name>
+    <shipName>RESOLUTE</shipName>
+    <siteKey>3F924DC82DCA445A9FBA4E548A1CAA6E</siteKey>
+    <uic>E12106</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12107</dodaac>
+    <name>VALIANT</name>
+    <shipName>VALIANT</shipName>
+    <siteKey>0A7AF713DC394379A7A335186724CD02</siteKey>
+    <uic>E12107</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12109</dodaac>
+    <name>STEADFAST</name>
+    <shipName>STEADFAST</shipName>
+    <siteKey>43A46C226069406397A78961111DFD94</siteKey>
+    <uic>E12109</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12110</dodaac>
+    <name>DAUNTLESS</name>
+    <shipName>DAUNTLESS</shipName>
+    <siteKey>66ED0F2ADB3E47F2A59BE99F8BFAF642</siteKey>
+    <uic>E12110</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12111</dodaac>
+    <name>VENTUROUS</name>
+    <shipName>VENTUROUS</shipName>
+    <siteKey>D6F7AFF17DCA4548AAC2670C85BB19BF</siteKey>
+    <uic>E12111</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12112</dodaac>
+    <name>DEPENDABLE</name>
+    <shipName>DEPENDABLE</shipName>
+    <siteKey>94B2E96F72D54FB6B29C4D0297207052</siteKey>
+    <uic>E12112</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12113</dodaac>
+    <name>VIGOROUS</name>
+    <shipName>VIGOROUS</shipName>
+    <siteKey>E706C9DC5CE444B0BEEF91E0F206E74A</siteKey>
+    <uic>E12113</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12115</dodaac>
+    <name>DECISIVE</name>
+    <shipName>DECISIVE</shipName>
+    <siteKey>1F91A9F5BF844A4AA8D1CB4D9D558D9C</siteKey>
+    <uic>E12115</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>Z12116</dodaac>
+    <name>ALERT</name>
+    <shipName>ALERT</shipName>
+    <siteKey>EEC6D55190604BB69E7DD5FFB0070174</siteKey>
+    <uic>E12116</uic>
+  </afloatSupplyPointResult>
+  <afloatSupplyPointResult>
+    <dodaac>foobar</dodaac>
+    <name>Ali Al Salem</name>
+    <shipName>Foo</shipName>
+    <siteKey>barfoo</siteKey>
+  </afloatSupplyPointResult>
+</collection>

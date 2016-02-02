@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings to change for local testing -->
+    <!-- default https://monover.42six.com/owf/ -->
+    <string name="monover_address">https://monover.42six.com:8443/owf/</string>
+    <!-- default https://monover.42six.com/owf/ -->
+    <string name="serverBaseUrl">https://monover.42six.com:8443/owf/</string>
+    <!-- default PRODUCTION -->
+    <string name="app_mode">PRODUCTION</string>
+    <!-- whether or not to trust the server -->
+    <bool name="trustedServer">false</bool>
+    <bool name="checkServerTrust">true</bool>
+
+    <string name="prompt_server">Server (https://xxx.xxx:xxx/owf/)</string>
+    <string name="loginPath">cas/login</string>
+    <string name="server_cert_asset_name">owf-monover.pem</string>
+</resources>

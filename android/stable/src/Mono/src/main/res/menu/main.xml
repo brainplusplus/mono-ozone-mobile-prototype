@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:mono="http://schemas.android.com/apk/res-auto"  >
+    <item android:id="@+id/action_appsmall"
+          android:icon="@drawable/appsmall_2x"
+          android:title="Apps Mall"
+          mono:showAsAction="always" />
+
+    <item android:id="@+id/action_appbuilder"
+          android:icon="@drawable/appsbuilder_2x"
+          android:title="Apps Builder"
+          mono:showAsAction="always" />
+</menu>

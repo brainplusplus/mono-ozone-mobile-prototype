@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/page">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            style="@style/pageTitle"/>
+
+        <View style="@style/divider"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal"
+            android:id="@+id/rlSync"
+            android:background="@drawable/clickable_view"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SYNC OZONE APPS"
+                style="@style/settingsCategoryTitle"
+                android:id="@+id/txtSyncTitle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable or disable syncing dashboards"
+                android:layout_below="@+id/txtSyncTitle"
+                style="@style/settingsCategoryDescription"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/arrow_forward_2x"
+                android:layout_alignParentRight="true"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View style="@style/divider"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal"
+            android:id="@+id/rlIntents"
+            android:background="@drawable/clickable_view"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INTENTS"
+                style="@style/settingsCategoryTitle"
+                android:id="@+id/txtIntentsTitle"/>
+
+            <TextView
+                style="@style/settingsCategoryDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allow apps to send and receive info within Ozone"
+                android:id="@+id/textView"
+                android:layout_below="@+id/txtIntentsTitle"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/arrow_forward_2x"
+                android:layout_alignParentRight="true"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View style="@style/divider"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal"
+            android:id="@+id/rlMarketplace"
+            android:background="@drawable/clickable_view"
+            >
+
+            <TextView
+                style="@style/settingsCategoryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MARKETPLACE"
+                android:id="@+id/textView4"
+                />
+
+            <TextView
+                style="@style/settingsCategoryDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add multiple market places"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/textView4"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/arrow_forward_2x"
+                android:layout_alignParentRight="true"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View style="@style/divider"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal"
+            android:id="@+id/rlOffline"
+            android:background="@drawable/clickable_view"
+            >
+
+            <TextView
+                style="@style/settingsCategoryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFFLINE CACHING"
+                android:id="@+id/textView5"
+                />
+
+            <TextView
+                style="@style/settingsCategoryDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Download Composite Apps for offline usage"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView5"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/arrow_forward_2x"
+                android:layout_alignParentRight="true"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

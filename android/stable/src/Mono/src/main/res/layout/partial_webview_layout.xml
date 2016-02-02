@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <com.fourtwosix.mono.views.WidgetWebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webView"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:id="@+id/llLoadingLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp">
+        <ProgressBar style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/prgLoadingWidget"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/txtLoadingWidget"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_widget"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/llExpand"
+        android:background="@color/primary1"
+        android:visibility="visible"
+        android:animateLayoutChanges="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/llOptions">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_drawer"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OPTIONS"
+                    android:id="@+id/textView"
+                    android:textSize="10sp"
+                    android:layout_marginTop="6dp"
+                    android:textColor="@color/pageTitle"/>
+            </LinearLayout>
+
+            <GridView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/grdWidgetChrome"
+                android:layout_marginTop="24dp"
+                android:numColumns="4"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:animateLayoutChanges="true"
+                android:verticalSpacing="24dp"
+                android:paddingBottom="24dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="../monoPhase2/util.js"></script>
+		<script type="text/javascript" src="../monoPhase2/APIBase.js"></script>
+	</head>
+<body>
+<div>
+	<p id="meteredInfo"></p>
+	<h3> Register GPS Coordinates </h3>
+	<b>Lat:</b><span id="meteredLatCoord">N/A</span>
+	<b>Lon:</b><span id="meteredLonCoord">N/A</span>
+	<input type="text" id="meterText" placeholder="Distance"></input>
+	<input type="button" id="meteredGPS" value="Register GPS"></input>
+</div>
+<div>
+	<p id="timedInfo"></p>
+	<h3> Timed GPS Coordinates </h3>
+	<b>Lat:</b><span id="timedLatCoord">N/A</span>
+	<b>Lon:</b><span id="timedLonCoord">N/A</span>
+	<input type="text" id="timeText" placeholder="Time"></input>
+	<input type="button" value="Timed GPS" id="timedGPS"></input>
+</div>
+<div>
+	<h3> Show Message</h3>
+	<span>Yes-No Result:</span><b id="showYesNoResult"></b><br/>
+	<input id="title" type="text" placeholder="Enter Title"></input><br/>
+	<input id="message" type="text" placeholder="Enter Message"></input><br/><br/>
+	<button id="showMessage" value="showMessage">Show Message</button><br/><br/>
+	<button id="showYesNo" value="showYesNo">Show Yes/No Message</button>
+</div>
+
+<div>
+	<h3> Show Battery</h3>
+	<span>Battery Level: </span><b id="batteryLevel"></b><br/>
+	<span>Battery State: </span><b id="batteryState"></b><br/>
+	<span>Registered Battery Status</span></br>
+	<span>Last Updated: </span><b id="registeredBatteryStatusUpdated"></b><br/>
+	<b id="registeredBatteryStatus"></b><br/>
+	<button id="batteryLevel" value="batteryLevel">Show Battery Level</button><br/><br/>
+	<button id="batteryState" value="batteryState">Show Battery State</button><br/><br/>
+	<button id="registeredBatteryStatus" value="registeredBatteryStatus">Register Battery State</button><br/><br/>
+</div>
+
+</body>
+
+	<script type="text/javascript">
+		$(function(){
+			$(document).on('click', 'button[value="batteryLevel"]', function(event){
+				$("#batteryLevel").html("x");
+				Mono.Battery.GetBatteryPercentage(updateBatteryLevel);
+			});
+
+			$(document).on('click', 'button[value="batteryState"]', function(event){
+				$("#batteryState").html("");
+				Mono.Battery.GetChargingState(updateBatteryState);
+			});
+
+			$(document).on('click', 'button[value="registeredBatteryStatus"]', function(event){
+				$("#registeredBatteryStatus").html("");
+				Mono.Battery.RegisterForUpdate(registeredBatteryStatus);
+			});
+
+			$(document).on('click', 'button[value="showYesNo"]', function(event){
+				var message = $("#message").val();
+				var title = $("#title").val();
+				Mono.Modals.ShowYesNoModal(title,message,yesNoAction);
+			});
+
+			$(document).on('click', 'button[value="showMessage"]', function(event){
+				var message = $("#message").val();
+				var title = $("#title").val();
+				Mono.Modals.ShowMessageModal(title,message);
+			});
+
+			$(document).on('click', 'input[id="timedGPS"]', function(event){
+				$("#timedInfo").html("").html('click, ');
+
+				Mono.Location.GetCurrentLocation({
+	                    'interval': parseInt($("#timeText").val()),
+					},updateTimedGPS);
+			});
+			
+			$(document).on('click', 'input[id="meteredGPS"]', function(event){
+				$("#meteredInfo").html("").html('click, ');
+
+				Mono.Location.RegisterForUpdate({
+	                    'interval': parseInt($("#meterText").val()),
+					},updateMeteredGPS);
+			});
+
+		});
+	
+		function yesNoAction(data){
+ 			$("#showYesNoResult").html(data.selection);
+		}
+
+		function registeredBatteryStatus(data){
+			var d = new Date();
+			$("#registeredBatteryStatusUpdated").html(d.toLocaleTimeString());
+			$("#registeredBatteryStatus").html("Level: "+data.batteryLevel+", State: "+data.batteryState);
+		}
+
+		function updateBatteryState(data){
+			$("#batteryState").html(data.batteryState);
+		}
+
+		function updateBatteryLevel(data){
+			$("#batteryLevel").html(data.batteryLevel);
+		}
+
+		function updateTimedGPS(data){
+			$('#timedLatCoord').html(data.coords.lat);
+			$('#timedLonCoord').html(data.coords.lon);
+		}
+
+		function updateMeteredGPS(data){
+			$('#meteredLatCoord').html(data.coords.lat);
+			$('#meteredLonCoord').html(data.coords.lon);
+		}
+	</script>
+</html>
+

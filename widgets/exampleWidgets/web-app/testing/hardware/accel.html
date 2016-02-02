@@ -1,0 +1,125 @@
+<html manifest="cache.manifest">
+	<head>
+		<script type="text/javascript" src="/presentationGrails/static/js/widget/owf-widget-min.js"></script>
+	</head>
+<body>
+<button value="acc">Get Accelerometer</button>
+<p id="info"></p>
+<div>
+	<h3> Accelerometer Coordinates </h3>
+	<b>X:</b><span id="xCoord">N/A</span>
+	<b>Y:</b><span id="yCoord">N/A</span>
+	<b>Z:</b><span id="zCoord">N/A</span>
+</div>
+
+<div>
+	<h3> Show Orientation:</h3><b id="orientation"></b>
+	<br/>
+	<button id="registerOrientation" value="registerOrientation">Register For Orientation Updates</button><br/><br/>
+</div>
+<div>
+	<br/>
+	<input type="button" id="isOnlineCheck" value="Is Online"></input>
+	<br/>
+	<span>Previous Check:</span><b id="isOnlineResult">?</b>
+</div>
+<div>
+	<br/>
+	<input type="button" id="registerConnectivity" value="Register for Connetion Updates"></input>
+	<br/>
+	<span>Continual Updates:</span><b id="registerConnectivityResult">?</b>
+</div>
+<div>
+	<h3> Show Battery</h3>
+	<span>Battery Level: </span><b id="batteryLevel"></b><br/>
+	<span>Battery State: </span><b id="batteryState"></b><br/>
+	<span>Registered Battery Status</span></br>
+	<span>Last Updated: </span><b id="registeredBatteryStatusUpdated"></b><br/>
+	<b id="registeredBatteryStatus"></b><br/>
+	<button id="batteryLevel" value="batteryLevel">Show Battery Level</button><br/><br/>
+	<button id="batteryState" value="batteryState">Show Battery State</button><br/><br/>
+	<button id="registeredBatteryStatus" value="registeredBatteryStatus">Register Battery State</button><br/><br/>
+</div>
+
+</body>
+
+	<script type="text/javascript">
+		$(function(){
+
+			$(document).on('click', 'button[value="batteryLevel"]', function(event){
+				$("#batteryLevel").html("");
+				Mono.Battery.GetBatteryPercentage(updateBatteryLevel);
+			});
+
+			$(document).on('click', 'button[value="batteryState"]', function(event){
+				$("#batteryState").html("");
+				Mono.Battery.GetChargingState(updateBatteryState);
+			});
+
+			$(document).on('click', 'button[value="registeredBatteryStatus"]', function(event){
+				$("#registeredBatteryStatus").html("");
+				Mono.Battery.RegisterForUpdate(registeredBatteryStatus);
+			});
+
+			$(document).on('click', 'button[value="acc"]', function(event){
+				$("#info").html('click');
+
+				Mono.Accelerometer.RegisterForUpdate({interval:7},updateACC);
+			});
+
+			$(document).on('click', 'button[value="registerOrientation"]', function(event){
+				Mono.Accelerometer.DetectOrientationChange(detectOrientation);
+			});
+
+			$(document).on('click', 'input[id="isOnlineCheck"]', function(event){
+				$("#isOnlineResult").html("?");
+				$("#registerConnectivityResult").html("?");
+				Mono.Connectivity.IsOnline(function(data){
+					$("#isOnlineResult").html(data.type);
+				});
+			});
+
+			$(document).on('click', 'input[id="registerConnectivity"]', function(event){
+				Mono.Connectivity.RegisterForUpdate(connectivityUpdates);
+			});
+
+		});//end ready
+
+
+		function registeredBatteryStatus(data){
+			var d = new Date();
+			$("#registeredBatteryStatusUpdated").html(d.toLocaleTimeString());
+			$("#registeredBatteryStatus").html("Level: "+data.batteryLevel+", State: "+data.batteryState);
+		}
+
+		function updateBatteryState(data){
+			$("#batteryState").html(data.status+", "+data.batteryState);
+		}
+
+		function updateBatteryLevel(data){
+			$("#batteryLevel").html(data.status+", "+data.batteryLevel);
+		}
+
+		function connectivityUpdates(data){
+			$("#registerConnectivityResult").html(data.type);
+		}
+
+		function detectOrientation(data){
+			$("#orientation").html(data.status+"<br/>");
+			$("#orientation").append(data.message+"<br/>");
+			$("#orientation").append(data.orientation);
+		}
+
+		function updateACC(data){
+			$("#info").html(data.status+"<br/>")
+			$("#info").append(data.message+"<br/>");
+			$("#info").append(new Date().toLocaleTimeString());
+			if(data.acceleration){
+				$('#xCoord').html(data.acceleration.x);
+				$('#yCoord').html(data.acceleration.y);
+				$('#zCoord').html(data.acceleration.z);
+			}
+		}
+	</script>
+</html>
+

@@ -1,0 +1,6 @@
+{
+	"owf": "http://localhost:8080/owf", 
+	"owfRelay": "../../common/rpc_relay.uncompressed.html", 
+	"proxy": "https://jc2cui-webserver/widgets/common/kml/getKml.php?unzip=true&url=",
+	"sageRoot": "https://sageearth.northcom.mil/secured/kml/NORAD_USNORTHCOM_SAGE_External.kmz"
+} 

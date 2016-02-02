@@ -1,0 +1,329 @@
+/**
+*    Webfonts
+*/
+@font-face {
+    font-family: 'open sans';
+    src: url('../../font/opensans/opensans-light-webfont.eot');
+    src: url('../../font/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/opensans/opensans-light-webfont.woff') format('woff'),
+         url('../../font/opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('../../font/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url('../../font/opensans/opensans-regular-webfont.eot');
+    src: url('../../font/opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('../../font/opensans/opensans-regular-webfont.ttf') format('truetype'),
+         url('../../font/opensans/opensans-regular-webfont.svg#open_sanslight') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url('../../font/opensans/opensans-bold-webfont.eot');
+    src: url('../../font/opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/opensans/opensans-bold-webfont.woff') format('woff'),
+         url('../../font/opensans/opensans-bold-webfont.ttf') format('truetype'),
+         url('../../font/opensans/opensans-bold-webfont.svg#open_sanslight') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url('../../font/opensans/opensans-extrabold-webfont.eot');
+    src: url('../../font/opensans/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/opensans/opensans-extrabold-webfont.woff') format('woff'),
+         url('../../font/opensans/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('../../font/opensans/opensans-extrabold-webfont.svg#open_sanslight') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /*background-color: #DFE8F6; /* IE7 doesnt like but should be there     overflow: hidden;     */
+    background-color: #EFEFEF;
+}
+
+#grid {
+    position: absolute; 
+    top: 40px; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    border-top: 1px solid silver;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.config label, .config input {
+    display: block;
+}
+
+.config input.text {
+    margin-bottom: 12px;
+    width: 93%;
+    /*padding: .4em;*/
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 25px;
+}
+
+.threshold div {
+    vertical-align: top;
+}
+
+.config a {
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.config a:link, .config a:visited {
+    text-decoration:none;
+}
+
+.config a:hover, .config a:active {
+    text-decoration:underline;
+}
+
+.dynatree-container{
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.threshold label {
+    display: inline-block;
+    margin-top: -18px;
+}
+
+.bigLabel {
+    width: 40px;
+}
+
+.smallLabel {
+    width: 1em;
+}
+
+.threshold input.text {
+    margin-bottom: 8px;
+    width: 4em;
+    /*padding: .4em;*/
+}
+
+.threshold input[readonly] {
+    background-color: buttonface;
+}
+
+.movingAverage label {
+    display: inline-block;
+}
+
+.movingAverage input.text {
+    width: 4em;
+    /*padding: .4em;*/
+}
+
+#slider {
+    margin-bottom: 20px;
+    width: 98%;
+}
+
+.tick {
+    display: inline-block;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -5%;
+    text-align: center;
+}
+
+.ui-slider .ui-slider-handle {
+    z-index: 4;
+}
+
+.dummySlider {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    border: none;
+}
+
+.black {
+    background: Black !important;
+    color: White !important;
+}
+
+.red {
+    background: Red !important;
+    color: White !important;
+}
+
+.amber {
+    background: #FF7E00 !important;
+    color: White !important;
+}
+
+.green {
+    background: #79AF36 !important;
+    color: White !important;
+}
+
+#blackSlider {
+    z-index: 3;
+}
+
+#redSlider {
+    z-index: 2;
+}
+
+#amberSlider {
+    z-index: 1;
+}
+
+#greenSlider {
+    z-index: 0;
+    width: 100%;
+}
+
+.slick-cell {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.spacer {
+    display: inline-block;
+    height: 1px;
+}
+
+.cell-title {
+	/*font-weight: bold;*/
+        line-height: 20px;
+}
+
+.toggle {
+	height: 9px;
+	width: 9px;
+	display: inline-block;
+}
+
+.toggle.expand {
+	background: url(/presentationGrails/static/js/lib/jc2cui-common/common/slickGrid/images/expand.gif) no-repeat center center;
+}
+
+.toggle.collapse {
+	background: url(/presentationGrails/static/js/lib/jc2cui-common/common/slickGrid/images/collapse.gif) no-repeat center center;
+}
+
+.colorCell {
+    height: 100%;
+    width: 100%;
+    /*display: block;*/
+    /*line-height: 1.85em;*/
+    line-height: 1.65em;
+    text-align: right;
+    vertical-align: middle;
+    /*padding: 5px 5px 3px;*/
+    padding: 2px 5px;
+
+    -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; -khtml-border-top-left-radius: 3px; border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; -khtml-border-top-right-radius: 3px; border-top-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; -khtml-border-bottom-left-radius: 3px; border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; -khtml-border-bottom-right-radius: 3px; border-bottom-right-radius: 3px;
+}
+
+.emptyCell {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+   
+#mbox {
+    overflow: auto;
+}
+
+#mbox button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+/*
+#loaded {
+    display: none;
+    background: none repeat scroll 0 0 #2779AA;
+    color: #DEEDF7;
+    font-size: 24px;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 80%;
+    z-index: 10000;
+    font-weight: bolder;
+}
+*/
+
+#loaded {
+    display: none;
+    background: none repeat scroll 0 0 #000;
+    opacity: 0.75;
+    left: 10%;
+    top: 85%;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    color: #DEEDF7;
+    font-size: 16px;
+    font-family: arial, helvetica;
+    font-weight: 100;
+    z-index: 10000;
+    height: 40px;
+    line-height: 42px;
+    
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+hr {
+    /*margin: 1px;*/
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.config input {
+    display: inline;
+    margin-left: 0px;
+    margin-right: 10px;
+}

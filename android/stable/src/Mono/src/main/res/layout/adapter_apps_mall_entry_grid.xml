@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="96dp"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/apps_mall_card"
+    >
+
+    <ImageView
+        android:id="@+id/image_app_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/app_2x"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:maxLines="2"
+        android:minLines="2"
+        style="@style/SmallText"
+        android:hint="APP NAME"
+        android:layout_below="@+id/image_app_icon"
+        android:textColor="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/textSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="true"
+            android:lines="1"
+            android:text="ADDED:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/buttonBackground"
+            android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/txtAddedNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/buttonBackground"
+            android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:layout_alignParentRight="false"
+            android:layout_toRightOf="@+id/textSelected"/>
+    </RelativeLayout>
+
+</RelativeLayout>

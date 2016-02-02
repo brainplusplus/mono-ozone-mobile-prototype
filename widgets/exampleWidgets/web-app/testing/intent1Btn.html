@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Intent Send</title>
+    <link rel="stylesheet" type="text/css" media="all" href="https://code.jquery.com/qunit/qunit-1.12.0.css"/>
+    
+    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="../js/widget/owf-widget-min.js"></script>
+
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+   
+     <input type="button" value="start" id="start"></input> <br>
+    <script>
+        function errorLog(logline)
+        {
+            var errorLogDiv = document.getElementById("errorlog");
+            errorLogDiv.innerHTML = errorLogDiv.innerHTML + "\n" + logline;
+        }
+
+        var count;
+        $(document).on('click', 'input[id="start"]', function(event){
+            var myTxt = $('#txt').val();
+            if (myTxt.length ===0)
+            {
+                alert("populate text");
+                return;
+            }
+            OWF.Intents.startActivity(
+                {action: "test", dataType: "test/type"},
+                {data: myTxt},
+                function(dest) {
+                    errorLog(JSON.stringify(dest));
+                }
+            );
+            });
+        
+    </script>
+    
+    
+    <div>
+        <label>Text to send:</label><input id="txt" type="text" name="txt"/></div>
+
+    <div>
+        <pre id="errorlog" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<div class="container">
+	<div>
+		<!-- Left columns -->
+		<div class="span1">
+			<img ng-src="../images/jcs-seal-color.gif" alt="Joint Chiefs of Staff Seal">
+		</div>
+
+		<!-- Center column -->
+		<div class="span2">
+			<h1 id="slideTitle" class="header" ng-bind-html-unsafe='$parent.slide.title || "Type your slide title"' ng-model="$parent.slide.title" editable></h1>
+			<h3>Timeline of Events</h3>
+			<article id="slideContent" class="content" ng-bind-html-unsafe='$parent.slide.slideContent || "Type your content"' ng-model="$parent.slide.slideContent" editable></article>
+			
+			<!-- For styling purpose only. Please remove once implemented-->
+			<article id="slideContent" class="content">
+				<b>6 DEC 2013</b> - This is a dummy content used for styling purpose only. Lorem Ipsum is simply dummy text of the printing <a href="#" class="linkUrl">Standard URL</a> and typesetting industry.
+				Lorem Ipsum has been the industry's standard dummy text <a href="#" class="linkBackground">background</a> ever since the 1500s, when an unknown printer took a galley of
+				<a href="#" class="linkIntent">intent cases</a> type and scrambled it to make a type specimen book.<br><br>
+				<i>NOTE: Background info or in-bound links will be highlighted whereas out-bound links, ie. hyperlinks and intent links,
+				will be underlined.</i>
+			</article>
+		
+		
+		
+			<!-- Assessment Container -->
+			<div id="editorAssessment" class="viewerHidden">
+				<span class="divider">..............</span>
+				<h3 class="assessment-header">Assessment</h3>
+				<div>
+					<div class="text-body" id="slideAssessment" ng-model="$parent.slide.assessment" editable>{{$parent.slide.assessment || "Type your assessment here"}}</div>
+				</div>
+				<span class="divider">..............</span>
+				<h3 class="assessment-header">REFERENCES</h3>
+				<div>
+					<div class="text-body" id="slideReferences" ng-model="$parent.slide.references" editable>{{$parent.slide.references || "Type your references here"}}</div>
+				</div>
+			</div>
+		</div>		
+		
+		<!-- Background container -->
+		<div id="timelineBackground" class="span4 background">
+			<div class="background text-body" ng-include src="'../partials/background.html'"></div>
+		</div>
+
+		<!-- Publish info -->
+		<div class="span3">
+			<h3>Published</h3>
+			<ul class="no-indent uppercase sm">
+				<li>30 Jul 2013</li>
+			</ul>
+			<h3>Contributors</h3>
+			<ul class="no-indent sm">
+				<li>Adam Lerman</li>
+				<li>Kris Siegel</li>
+				<li>Jason Lettman</li>
+				<li>Sam Kim</li>
+				<li>Eric Chaney</li>
+				<li>Shannon Vaughn</li>
+			</ul>
+		</div>
+	</div>
+</div>

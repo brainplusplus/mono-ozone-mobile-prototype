@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# For all testing widgets
+/presentationGrails/static/js/widget/owf-widget-min.js
+
+# Accelerometer, Connectivity, Location,
+/presentationGrails/static/js/lib/jquery/jquery-1.10.1.min.js
+
+# Battery
+/presentationGrails/static/js/lib/jc2cui-common/common/javascript/jquery-1.10.1.min.js

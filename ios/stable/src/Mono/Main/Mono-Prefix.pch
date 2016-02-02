@@ -1,0 +1,172 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "MNODataAccess.h"
+#import <CoreData/CoreData.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "Masonry.h"
+#import "MNOAccountManager.h"
+#import "MNOAppDelegate.h"
+
+//RNCachingURLProtocol
+#define RNCachingURLHeader @"X-RNCache"
+
+// Autolayout
+#import "Masonry.h"
+
+// NSManagedSubclass
+#import "MNOWidget.h"
+#import "MNOUser.h"
+#import "MNOSettings.h"
+#import "MNODashboard.h"
+#import "MNOGroup.h"
+#import "MNOIntentSubscriberSaved.h"
+
+// Custom Classes
+#import "MNOIntentWrapper.h"
+#import "MNOSubscriber.h"
+
+// Categories
+#import "UIWebView+OzoneWebView.h"
+#import "NSManagedObject+BaseModel.h"
+
+// Util
+#import "MNOUtil.h"
+
+#define appMeta @"value"
+
+#define leftMenuWidth 48
+#define chatVCSegue @"chatSegue"
+#define appLauncherVCSegue @"appLauncherSegue"
+#define notificationVCSegue @"notificationsSegue"
+#define settingsVCSegue @"settingsSegue"
+#define accountVCSegue @"accountSegue"
+#define appsBuilderVCSegue @"appsBuilder"
+#define appsMallVCSegue @"appsMall"
+#define appsMallSettingsVCSegue @"appsMallSettings"
+
+
+// Server Urls
+#define PROFILE_PATH @"prefs/person/whoami"
+#define widgetListPath @"prefs/widgetList"
+#define defaultSmallIconUrl @"themes/common/images/adm-tools/Widgets24.png"
+#define componentPath @"dashboard"
+#define userPath @"userPath"
+#define groupsPath @"group"
+#define getConfigPath @"access/getConfig"
+
+#define SERVER_CERT_NAME @"monoval.der"
+//#define SERVER_CERT_NAME @"ow-monover.der"
+#define P12_ADMIN_PASSWORD @"password"
+
+
+// App Segues
+#define widgetSegue @"widgetSegue"
+#define dashboardSegue @"dashboardSegue"
+#define dismissController @"dismissController"
+#define dismissDashboard @"dismissDashboardVC"
+#define dismissAppsBuilder @"dismissAppsBuilder"
+#define appsBuilderSegue @"appsBuilderSegue"
+#define unwindBuilderMall @"unwindBuilderMall"
+
+#define moreSelected @"moreSelected"
+#define componentMenuSelected @"componentMenuSelected"
+#define componentMenuDropDown @"componentMenuDropDown"
+#define centerMenuCreate @"centerMenuCreate"
+#define centerMenuClose @"centerMenuClose"
+
+#define rowHeight (48)
+#define rowWidth ([[UIScreen mainScreen] bounds].size.width  <= 320 ? 160 : 180)
+#define topMenuHeight 48
+#define topStatusBar 20
+#define Rgb2UIColor(r, g, b)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+
+// App View
+#define buttonSpacing 10
+
+// Dashboard Swiper Variables
+#define swiperCardName @"name"
+#define swiperCardImageURL @"imageURL"
+#define swiperWebview @"swiperWebview"
+#define swiperCardId @"swiperCardId"
+
+/* Custom Grid Stuff */
+#define appCellName @"name"
+#define appCellImage @"image"
+#define appCellChosen @"appCellChosen"
+
+// Pubsub Constants
+#define pubsubSubscribe @"subscribe"
+#define pubsubPublish @"publish"
+#define pubsubDomain @"pubsub"
+
+// Intent Constants
+#define  intentsCall @"intents"
+#define startActivity @"startActivity"
+#define receive @"receive"
+#define intentAction @"action"
+#define intentType @"intentType"
+
+// Map Cache Contants
+#define MAP_CACHE_MAX_REQUEST_TILES 10000
+#define MAP_CACHE_SERVICE_URL @"http://a.tile.openstreetmap.org/"
+#define MAP_CACHE_AERIAL_SERVICE_URL @"http://otile1.mqcdn.com/tiles/1.0.0/sat/"
+
+// Hardware API contants
+#define APIsuccess @"success"
+#define APImessage @"message"
+#define APIadditional @"additional"
+#define APIfailure @"failure"
+#define APIstatus @"status"
+#define APIcallback @"callback"
+#define APIsetup @"setup"
+#define APIinterval @"interval"
+
+// Log In Constants
+#define LOADED_FROM_DB 0
+#define LOADING_COMPLETE 5
+#define CREATED_NEW_USER 1
+
+// Sync Dashboard Contants
+#define dashboardSyncEnabled @"dashboardSyncEnabled"
+#define dashboardsUpdate @"dashboardsUpdate"
+#define dashboardsDeleted @"dashboardsDeleted"
+
+typedef unsigned long TMIndex;
+
+#define dashboardSwitched @"MonoFooDidSwitchDashboard"
+
+#define dashboardUDID @"dashboardGuid"
+#define dashboardUDIDPrev @"dashboardGuidPrev"
+#define dashboardUDIDNew @"dashboardGuidNew"
+
+#define widgetUDID @"widgetGuid"
+#define widgetUDIDPrev @"widgetGuidPrev"
+#define widgetUDIDNew @"widgetGuidNew"
+#define callbackID @"callback"
+
+#define monoCallbackName @"Mono.Callbacks.Callback"
+#define monoCallbackFn @"fn"
+#define monoCallbackArgs @"args"
+
+#define MONO_NETWORK_AUTH_WRAP @"X-MONO-AUTHWRAP"
+#define MONO_NETWORK_CACHE_WRAP @"X-MONO-CACHEWRAP"
+
+#define MONO_ICON_SIZE 32
+
+#endif

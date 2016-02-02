@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minWidth="300dp"
+              android:padding="1dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/page"
+        >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intent Destination:"
+                    android:id="@+id/textView"
+                    style="@style/LargeText"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Use Open Component"
+                    android:id="@+id/txtTitle"
+                    style="@style/MediumText"
+                    android:layout_marginTop="8dp"/>
+
+                <com.fourtwosix.mono.views.ExpandableGridView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grdOpenApps"
+                    android:numColumns="3"
+                    android:horizontalSpacing="5dip"
+                    android:verticalSpacing="5dip"
+                    android:layout_gravity="left"
+                    android:clickable="true"
+                    android:scrollbars="none"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Open New Component"
+                    android:id="@+id/textView2"
+                    style="@style/MediumText"
+                    android:layout_marginTop="8dp"/>
+
+                <com.fourtwosix.mono.views.ExpandableGridView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grdNewInstance"
+                    android:numColumns="3"
+                    android:horizontalSpacing="5dip"
+                    android:verticalSpacing="5dip"
+                    android:layout_gravity="left"
+                    android:clickable="true"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/llClearQueue"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intents_queue_number"
+                android:id="@+id/txtIntentQueueNumber"
+                android:textColor="#FFF"
+                style="@style/SmallText"/>
+
+            <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear Queue?"
+                android:id="@+id/chkClearQueue"
+                android:textColor="#FFF"
+                style="@style/SmallText"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+            <Button
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/intentOKButton"
+                    android:text="Once"
+                    android:singleLine="false"
+                    style="@style/PrimaryButton"
+                    android:layout_marginRight="4dp"/>
+
+            <Button
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/intentDefaultButton"
+                    android:text="Default"
+                    style="@style/PrimaryButton"
+                    android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

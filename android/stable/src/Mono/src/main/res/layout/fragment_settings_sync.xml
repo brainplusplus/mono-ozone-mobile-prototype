@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/page"
+    tools:context="com.fourtwosix.mono.fragments.settings.SyncSettingsFragment">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rlTitle"
+            android:background="@drawable/clickable_view">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/arrow_back_2x"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings:"
+                android:id="@+id/textView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_centerVertical="true"
+                style="@style/pageTitle"
+                android:layout_marginRight="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sync"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-thin"
+                style="@style/pageTitle"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_centerVertical="true"
+                android:textColor="#fff"/>
+        </RelativeLayout>
+
+        <View style="@style/divider"
+              android:layout_width="fill_parent"
+              android:layout_below="@+id/rlTitle"
+              android:id="@+id/divider"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SYNC OZONE APPS"
+            android:id="@+id/txtTab2"
+            style="@style/settingsCategoryTitle"
+            android:layout_below="@+id/divider"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:weightSum="5"
+            android:layout_below="@+id/txtTab2">
+
+            <TextView
+                style="@style/settingsCategoryDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:text="Enable or disable syncing dashboards"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="4"
+                android:layout_marginRight="8dp"/>
+
+            <Switch
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/swSync"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:thumb="@drawable/switch_background"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

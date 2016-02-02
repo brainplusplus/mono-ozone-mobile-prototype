@@ -1,0 +1,39 @@
+<!-- Login form -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity"
+
+    android:id="@+id/login_form"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/primary1">
+
+    <LinearLayout style="@style/LoginFormContainer"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="254dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgMenu"
+            android:src="@drawable/logo_ozone_300x100_2x"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"/>
+
+        <TextView
+            android:id="@+id/txtServer"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_server"
+            android:text="Choosing Certificate"
+            style="@style/SettingsTitle">
+            <requestFocus />
+        </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

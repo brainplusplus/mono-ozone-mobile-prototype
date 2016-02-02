@@ -1,0 +1,6 @@
+platform :ios, '6.0'
+
+xcodeproj 'foo'
+
+pod 'TMCache', '~> 1.2.0'
+pod 'AFNetworking', '~> 2.0'

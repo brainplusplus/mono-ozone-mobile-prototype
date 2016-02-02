@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="../monoPhase2/util.js"></script>
+		<script type="text/javascript" src="../monoPhase2/APIBase.js"></script>
+	</head>
+<body>
+<button value="acc">Get Accelerometer</button>
+<p id="info"></p>
+<div>
+	<h3> Accelerometer Coordinates </h3>
+	<b>X:</b><span id="xCoord">N/A</span>
+	<b>Y:</b><span id="yCoord">N/A</span>
+	<b>Z:</b><span id="zCoord">N/A</span>
+</div>
+
+<div>
+	<h3> Show Orientation:</h3><b id="orientation"></b>
+	<br/>
+	<button id="registerOrientation" value="registerOrientation">Register For Orientation Updates</button><br/><br/>
+</div>
+<div>
+	<br/>
+	<input type="button" id="isOnlineCheck" value="Is Online"></input>
+	<br/>
+	<span>Previous Check:</span><b id="isOnlineResult">?</b>
+</div>
+<div>
+	<br/>
+	<input type="button" id="registerConnectivity" value="Register for Connetion Updates"></input>
+	<br/>
+	<span>Continual Updates:</span><b id="registerConnectivityResult">?</b>
+</div>
+
+</body>
+
+	<script type="text/javascript">
+		$(function(){
+
+			$(document).on('click', 'button[value="acc"]', function(event){
+				$("#info").html('click');
+
+				Mono.Accelerometer.RegisterForUpdate({interval:4},updateACC);
+			});
+
+			$(document).on('click', 'button[value="registerOrientation"]', function(event){
+				Mono.Accelerometer.DetectOrientationChange(detectOrientation);
+			});
+
+			$(document).on('click', 'input[id="isOnlineCheck"]', function(event){
+				$("#isOnlineResult").html("?");
+				$("#registerConnectivityResult").html("?");
+				Mono.Connectivity.IsOnline(function(data){
+					$("#isOnlineResult").html(data.type);
+				});
+			});
+
+			$(document).on('click', 'input[id="registerConnectivity"]', function(event){
+				Mono.Connectivity.RegisterForUpdate(connectivityUpdates);
+			});
+
+		});//end ready
+
+		
+		function connectivityUpdates(data){
+			$("#registerConnectivityResult").html(data.type);
+		}
+
+		function detectOrientation(data){
+			$("#orientation").html(data.orientation);
+		}
+
+		function updateACC(data){
+			$("#info").html(new Date().toLocaleTimeString());
+			$('#xCoord').html(data.x);
+			$('#yCoord').html(data.y);
+			$('#zCoord').html(data.z);
+		}
+	</script>
+</html>
+

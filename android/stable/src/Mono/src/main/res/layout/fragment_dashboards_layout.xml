@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/page">
+
+   <LinearLayout android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="App Launcher"
+           android:id="@+id/txtTitle"
+           android:focusable="false"
+           android:textIsSelectable="false"
+           android:fontFamily="sans-serif-thin"
+           style="@style/pageTitle"/>
+
+       <Switch
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Filter"
+           android:id="@+id/mobileOnlySwitch"
+           android:textColor="#4b4b4b"
+           android:checked="false"
+           android:textOff="ALL"
+           android:textOn="MOBILE"
+           android:thumb="@drawable/switch_background"/>
+   </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPONENTS"
+            android:id="@+id/txtTab1"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textColor="@color/primary3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPOSITE APPS"
+            android:id="@+id/txtTab2"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llTabs">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/tab1"
+                      android:orientation="vertical"
+                      android:visibility="visible"
+                      style="@style/indicator_style">
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/tab2"
+                      android:orientation="vertical"
+                      android:visibility="invisible"
+                      style="@style/indicator_style">
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Bottom line -->
+    <LinearLayout
+        style="@style/horizontal_line"
+        android:orientation="vertical"
+        android:visibility="visible">
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apps"
+        android:numColumns="3"
+        android:horizontalSpacing="5dip"
+        android:verticalSpacing="5dip"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

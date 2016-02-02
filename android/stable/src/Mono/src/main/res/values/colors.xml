@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- primary colors -->
+    <color name="primary1">#202427</color>
+    <color name="primary2">#323D45</color>
+    <color name="primary3">#79AF36</color>
+    <color name="primary4">#EFEFEF</color>
+
+    <!-- highlight colors -->
+    <color name="highlight1">#4C4F52</color>
+    <color name="highlight2">#5A636A</color>
+    <color name="highlight3">#94BE5E</color>
+    <color name="highlight4">#FFFFFF</color>
+
+    <!-- miscellaneous colors -->
+    <color name="error_color">#FF0000</color>
+    <color name="textGray">#666666</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="dividerColor">#333333</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- style guide colors -->
+    <color name="darkBackground">#0A0A0A</color>
+    <color name="buttonBackground">#7fb642</color>
+    <color name="buttonClickBackground">#4c8322</color>
+    <color name="buttonSecondaryBackground">#cfcfcf</color>
+    <color name="widgetBackground">#878787</color>
+
+
+    <!-- common colors -->
+    <color name="pageTitle">#999</color>
+</resources>

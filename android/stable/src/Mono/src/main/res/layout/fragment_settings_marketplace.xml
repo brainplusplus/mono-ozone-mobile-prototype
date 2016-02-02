@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+    >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:id="@id/rlTitle"
+            android:background="@drawable/clickable_view">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/arrow_back_2x"
+                style="@style/navigationArrow"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings:"
+                android:id="@+id/textView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_centerVertical="true"
+                style="@style/pageTitle"
+                android:layout_marginRight="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marketplace"
+                android:focusable="false"
+                android:textIsSelectable="false"
+                android:fontFamily="sans-serif-thin"
+                style="@style/pageTitle"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_centerVertical="true"
+                android:textColor="#fff"/>
+        </RelativeLayout>
+
+
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/storeList"
+            android:divider="@android:color/transparent"
+            android:layout_gravity="left"
+            android:clickable="true"
+            android:minHeight="150dp"
+            android:dividerHeight="8dp"/>
+    </LinearLayout>

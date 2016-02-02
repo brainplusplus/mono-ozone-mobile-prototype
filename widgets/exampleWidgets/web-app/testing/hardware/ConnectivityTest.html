@@ -1,0 +1,45 @@
+<html manifest="cache.manifest">
+	<head>
+        <script type="text/javascript" src="/presentationGrails/static/js/lib/jquery/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="/presentationGrails/static/js/widget/owf-widget-min.js"></script>
+	</head>
+    <body>
+        <p id="info"></p>
+        <div>
+            <br/>
+            <input type="button" id="isOnlineCheck" value="Is Online"></input>
+            <br/>
+            <span>Previous Check:</span><b id="isOnlineResult">?</b>
+        </div>
+        <div>
+            <br/>
+            <input type="button" id="registerConnectivity" value="Register for Connetion Updates"></input>
+            <br/>
+            <span>Continual Updates:</span><b id="registerConnectivityResult">?</b>
+        </div>
+        
+    </body>
+    
+	<script type="text/javascript">
+		$(function(){
+          
+          $(document).on('click', 'input[id="isOnlineCheck"]', function(event){
+                         $("#isOnlineResult").html("?");
+                         $("#registerConnectivityResult").html("?");
+                         Mono.Connectivity.IsOnline(function(data){
+                                                    $("#isOnlineResult").html(data.isOnline.toString());
+                                                    });
+                         });
+          
+          $(document).on('click', 'input[id="registerConnectivity"]', function(event){
+                         Mono.Connectivity.RegisterForUpdates(connectivityUpdates);
+                         });
+          
+          });//end ready
+          
+          function connectivityUpdates(data){
+              $("#registerConnectivityResult").html(data.isOnline.toString());
+          }
+    
+        </script>
+</html>

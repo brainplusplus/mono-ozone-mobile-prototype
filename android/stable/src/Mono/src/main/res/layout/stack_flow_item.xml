@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/clickable_view">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/llSwipeBody">
+        <ImageView
+            android:id="@+id/imgWidget"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/app_2x"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgMobile"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/icon_mobileready_2x"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_vertical"
+            android:tint="@color/textGray"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FFF"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:scrollHorizontally="false"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical|left"/>
+    </LinearLayout>
+
+</LinearLayout>

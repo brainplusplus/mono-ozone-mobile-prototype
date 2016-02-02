@@ -1,0 +1,64 @@
+{
+    "name": "Google Maps V2",
+    "path": "javascript/google.maps.v2.all.min.js",
+    "pathHide": "javascript/SIPRgoogle.maps.v2.all.min.js",
+    "ajaxLoadUrl": "https://www.google.com/jsapi?key=ABQIAAAA-pC_oS-OZ7GbCZiGocTKoxSOtEWFSFLLHS4H_1kktxZ58WEJVBSNEYct8Piia7bhbahzPyWgsheq_A",
+    "mapsApiUrlHide": "https://maps.google.com/maps?file=api&v=2&key=ABQIAAAA-pC_oS-OZ7GbCZiGocTKoxSOtEWFSFLLHS4H_1kktxZ58WEJVBSNEYct8Piia7bhbahzPyWgsheq_A",
+    "fusionMapHide" : {
+        "serverUrl" : "https://gvsgooglemaps.nga.smil.mil/default_map",
+        "layers" : [{
+            "icon": "icons/773_1.png",
+            "id": 1004,
+            "initialState": true,
+            "isPng": false,
+            "label": "Imagery",
+            "lookAt": "none",
+            "opacity": 1,
+            "requestType": "ImageryMaps",
+            "version": 21
+        }],
+        "arcGISLayers": [{
+            "url": "https://gvsarcgisglobe.nga.smil.mil/rest/services/Basemap/World_StreetMap_2D/MapServer",
+            "name": "Streets"
+        }]
+    },
+    "sidebar": {
+        "animate": true,
+        "drawing": true
+    },
+    "options" : {
+        "labels": {
+            "text": "Show placemark labels",
+            "value": false
+        },
+        "clustering": {
+            "text": "Cluster placemarks",
+            "value": false
+        }
+    },
+    "proxy": "../sage/proxyNorthcom?id=",
+    "constraints": {
+        "chrome": {
+            "default": {
+                "maxFileSize": 50,
+                "maxPlacemarks": 75000
+            }
+        },
+        "firefox": {
+            "default": {
+                "maxFileSize": 30,
+                "maxPlacemarks": 50000
+            }
+        },
+        "ie": {
+            "default": {
+                "maxFileSize": 10,
+                "maxPlacemarks": 10000
+            },
+            "9": {
+                "maxFileSize": 30,
+                "maxPlacemarks": 50000
+            }
+        }
+    }
+}

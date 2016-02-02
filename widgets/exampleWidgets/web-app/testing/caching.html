@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>
+        {"id":"50b4bde6-d4a6-d1d8-a622-9b64cb3624c9","containerVersion":"7.3.0-GA","webContextPath":"/owf","preferenceLocation":"https://monover.42six.com/owf/prefs","relayUrl":"https://monover.42six.com/owf/js/eventing/rpc_relay.uncompressed.html","lang":"en_US","currentTheme":{"themeName":"a_default","themeContrast":"standard","themeFontSize":12},"owf":true,"layout":"fit","url":"https://monover.42six.com/presentationGrails/watchboard/","guid":"364f8322-2d06-ddd6-74a3-a49d0b02e7a8","version":1,"locked":false}</title>
+    <script type="text/javascript" src="../js/lib/jc2cui-common/common/javascript/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../js/lib/jc2cui-common/common/javascript/util.js"></script>
+    <script type="text/javascript" src="../js/widget/owf-widget-min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    var currStructure;
+    var currJSON;
+
+    $(document).ready(function () {
+        /* Change Save Location */
+        $(document).on('change', 'select#action', function (event) {
+            var val = $(this).val();
+            console.log(val);
+            $("#response").empty();
+
+            if (val == "store") {
+                // urlToSave,timeOut,expirationDurationMinutes, callback
+                $('.store').show();
+            } else if (val == "update") {
+                // url,callback
+                $('.store').show();
+            } else if (val == "retrieve") {
+                // url,callback
+                $('.store').hide();
+            } else if (val == "status") {
+                // url,callback
+                $('.store').hide();
+            };
+
+
+            currStructure = null;
+            currJSON = null;
+        });
+    });
+
+    function submitForm() {
+        currStructure = null;
+        currJSON = null;
+
+        console.log('submitted');
+        /* Store */
+        var select = $("#action");
+        if ($("#action").val() == 'store') {
+            console.log('store');
+            var urlToSave = $('#url').val();
+            var timeout = $('#timeout').val();
+            var expiration = $('#expiration').val();
+
+            Mono.Caching.Store(urlToSave, timeout, expiration, function (data) {
+                if (data.status == "success") {
+                    $("#response").html("data: " + data.data);
+                    return false;
+                } else {
+                    alert("Error! Could Not Save Object.: " + data);
+                }
+
+            });
+        }
+
+        else if ($("#action").val() == 'update') {
+            var url = $("#url").val();
+            var timeout = $('#timeout').val();
+            var expiration = $('#expiration').val();
+
+            Mono.Caching.Update(url, timeout, expiration, function (data) {
+                if (data.status == "success") {
+                    $("#response").html('updated object: '+ url + ' successfully.');
+                    return false;
+                } else {
+                    alert("Error! Could Not Update Object.");
+                }
+            });
+        }
+
+        else if ($("#action").val() == 'retrieve') {
+            var url = $("#url").val();
+
+            Mono.Caching.Retrieve(url, function (data) {
+                if (data.status == "success") {
+                    $("#response").html(data.data);
+                    return false;
+                } else {
+                    alert("Error! Could Not Retrieve Object.");
+                }
+            });
+        }
+
+        else if ($("#action").val() == 'status') {
+            var url = $("#url").val();
+
+            Mono.Caching.Status(url, function (data) {
+                $("#response").html("Status: " + data.status + "<br/>\n"
+                + "timed out? " + data.timedOut + "<br/>\n"
+                + "timeout " + data.timeout + "<br/>\n"
+                + "timeout date " + data.timeoutDate + "<br/>\n"
+                + "expired? " + data.expired + "<br/>\n"
+                + "expiration " + data.expiration + "<br/>\n"
+                + "expiration date " + data.expirationDate + "<br/>\n");
+                return false;
+            });
+        }
+
+        return false;
+    }
+</script>
+<form id="form">
+    <div>
+        <label>Action:</label>
+        <select id="action">
+            <option value="store">store</option>
+            <option value="update">update</option>
+            <option value="retrieve">retrieve</option>
+            <option value="status">status</option>
+        </select>
+    </div>
+    <div>
+        <label>URL to save:</label><input id="url" type="text" name="urlToSave"/></div>
+    <div class="store"><label>Timeout (minutes):</label><input id="timeout" type="text" name="timeout"/></div>
+    <div class="store"><label>Expiration (minutes):</label><input id="expiration" type="text" name="expiration"/></div>
+    <input id="submit" type="button" name="submit" value="Submit" onclick="submitForm();"/>
+    <br/>Response:
+    <div id="response"></div>
+</form>
+</body>
+</html>

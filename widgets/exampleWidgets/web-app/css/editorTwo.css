@@ -1,0 +1,166 @@
+body {
+	font-family: "sourcesanspro";
+}
+.content {
+	outline:0px solid transparent;
+}
+.editContent{
+	min-height:200px;
+	height:auto;
+}
+
+h1{
+	outline:  0px solid transparent;
+}
+
+.span2 {
+	height: 50px;
+}
+
+.acontent {
+	color: #A9A9A9;
+}
+
+.placeholder{
+	color: #A9A9A9;	
+}
+
+.fileinput-button 
+{
+	position: relative;
+	overflow: hidden;
+}
+.title{
+	text-align:center;
+}
+.slideBlob{
+	height:100px;
+	cursor:pointer;
+	width:100px;
+	border:1px solid grey;
+	margin:10px;
+	line-height:100px;
+}
+.edit{
+	margin:10px;
+	float:left;
+}
+.fileinput-button input 
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transform: translate(-300px, 0) scale(4);
+	font-size: 23px;
+	direction: ltr;
+	cursor: pointer;
+}
+#panel {
+	width: 100%;
+	background: none repeat scroll 0% 0% #fff;
+	overflow: hidden;
+	position: absolute;
+	top: 50px;
+	z-index: 3;
+	-webkit-box-shadow: 0 0 0 10px white, 0 5px 10px black;
+	   -moz-box-shadow: 0 0 0 10px white, 0 5px 10px black;
+		    box-shadow: 0 0 0 10px white, 0 5px 10px black;
+	/*padding: 10px 20px 0 0;
+	/*margin-left: -20px;*/
+}
+
+.slide-title:before {
+	/*background: none repeat scroll 0 0 #FA8072;*/
+	background: transparent url(../images/img-slide.png) no-repeat scroll 0 0;
+    content: counter(li, decimal);
+    counter-increment: li;
+    font-weight: bold;
+    height: 2em;
+    left: -3em;
+    line-height: 2em;
+    position: absolute;
+    text-align: center;
+    width: 42px;
+	height: 54px;
+	color: #fff;
+	text-decoration: none;
+}
+.slide-title:hover {
+	color: #999;
+}
+.slide-title {
+    color: #111;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+	height: 80px;
+}
+
+.slide-number {
+	position: absolute;
+	top: 6px;
+	left: 12px;
+	width: auto;
+}
+
+ol li {
+	list-style-type: none;
+	color: #888;
+    line-height: 1.4em;
+	/*background: transparent url(../img/icon-doc-off.png) no-repeat scroll 0 2px;
+	background-position: 25px 10px;
+	background-size: 32px auto;*/
+    /*margin: 0 0 20px 0px;*/
+	/*margin: 0 0 15px 0px;*/
+    padding: 10px 20px 10px 0;
+	/*list-style-position: inside;*/
+	/*text-indent: 1em;*/
+}
+
+ol {
+	counter-reset: li;
+}
+
+.sm {
+	font-size: .8em;
+	line-height: 1.5em;
+}
+
+.lg {
+	font-size: 1.2em;
+	line-height: 1.45em;
+}
+
+.txticon
+{
+	padding-top: 1.20;
+	padding-bottom: 0;
+	height: auto;
+	width: auto;
+	font-weight: normal;
+	text-shadow: 0 1px 1px;
+}
+
+
+.createNew{
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	text-align: center;
+}
+
+/* Bootstrap Override */
+[class^="icon-"], [class*=" icon-"] {
+	width: 0;
+	height: 0;
+	background-image: none;
+}
+
+.pagination a {
+	text-decoration: none;
+	color: black;
+}

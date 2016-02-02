@@ -1,0 +1,57 @@
+<html manifest="cache.manifest">
+	<head>
+        <script type="text/javascript" src="/presentationGrails/static/js/lib/jquery/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="/presentationGrails/static/js/widget/owf-widget-min.js"></script>
+	</head>
+    <body>
+        <button value="acc">Get Accelerometer</button>
+        <p id="info"></p>
+        <div>
+            <h3> Accelerometer Coordinates </h3>
+            <b>X:</b><span id="xCoord">N/A</span>
+            <b>Y:</b><span id="yCoord">N/A</span>
+            <b>Z:</b><span id="zCoord">N/A</span>
+        </div>
+        
+        <div>
+            <h3> Show Orientation:</h3><b id="orientation"></b>
+            <br/>
+            <button id="registerOrientation" value="registerOrientation">Register For Orientation Updates</button><br/><br/>
+        </div>
+        
+    </body>
+    
+	<script type="text/javascript">
+		$(function(){
+          
+          $(document).on('click', 'button[value="acc"]', function(event){
+                         $("#info").html('click');
+                         
+                         Mono.Accelerometer.RegisterForUpdate({interval:7},updateACC);
+                         });
+          
+          $(document).on('click', 'button[value="registerOrientation"]', function(event){
+                         Mono.Accelerometer.DetectOrientationChange(detectOrientation);
+                         });
+          
+          
+          });//end ready
+          
+          function detectOrientation(data){
+              $("#orientation").html(data.status+"<br/>");
+              $("#orientation").append(data.message+"<br/>");
+              $("#orientation").append(data.orientation);
+          }
+    
+    function updateACC(data){
+        $("#info").html(data.status+"<br/>")
+        $("#info").append(data.message+"<br/>");
+        $("#info").append(new Date().toLocaleTimeString());
+        if(data.acceleration){
+            $('#xCoord').html(data.acceleration.x);
+            $('#yCoord').html(data.acceleration.y);
+            $('#zCoord').html(data.acceleration.z);
+        }
+    }
+	</script>
+</html>

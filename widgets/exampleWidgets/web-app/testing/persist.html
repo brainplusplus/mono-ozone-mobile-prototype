@@ -1,0 +1,100 @@
+<html>
+<head>
+    <script type="text/javascript"
+            src="/presentationGrails/js/lib/jquery/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript"
+            src="/presentationGrails/js/lib/jc2cui-common/common/javascript/util.js"></script>
+    <script src="./../js/widget/owf-widget-min.js"></script>
+
+</head>
+<body>
+
+
+<div>
+
+    <div>Initialize:</div>
+    <div>
+        <input type="button" value="Create Table" id="create"></input> <br>
+
+    </div>
+
+    <div>Add String:</div>
+    <div>
+
+        <input type="text" id="stringVal" placeholder="String"></input>
+
+    </div>
+
+</div>
+<div id="currentObject" style="margin:25px;"></div>
+<div>
+    <input type="button" value="Save" id="save"></input>
+</div>
+<div>
+    <input type="button" value="Retrieve" id="retrieve"></input>
+</div>
+<div id="retrievedJSON" style="margin:25px;"></div>
+
+
+<script type="text/javascript">
+		$(function(){
+       
+			/* Store */
+			$(document).on('click', 'input[id="save"]', function(event){
+
+               	var val = $("#stringVal").val();
+                if(val.trim().length === 0){
+                           alert("Value is required for String");
+                           return;
+                }
+                var table = "widgetStorageTable";
+                var insertQuery = {"query": "INSERT INTO " + table + " (desc) VALUES ('" + val + "')"};
+             
+                
+                Mono.Storage.Persistent.Exec(insertQuery, function(result)
+                      {
+                           $("#currentObject").html( val + " saved");
+                           $("#retrievedJSON").html("");                  
+                                                                                                    
+                      }); 
+
+			});
+
+							
+          $(document).on('click', 'input[id="create"]', function(event){
+                         
+                var val = $("#stringVal").val();
+               
+                var table = "widgetStorageTable";
+                var createQuery = {"query": "CREATE TABLE " + table + " (id INTEGER PRIMARY KEY AUTOINCREMENT, desc STRING)"};
+
+                Mono.Storage.Persistent.Exec(createQuery, function(result)
+                {
+                      $("#currentObject").html( "table created");
+                                                                                   
+                });                         
+          });
+          
+          var selectCallback = function(result) {
+             
+             $("#retrievedJSON").html(JSON.stringify(result));
+              $("#currentObject").html( "");
+          };
+          
+          $(document).on('click', 'input[id="retrieve"]', function(event){
+                var table = "widgetStorageTable";
+                var selectQuery = {"query": "SELECT * FROM " + table };
+                         
+                $("#retrievedJSON").html("");
+                Mono.Storage.Persistent.Query(selectQuery, selectCallback);
+                                                
+          });
+
+		});
+
+
+</script>
+</body>
+</html>
+
+

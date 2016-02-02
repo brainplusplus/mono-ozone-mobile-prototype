@@ -1,0 +1,43 @@
+<html manifest="cache.manifest">
+<head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="/presentationGrails/static/js/lib/jquery/jquery-1.10.1.min.js"></script>
+    <script src="/presentationGrails/static/js/widget/owf-widget-min.js"></script>
+ 
+</head>
+<body>
+<div>
+    <h3> Show Battery</h3>
+    <span>Battery Level: </span><br><b id="batteryLevel"></b><br/>
+    <span>Battery State: </span><br><b id="batteryState"></b><br/>
+
+    <h3> Update Battery</h3>
+    <span>Battery Level: </span><br><b id="uBatteryLevel"></b><br/>
+    <span>Battery State: </span><br><b id="uBatteryState"></b><br/>
+</div>
+
+<script>
+             
+            Mono.Battery.GetBatteryPercentage(function(result)
+                {
+                    $("#batteryLevel").html(" status: " + result.status + " level: " + result.batteryLevel );
+                   
+                });
+          
+            Mono.Battery.GetChargingState(function(result)
+                {
+                    $("#batteryState").html(" status: " + result.status + " state: " + result.batteryState );
+                });
+            
+            Mono.Battery.RegisterForUpdate(function(result)
+                {
+                    $("#uBatteryLevel").html(" status: " + result.status + " level: " + result.batteryLevel );
+                    $("#uBatteryState").html(" status: " + result.status + " state: " + result.batteryState );
+                });
+</script>
+<div>
+    <pre id="log"/>
+</div>
+</body>
+</html>

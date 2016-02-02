@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.fourtwosix">
+    <!-- This is the bottom line -->
+    <item>
+        <shape >
+            <solid android:color="#FFF" />
+        </shape>
+    </item>android
+
+    <!-- main color -->
+    <item android:bottom="0.5dp"
+          android:left="0.5dp"
+          android:right="0.5dp">
+        <shape >
+            <solid android:color="@color/primary1" />
+        </shape>
+    </item>
+
+    <!-- draw another block to cut-off the left and right bars -->
+    <item android:bottom="8.0dp">
+        <shape >
+            <solid android:color="@color/primary1" />
+        </shape>
+    </item>
+    <item android:right="9dp" android:gravity="center_vertical">
+        <bitmap android:src="@drawable/icon_spinner_arrow" android:gravity="right"/>
+    </item>
+</layer-list>

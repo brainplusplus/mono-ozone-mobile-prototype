@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fourtwosix.mono"
+    android:versionCode="3"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- This permission allows writing to the SD card -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+    This is for disabling the keyguard to send UI key events during testing
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+    -->
+
+
+    <!-- Application Settings -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_ozone_160x160"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fourtwosix.mono.activities.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.fourtwosix.mono.activities.LoginActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+
+        <!-- Declare Services here -->
+        <service
+            android:name="com.fourtwosix.mono.data.services.OSMBulkCacheService"
+            android:exported="false" />
+        <service
+            android:name="com.fourtwosix.mono.services.GetWidgetCacheService"
+            android:label="@string/widgetCachingService"
+            android:process=":widget_caching_service" />
+        <!--
+        <service android:name=".services.UrlCachingService"
+                 android:process=":widget_caching_service"
+                 android:label="@string/urlCachingService" />
+        -->
+
+        <activity
+            android:name="com.fourtwosix.mono.activities.StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

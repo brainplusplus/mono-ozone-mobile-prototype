@@ -1,0 +1,11 @@
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+.idea
+*.class
+/.gradle/1.8/taskArtifacts/*.bin
+/.gradle/1.11/taskArtifacts/*.bin
+/.gradle/1.11/taskArtifacts/*.lock
+/.gradle/1.11/taskArtifacts/cache.properties
+gradle/local.properties
+build

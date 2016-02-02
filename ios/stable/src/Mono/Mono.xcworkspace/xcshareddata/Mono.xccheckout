@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C332A56F-F293-41EF-817B-D8620543BC05</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mono</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4754C023-9903-4868-9274-19714CDA0F33</key>
+		<string>ssh://git.lab76.org/mono/ios-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mono/Mono.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4754C023-9903-4868-9274-19714CDA0F33</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git.lab76.org/mono/ios-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4754C023-9903-4868-9274-19714CDA0F33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4754C023-9903-4868-9274-19714CDA0F33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

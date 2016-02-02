@@ -1,0 +1,1 @@
+CREATE TABLE mapcachetracker (id NUMERIC, processed NUMERIC, total NUMERIC, startTime NUMERIC, completeTime NUMERIC);

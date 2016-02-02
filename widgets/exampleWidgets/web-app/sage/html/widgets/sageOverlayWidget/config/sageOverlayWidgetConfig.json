@@ -1,0 +1,5 @@
+{
+	"owf": "https://localhost:8443/owf", 
+	"owfRelay": "/presentationGrails/static/js/widget/rpc_relay.uncompressed.html", 
+	"sageRoot": "https://sageearth.northcom.mil/secured/kml/NORAD_USNORTHCOM_SAGE_External.kmz"
+} 

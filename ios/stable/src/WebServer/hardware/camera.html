@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	</head>
+<body>
+	<button value="camera">Take Picture</button>
+	<div style="margin-left:auto;margin-right:auto;margin-top:25px">
+		<img src="{CameraPhoto}" alt="picure goes here"></img>
+	</div>
+</body>
+
+	<script type="text/javascript">
+		$(function(){
+			$(document).on('click', 'button[value="camera"]', function(event){
+				$.ajax({
+					url:"ozone://hardware/gps",
+					type:"POST",
+					data:{position:"current"},
+					success:function(data){
+			
+					},
+					error:function(){
+
+					},
+				});
+				$("img").show();
+			});
+		});
+
+		function updateImage(src){
+			$("img").attr('src',src);
+		}
+	</script>
+</html>
+

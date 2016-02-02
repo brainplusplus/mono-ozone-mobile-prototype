@@ -1,0 +1,343 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mono Phase 2 JS Tests Example</title>
+    <link rel="stylesheet" type="text/css" media="all" href="https://code.jquery.com/qunit/qunit-1.12.0.css"/>
+
+    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-1.12.0.js"></script>
+    <script src="js/widget/owf-widget-min.js"></script>
+    <script>
+        function exampleCallback(result)
+        {
+            console.log(result)
+
+        }
+
+        function errorLog(logline)
+        {
+            var errorLogDiv = document.getElementById("errorlog")
+            errorLogDiv.innerHTML = errorLogDiv.innerHTML + "\n" + logline
+        }
+
+        //console.log("Attempting to init cache");
+        //Mono.Caching.Initialize("http://thisIsTheSaveUrl.com","http://thisIsTheReceiveUrl.com","WRITE_THROUGH",200,86400);
+        //console.log("Cache init called");
+
+        test( "Mono.Test.Connectivity.IsOnline()", function() {
+            expect(2);
+            Mono.Connectivity.IsOnline(
+            function(result)
+            {
+                console.log("IsOnline result: " + result.status);
+                errorLog("IsOnline: " + result.isOnline);
+                ok(result.status);
+                start();
+            });
+            
+            ok("IsOnline started.");
+            stop(1);
+        });
+
+        test( "Mono.Test.Connectivity.RegisterForUpdates()", function() {
+            expect(2);
+            Mono.Connectivity.RegisterForUpdates(
+            function(result)
+            {
+                console.log("RegisterForUpdates result: " + result.status);
+                errorLog("RegisterForUpdates - IsOnline: " + result.isOnline);
+                ok(result.status);
+                start();
+            });
+            
+            ok("registerForUpdates started.");
+            stop(1);
+        });
+
+        test( "Mono.Test.Battery.GetBatteryPercentage()", function() {
+            expect(4)
+            Mono.Battery.GetBatteryPercentage(function(result)
+                {
+                    console.log(result)
+                    equal(result.status,"success")
+                    ok(true, "callback was called")
+                    ok(result.batteryLevel > 0 && result.batteryLevel <= 100,"valid battery percentage");
+                    start();
+                });
+             ok("calling battery percentage");
+             stop();
+        });
+
+
+        test( "Mono.Test.Battery.GetChargingState", function() {
+             expect(4)
+             Mono.Battery.GetChargingState(function(result)
+                {
+                    console.log(result)
+                    equal(result.status,"success")
+                    ok(true, "callback was called")
+                    ok(result.batteryState, "This will pass as long as batteryState is not null.")
+                    start();
+                });
+             ok("calling battery percentage");
+             stop();
+        });
+
+        test( "Mono.Test.Storage.Persistent.Exec", function() {
+            expect(7);
+            var pcreateQuery = {"query": "CREATE TABLE widgetTestTable (id INTEGER PRIMARY KEY AUTOINCREMENT, desc STRING)"};
+            var pinsertQuery = {"query": "INSERT INTO widgetTestTable (desc) VALUES (?)",
+                               "values": ["Test description."]};
+            var pdropQuery = {"query": "DROP TABLE widgetTestTable"};
+
+            Mono.Storage.Persistent.Exec(pcreateQuery, function(result)
+            {
+                console.log(result);
+                equal(result.status,"success");
+                ok(true, "callback was called");
+                Mono.Storage.Persistent.Exec(pinsertQuery, function(result)
+                {
+                    console.log(result);
+                    equal(result.status,"success");
+                    ok(true, "callback was called");
+                    Mono.Storage.Persistent.Exec(pdropQuery, function(result)
+                    {
+                        console.log(result);
+                        equal(result.status,"success");
+                        ok(true, "callback was called");
+                        start();
+                    });
+                    start();
+                }); 
+                ok("calling test storage persistent exec"); 
+                start();
+            });
+
+            stop(3);
+        });
+
+        test( "Mono.Test.Storage.Persistent.Query", function() {
+            expect(20)
+            var table = "widgetQueryTestTable"
+            var createQuery = {"query": "CREATE TABLE " + table + " (id INTEGER PRIMARY KEY AUTOINCREMENT, desc STRING)"}
+            var insertQuery = {"query": "INSERT INTO " + table + " (desc) VALUES ('Testing string.')"}
+            var selectQuery = {"query": "SELECT * FROM " + table + " WHERE desc = ?", 
+                               "values": ["Testing string."]}
+            var alterQuery = {"query": "ALTER TABLE " + table + " ADD COLUMN rating INTEGER"}
+            var insertAlteredQuery = {"query": "INSERT INTO " + table + " (desc, rating) VALUES ('Testing two.', 10)"}
+            var selectAlteredQuery = {"query": "SELECT * FROM " + table + " WHERE rating = ?",
+                                      "values": ["10"]}
+            var dropQuery = {"query": "DROP TABLE " + table}
+
+            var dropCallback = function(result) {
+                errorLog("Drop: " + JSON.stringify(result))
+                equal(result.status,"success")
+                ok(true, "drop callback was called")
+                start()
+            };
+
+            var selectAlteredCallback = function(result) {
+                errorLog("Select Altered: " + JSON.stringify(result))
+                equal(result.status,"success")
+                equal(result.results.length, 1)
+                equal(result.results[0].desc, "Testing two.")
+                equal(result.results[0].rating, 10)
+                ok(true, "select altered callback was called")
+                Mono.Storage.Persistent.Exec(dropQuery, dropCallback)
+                start()
+            };
+
+            var insertAlteredCallback = function(result) {
+                errorLog("Insert altered: " + JSON.stringify(result))
+                equal(result.status, "success")
+                ok(true, "insert alter callback was called")
+                Mono.Storage.Persistent.Query(selectAlteredQuery, selectAlteredCallback)
+                start()
+            }
+
+            var alterTableCallback = function(result) {
+                errorLog("Alter: " + JSON.stringify(result))
+                equal(result.status,"success")
+                ok(true, "alter callback was called")
+                Mono.Storage.Persistent.Exec(insertAlteredQuery, insertAlteredCallback)
+                start()
+            }
+
+            var selectCallback = function(result) {
+                errorLog("Select: " + JSON.stringify(result))
+                equal(result.status,"success")
+                equal(result.results.length, 1)
+                equal(result.results[0].desc, "Testing string.")
+                ok(true, "select callback was called")
+                Mono.Storage.Persistent.Exec(alterQuery, alterTableCallback)
+                start()
+            };
+
+            var insertCallback = function(result) {
+                errorLog("Insert: " + JSON.stringify(result))
+                equal(result.status,"success")
+                ok(true, "insert callback was called")
+                Mono.Storage.Persistent.Query(selectQuery, selectCallback)
+                start()
+            };
+
+            var createCallback = function(result) {
+                errorLog("Create: " + JSON.stringify(result))
+                equal(result.status,"success")
+                ok(true, "create callback was called")
+                Mono.Storage.Persistent.Exec(insertQuery, insertCallback)
+                start()
+            };
+
+            Mono.Storage.Persistent.Exec(createQuery, createCallback)
+
+            ok("calling test storage persistent query test"); 
+            stop(7);
+        })
+
+        test( "Mono.Test.Pubsub", function() 
+        {
+            expect(1);
+            var subCallback = function(result) 
+            {
+                equal(result.status,"success")
+                start();
+            };
+
+            var pubCallback = function(result) 
+            {
+                equal(result.status,"success")
+                start();
+            };
+
+            var subscriptionFunction = function(sender, result) 
+            {
+                errorLog("pubsub sender: " + sender);
+                errorLog("pubsub result: " + result);
+                equal("test sentence", result);
+                start();
+            };
+
+            //Mono.Pubsub.Subscribe("testWidgetChannel", subscriptionFunction, subCallback);
+
+            //Mono.Pubsub.Publish("testWidgetChannel", "test sentence", pubCallback);
+            var eventingWidget = Ozone.eventing.Widget.getInstance();
+
+            eventingWidget.subscribe("testWidgetChannel", subscriptionFunction);
+
+            eventingWidget.publish("testWidgetChannel", "test sentence");
+
+            stop(1);
+        });
+
+        test( "Mono.Test.Intents", function() 
+        {
+            expect(0);
+            var intentCallback = function(sender, intent, data) 
+            {
+                errorLog("Intents.sender: " + sender);
+                errorLog("Intents.intent: " + JSON.stringify(intent));
+                errorLog("Intents.data: " + JSON.stringify(data));
+                start();
+            };
+
+            var saCallback = function(dest) 
+            {
+                errorLog("Intents:" + JSON.stringify(dest));
+                start();
+            };
+
+            OWF.Intents.receive(
+                {action: "test", dataType: "test/type"},
+                intentCallback
+            );
+
+            OWF.Intents.receive(
+                {action: "test", dataType: "test/type"},
+                intentCallback
+            );
+
+            OWF.Intents.receive(
+                {action: "test", dataType: "another-test/type"},
+                intentCallback
+            );
+
+            OWF.Intents.startActivity(
+                {action: "test", dataType: "test/type"},
+                {data: "Some data."},
+                saCallback
+            );
+
+            stop(3);
+        });
+
+             /*     test( "Mono.Test.Location.GetCurrentLocation", function() {
+            expect(4)
+            Mono.Location.GetCurrentLocation(function(result)
+                {
+                    ok(true, "callback was called")
+                    ok(result.coords.longitude > -180 && result.coords.longitude < 180,"valid longitude");
+                    ok(result.coords.latitude > -180 && result.coords.latitude < 180,"valid latitude");
+                    start();
+                });
+            ok(true, "Called the function");
+            stop()
+        }) ;
+
+        test( "Mono.Test.Connectivity.IsOnline", function() {
+            ok( Mono.Connectivity.IsOnline(), "true" );
+        })
+        test( "Mono.Test.Connectivity.RegisterForUpdate", function() {
+            ok(true,"How do we test this?")
+        })
+        test( "Mono.Test.Accelerometer.RegisterForUpdate", function() {
+           ok(true,"How do we test this?")
+        })
+        test( "Mono.Test.Battery.RegisterForUpdate", function() {
+            ok(true,"How do we test this?")
+        })
+        test( "Mono.Test.Location.RegisterForUpdate", function() {
+            stop();
+            Mono.Location.RegisterForUpdate(function(result)
+                {
+                    ok(true, "callback was called")
+                    ok(result.coords.longitude > -180 && result.coords.longitude < 180,"valid longitude");
+                    ok(result.coords.latitude > -180 && result.coords.latitude < 180,"valid latitude");
+                    start();
+                });
+        })
+        test( "Mono.Test.Storage.Transient.Store", function() {
+            ok( Mono.Storage.Transient.Store({}), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Transient.Delete", function() {
+            ok( Mono.Storage.Transient.Delete(1), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Transient.Retrieve", function() {
+            ok( Mono.Storage.Transient.Retrieve(1), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Transient.Update", function() {
+            ok( Mono.Storage.Transient.Update(1,{}), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Persistent.Store", function() {
+            ok( Mono.Storage.Persistent.Store({}), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Persistent.Delete", function() {
+            ok( Mono.Storage.Persistent.Delete(1), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Persistent.Retrieve", function() {
+            ok( Mono.Storage.Persistent.Retrieve(1), "This test needs to be created" );
+        })
+        test( "Mono.Test.Storage.Persistent.Update", function() {
+            ok( Mono.Storage.Persistent.Update(1,{}), "This test needs to be created" );
+        })
+*/
+    </script>
+    <div>
+        <pre id="errorlog" />
+    </div>
+</body>
+</html>

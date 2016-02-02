@@ -1,0 +1,163 @@
+{
+    "name": "Open Layers",
+    "path": "javascript/openLayers.all.min.js",
+    "sidebar": {
+        "animate": false,
+        "drawing": true
+    },
+    "options" : {
+        "labels": {
+            "text": "Show placemark labels",
+            "value": false
+        },
+        "clustering": {
+            "text": "Cluster placemarks",
+            "value": false
+        }
+    },
+    "proxy": "../sage/proxyNorthcom?id=",
+    "mapOptions": {
+        "USE_TO_SHOW_ALL_BASE_AT_ONCE_allOverlays": true
+    },
+    "layers" : [
+        {
+            "type": "WMS",
+            "params": [
+                "OpenLayers WMS",
+                "http://vmap0.tiles.osgeo.org/wms/vmap0",
+                {
+                    "layers": "basic"
+                }
+            ]
+        },
+        {
+            "type": "Google",
+            "script" : "https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=callback",
+            "callback" : true,
+            "params": [
+                "Google Satellite",
+                {
+                    "type": "satellite",
+                    "sphericalMercator": true,
+                    "numZoomLevels": 22
+                }
+            ]
+        },
+        {
+            "type": "Google",
+            "script" : "https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=callback",
+            "callback" : true,
+            "params": [
+                "Google Terrain",
+                {
+                    "type": "terrain",
+                    "sphericalMercator": true
+                }
+            ]
+        },
+        {
+            "type": "Google",
+            "script" : "https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=callback",
+            "callback" : true,
+            "params": [
+                "Google Streets",
+                {
+                    "type": "roadmap",
+                    "sphericalMercator": true,
+                    "numZoomLevels": 22
+                }
+            ]
+        },
+        {
+            "type": "Google",
+            "script" : "https://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=callback",
+            "callback" : true,
+            "params": [
+                "Google Hybrid",
+                {
+                    "type": "hybrid",
+                    "sphericalMercator": true,
+                    "numZoomLevels": 22
+                }
+            ]
+        },
+        {
+            "type": "Bing",
+            "params": [
+                {
+                    "name": "Bing Road",
+                    "type": "Road",
+                    "key": "AgaBVt4Nsudj03esGXhH7SHSbQSNwdZTJvXt6p7JzWqBSYaIVvAYMFI91Jfa0n5L"
+                }
+            ]
+        },
+        {
+            "type": "Bing",
+            "params": [
+                {
+                    "name": "Bing Aerial",
+                    "type": "AerialWithLabels",
+                    "key": "AgaBVt4Nsudj03esGXhH7SHSbQSNwdZTJvXt6p7JzWqBSYaIVvAYMFI91Jfa0n5L"
+                }
+            ]
+        },
+        {
+            "type": "OSM",
+            "params": [
+                "Open Street Map"
+            ]
+        },
+        {
+            "type": "WMS",
+            "params": [
+                "Canadian Data (WMS)",
+                "http://www2.dmsolutions.ca/cgi-bin/mswms_gmap",
+                {
+                    "layers": "bathymetry,land_fn,park,drain_fn,drainage,prov_bound,fedlimit,rail,road,popplace",
+                    "transparent": true
+                },
+                {
+                    "visibility": false
+                }
+            ]
+        },
+        {
+            "type": "ArcGIS93Rest",
+            "params": [
+                "USA Highways (ArcGIS Rest)",
+                "http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Specialty/ESRI_StateCityHighway_USA/MapServer/export",
+                {
+                    "layers": "0,1,2",
+                    "transparent": true
+                },
+                {
+                    "visibility": false
+                }
+            ]
+        }
+    ],
+    "constraints": {
+        "chrome": {
+            "default": {
+                "maxFileSize": 50,
+                "maxPlacemarks": 75000
+            }
+        },
+        "firefox": {
+            "default": {
+                "maxFileSize": 30,
+                "maxPlacemarks": 50000
+            }
+        },
+        "ie": {
+            "default": {
+                "maxFileSize": 10,
+                "maxPlacemarks": 10000
+            },
+            "9": {
+                "maxFileSize": 30,
+                "maxPlacemarks": 50000
+            }
+        }
+    }
+}

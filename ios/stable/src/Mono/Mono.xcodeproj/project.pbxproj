@@ -1,0 +1,2536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1502FF06193620B400A0612F /* MNOCertSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1502FF05193620B400A0612F /* MNOCertSelectorViewController.m */; };
+		150AAE0A19000C0E0031A053 /* MNOAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADE819000C0E0031A053 /* MNOAccountViewController.m */; };
+		150AAE0B19000C0E0031A053 /* MNOAppLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADEB19000C0E0031A053 /* MNOAppLauncherViewController.m */; };
+		150AAE0C19000C0E0031A053 /* MNOAppsBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADEE19000C0E0031A053 /* MNOAppsBuilderViewController.m */; };
+		150AAE0D19000C0E0031A053 /* MNOAppsMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADF119000C0E0031A053 /* MNOAppsMallViewController.m */; };
+		150AAE0F19000C0E0031A053 /* MNOContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADF719000C0E0031A053 /* MNOContainerViewController.m */; };
+		150AAE1019000C0E0031A053 /* MNODashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADFA19000C0E0031A053 /* MNODashboardViewController.m */; };
+		150AAE1119000C0E0031A053 /* MNOMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AADFD19000C0E0031A053 /* MNOMainViewController.m */; };
+		150AAE1319000C0E0031A053 /* MNOOzoneWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AAE0319000C0E0031A053 /* MNOOzoneWebViewController.m */; };
+		150AAE1419000C0E0031A053 /* MNOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AAE0619000C0E0031A053 /* MNOSettingsViewController.m */; };
+		150AAE1519000C0E0031A053 /* MNOWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AAE0919000C0E0031A053 /* MNOWidgetViewController.m */; };
+		150B70D719104292003211FB /* MNOResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 150B70D619104292003211FB /* MNOResponse.m */; };
+		151832A8190ACCBB009A661C /* icon_ozone_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1518329C190ACCBB009A661C /* icon_ozone_29x29.png */; };
+		151832A9190ACCBB009A661C /* icon_ozone_29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1518329D190ACCBB009A661C /* icon_ozone_29x29@2x.png */; };
+		151832AA190ACCBB009A661C /* icon_ozone_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1518329E190ACCBB009A661C /* icon_ozone_40x40.png */; };
+		151832AB190ACCBB009A661C /* icon_ozone_40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1518329F190ACCBB009A661C /* icon_ozone_40x40@2x.png */; };
+		151832AC190ACCBB009A661C /* icon_ozone_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A0190ACCBB009A661C /* icon_ozone_57x57.png */; };
+		151832AD190ACCBB009A661C /* icon_ozone_57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A1190ACCBB009A661C /* icon_ozone_57x57@2x.png */; };
+		151832AE190ACCBB009A661C /* icon_ozone_60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A2190ACCBB009A661C /* icon_ozone_60x60@2x.png */; };
+		151832AF190ACCBB009A661C /* icon_ozone_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A3190ACCBB009A661C /* icon_ozone_72x72.png */; };
+		151832B0190ACCBB009A661C /* icon_ozone_72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A4190ACCBB009A661C /* icon_ozone_72x72@2x.png */; };
+		151832B1190ACCBB009A661C /* icon_ozone_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A5190ACCBB009A661C /* icon_ozone_76x76.png */; };
+		151832B2190ACCBB009A661C /* icon_ozone_76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A6190ACCBB009A661C /* icon_ozone_76x76@2x.png */; };
+		151832B3190ACCBB009A661C /* icon_ozone_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 151832A7190ACCBB009A661C /* icon_ozone_@2x.png */; };
+		152EB876192E8B21005E502B /* NSString+MNOAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 152EB875192E8B21005E502B /* NSString+MNOAdditions.m */; };
+		1531BEEF1906AF1100085690 /* MNOMapCacheProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531BEEE1906AF1100085690 /* MNOMapCacheProcessor.m */; };
+		1531BEF31906B23A00085690 /* MNOMapCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531BEF21906B23A00085690 /* MNOMapCacheManager.m */; };
+		1531BEF61906B78700085690 /* MNOTrackingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531BEF51906B78700085690 /* MNOTrackingStatus.m */; };
+		1531BEFA1906D39800085690 /* MNOMapTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531BEF91906D39800085690 /* MNOMapTile.m */; };
+		1531BEFE1906D41400085690 /* NSManagedObject+BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531BEFD1906D41400085690 /* NSManagedObject+BaseModel.m */; };
+		15503D9C18FF0E7700CF7F6B /* alerman.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 15503D7518FF0E7700CF7F6B /* alerman.p12 */; };
+		15503D9D18FF0E7700CF7F6B /* bscazzero.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 15503D7618FF0E7700CF7F6B /* bscazzero.p12 */; };
+		15503DAA18FF0E7700CF7F6B /* bkg_stripe_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8418FF0E7700CF7F6B /* bkg_stripe_dark.png */; };
+		15503DAB18FF0E7700CF7F6B /* bkg_stripe_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8518FF0E7700CF7F6B /* bkg_stripe_light.png */; };
+		15503DAC18FF0E7700CF7F6B /* bkg_stripe_rpt.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8618FF0E7700CF7F6B /* bkg_stripe_rpt.png */; };
+		15503DAD18FF0E7700CF7F6B /* bkg_stripe_rpt_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8718FF0E7700CF7F6B /* bkg_stripe_rpt_dark.png */; };
+		15503DAE18FF0E7700CF7F6B /* icon_add_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8818FF0E7700CF7F6B /* icon_add_@2x.png */; };
+		15503DAF18FF0E7700CF7F6B /* icon_app_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8918FF0E7700CF7F6B /* icon_app_@2x.png */; };
+		15503DB018FF0E7700CF7F6B /* icon_appbuilder_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8A18FF0E7700CF7F6B /* icon_appbuilder_@2x.png */; };
+		15503DB118FF0E7700CF7F6B /* icon_appsmall_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8B18FF0E7700CF7F6B /* icon_appsmall_@2x.png */; };
+		15503DB218FF0E7700CF7F6B /* icon_back_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8C18FF0E7700CF7F6B /* icon_back_@2x.png */; };
+		15503DB318FF0E7700CF7F6B /* icon_builder_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8D18FF0E7700CF7F6B /* icon_builder_@2x.png */; };
+		15503DB518FF0E7700CF7F6B /* icon_drawer_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D8F18FF0E7700CF7F6B /* icon_drawer_@2x.png */; };
+		15503DB818FF0E7700CF7F6B /* icon_more_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D9218FF0E7700CF7F6B /* icon_more_@2x.png */; };
+		15503DBB18FF0E7700CF7F6B /* icon_previewer_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D9518FF0E7700CF7F6B /* icon_previewer_@2x.png */; };
+		15503DBD18FF0E7700CF7F6B /* icon_trash_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D9718FF0E7700CF7F6B /* icon_trash_@2x.png */; };
+		15503DC118FF0E7700CF7F6B /* logo_square_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15503D9B18FF0E7700CF7F6B /* logo_square_@2x.png */; };
+		1551E9D6190EFBBD00577D92 /* MNOHttpStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1551E9D5190EFBBD00577D92 /* MNOHttpStack.m */; };
+		15626A8E18FF1CFB00BCC5E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156269D218FF1CFA00BCC5E2 /* InfoPlist.strings */; };
+		15626A8F18FF1CFB00BCC5E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156269D418FF1CFA00BCC5E2 /* Images.xcassets */; };
+		15626A9018FF1CFB00BCC5E2 /* MNOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269D618FF1CFA00BCC5E2 /* MNOAppDelegate.m */; };
+		15626A9118FF1CFB00BCC5E2 /* MNOmain.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269D718FF1CFA00BCC5E2 /* MNOmain.m */; };
+		15626A9318FF1CFB00BCC5E2 /* MNOAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269DD18FF1CFA00BCC5E2 /* MNOAccountManager.m */; };
+		15626A9418FF1CFB00BCC5E2 /* MNONSURLCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269E018FF1CFA00BCC5E2 /* MNONSURLCacheManager.m */; };
+		15626A9518FF1CFB00BCC5E2 /* MNODatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269E318FF1CFA00BCC5E2 /* MNODatabase.m */; };
+		15626A9618FF1CFB00BCC5E2 /* MNODBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269E518FF1CFA00BCC5E2 /* MNODBManager.m */; };
+		15626A9718FF1CFB00BCC5E2 /* MNOProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269E818FF1CFA00BCC5E2 /* MNOProtocolManager.m */; };
+		15626A9918FF1CFB00BCC5E2 /* MNOReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269ED18FF1CFB00BCC5E2 /* MNOReachabilityManager.m */; };
+		15626A9A18FF1CFB00BCC5E2 /* MNOWidgetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269F018FF1CFB00BCC5E2 /* MNOWidgetManager.m */; };
+		15626A9B18FF1CFB00BCC5E2 /* MNODashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 156269F418FF1CFB00BCC5E2 /* MNODashboard.m */; };
+		15626A9F18FF1CFB00BCC5E2 /* Mono.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 156269FC18FF1CFB00BCC5E2 /* Mono.xcdatamodeld */; };
+		15626AA018FF1CFB00BCC5E2 /* MNOSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A0018FF1CFB00BCC5E2 /* MNOSubscriber.m */; };
+		15626AA118FF1CFB00BCC5E2 /* MNOGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A0318FF1CFB00BCC5E2 /* MNOGroup.m */; };
+		15626AA218FF1CFB00BCC5E2 /* MNOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A0518FF1CFB00BCC5E2 /* MNOUser.m */; };
+		15626AA318FF1CFB00BCC5E2 /* MNOWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A0818FF1CFB00BCC5E2 /* MNOWidget.m */; };
+		15626ABC18FF1CFB00BCC5E2 /* MNOEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A4518FF1CFB00BCC5E2 /* MNOEmpty.m */; };
+		15626ABD18FF1CFB00BCC5E2 /* MNOCustomUnwind.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A4818FF1CFB00BCC5E2 /* MNOCustomUnwind.m */; };
+		15626ABE18FF1CFB00BCC5E2 /* MNOWidgetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A4B18FF1CFB00BCC5E2 /* MNOWidgetSegue.m */; };
+		15626ABF18FF1CFB00BCC5E2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15626A4D18FF1CFB00BCC5E2 /* Main_iPad.storyboard */; };
+		15626AC018FF1CFB00BCC5E2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15626A4E18FF1CFB00BCC5E2 /* Main_iPhone.storyboard */; };
+		15626AC118FF1CFB00BCC5E2 /* MNODashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A5318FF1CFB00BCC5E2 /* MNODashboardView.m */; };
+		15626AC218FF1CFB00BCC5E2 /* MNOGreenTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A5718FF1CFB00BCC5E2 /* MNOGreenTriangle.m */; };
+		15626AC318FF1CFB00BCC5E2 /* MNOAppMallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A5918FF1CFB00BCC5E2 /* MNOAppMallView.m */; };
+		15626AC418FF1CFB00BCC5E2 /* MNOAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A5B18FF1CFB00BCC5E2 /* MNOAppView.m */; };
+		15626AC918FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A6818FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.m */; };
+		15626ACA18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A6C18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.m */; };
+		15626ACB18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A6F18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.m */; };
+		15626ACC18FF1CFB00BCC5E2 /* MNOIntentGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A7318FF1CFB00BCC5E2 /* MNOIntentGrid.m */; };
+		15626ACD18FF1CFB00BCC5E2 /* MNOAppsMallGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A7618FF1CFB00BCC5E2 /* MNOAppsMallGridView.m */; };
+		15626ACE18FF1CFB00BCC5E2 /* MNOCustomGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A7818FF1CFB00BCC5E2 /* MNOCustomGridView.m */; };
+		15626ACF18FF1CFB00BCC5E2 /* MNOCenterMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A7D18FF1CFB00BCC5E2 /* MNOCenterMenuView.m */; };
+		15626AD018FF1CFB00BCC5E2 /* MNOMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A7F18FF1CFB00BCC5E2 /* MNOMenuView.m */; };
+		15626AD118FF1CFB00BCC5E2 /* MNOTopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A8318FF1CFB00BCC5E2 /* MNOTopMenuView.m */; };
+		15626AD218FF1CFB00BCC5E2 /* MNOIntentSwiperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A8718FF1CFB00BCC5E2 /* MNOIntentSwiperView.m */; };
+		15626AD318FF1CFB00BCC5E2 /* MNOSwiperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A8918FF1CFB00BCC5E2 /* MNOSwiperView.m */; };
+		15626AD418FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626A8D18FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.m */; };
+		15626AEE18FF2A7E00BCC5E2 /* MNOIntentsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626ADF18FF2A7E00BCC5E2 /* MNOIntentsProcessor.m */; };
+		15626AEF18FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626AE218FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.m */; };
+		15626AF018FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626AE518FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.m */; };
+		15626AF118FF2A7E00BCC5E2 /* MNOAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626AE818FF2A7E00BCC5E2 /* MNOAPIResponse.m */; };
+		15626AF218FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626AEB18FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.m */; };
+		15626AF318FF2A7E00BCC5E2 /* MNORouteRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15626AED18FF2A7E00BCC5E2 /* MNORouteRequestManager.m */; };
+		156779591901DF640040836C /* MNOAccelerometerProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779521901DF630040836C /* MNOAccelerometerProcessor.m */; };
+		1567795A1901DF640040836C /* MNOBatteryProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779551901DF640040836C /* MNOBatteryProcessor.m */; };
+		1567795B1901DF640040836C /* MNOLocationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779581901DF640040836C /* MNOLocationProcessor.m */; };
+		156779671901DF7A0040836C /* MNOAccelerometerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567795E1901DF7A0040836C /* MNOAccelerometerManager.m */; };
+		156779681901DF7A0040836C /* MNOBatteryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779611901DF7A0040836C /* MNOBatteryManager.m */; };
+		156779691901DF7A0040836C /* MNOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779641901DF7A0040836C /* MNOLocationManager.m */; };
+		1567796A1901DF7A0040836C /* MNOLocationManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779661901DF7A0040836C /* MNOLocationManagerDelegate.m */; };
+		156779701901DF850040836C /* MNOAuthenticationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567796D1901DF850040836C /* MNOAuthenticationHandler.m */; };
+		156779711901DF850040836C /* MNOUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567796F1901DF850040836C /* MNOUtil.m */; };
+		156779781901DF950040836C /* MNOSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779761901DF950040836C /* MNOSettings.m */; };
+		156779821901DFA60040836C /* MNOIntentSubscriberSaved.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567797D1901DFA60040836C /* MNOIntentSubscriberSaved.m */; };
+		156779841901DFA60040836C /* MNOIntentWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779811901DFA60040836C /* MNOIntentWrapper.m */; };
+		1567798F1901DFE80040836C /* MNOGridHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567798D1901DFE80040836C /* MNOGridHeaderView.m */; };
+		156779901901DFE80040836C /* MNOGridHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1567798E1901DFE80040836C /* MNOGridHeaderView.xib */; };
+		156779941901E3530040836C /* MNOIntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 156779931901E3530040836C /* MNOIntentHandler.m */; };
+		15775602190FE7CA009DE672 /* CacheUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 157755F5190FE7CA009DE672 /* CacheUtils.m */; };
+		15775603190FE7CA009DE672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 157755F6190FE7CA009DE672 /* InfoPlist.strings */; };
+		1577560A190FE7CA009DE672 /* MonoTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 157755FE190FE7CA009DE672 /* MonoTests-Info.plist */; };
+		157BA3771922555F0058F296 /* MNOAppsMall.m in Sources */ = {isa = PBXBuildFile; fileRef = 157BA3761922555F0058F296 /* MNOAppsMall.m */; };
+		157BA3791922718E0058F296 /* MNOAppsMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157BA3781922718E0058F296 /* MNOAppsMallTests.m */; };
+		157D8119192532BE00A67941 /* MNOHeaderBarProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D8118192532BE00A67941 /* MNOHeaderBarProcessor.m */; };
+		157D812C192558E000A67941 /* testAdd1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D811D192558E000A67941 /* testAdd1.txt */; };
+		157D812D192558E000A67941 /* testAdd2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D811E192558E000A67941 /* testAdd2.txt */; };
+		157D812E192558E000A67941 /* testDelete1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D8120192558E000A67941 /* testDelete1.txt */; };
+		157D812F192558E000A67941 /* testDelete2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D8121192558E000A67941 /* testDelete2.txt */; };
+		157D8130192558E000A67941 /* testUpdate1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D8123192558E000A67941 /* testUpdate1.txt */; };
+		157D8131192558E000A67941 /* testUpdate2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D8124192558E000A67941 /* testUpdate2.txt */; };
+		157D813619255BB200A67941 /* TestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 15775600190FE7CA009DE672 /* TestUtils.m */; };
+		157D813919255BEE00A67941 /* group.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D813719255BEE00A67941 /* group.txt */; };
+		157D813A19255BEE00A67941 /* whoami.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D813819255BEE00A67941 /* whoami.txt */; };
+		157D813D19255BF400A67941 /* dashboard.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D813B19255BF400A67941 /* dashboard.txt */; };
+		157D813E19255BF400A67941 /* widgetList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157D813C19255BF400A67941 /* widgetList.txt */; };
+		1584F915191BBC0100640438 /* MNOAccountManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584F914191BBC0100640438 /* MNOAccountManagerTests.m */; };
+		1584F91B191BC5FA00640438 /* MNOChromeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584F918191BC5FA00640438 /* MNOChromeButton.m */; };
+		1584F91C191BC5FA00640438 /* MNOChromeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584F91A191BC5FA00640438 /* MNOChromeDrawer.m */; };
+		1584F921191BC7AE00640438 /* MNOChromeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584F918191BC5FA00640438 /* MNOChromeButton.m */; };
+		1584F922191BC7AE00640438 /* MNOChromeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584F91A191BC5FA00640438 /* MNOChromeDrawer.m */; };
+		1587691F1921434F007E2B41 /* MNOAppsMallStorefrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1587691E1921434F007E2B41 /* MNOAppsMallStorefrontViewController.m */; };
+		158769261921755A007E2B41 /* MNOAppsMallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 158769251921755A007E2B41 /* MNOAppsMallManager.m */; };
+		158CA7F719117E85005D9581 /* MNONetworkWrapperProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 158CA7F619117E85005D9581 /* MNONetworkWrapperProtocol.m */; };
+		15A45B4E1917FAAF0075CE40 /* svaughn.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 15A45B4D1917FAAF0075CE40 /* svaughn.p12 */; };
+		15A6489E19376DFB00CC0CD3 /* MNOLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A6489D19376DFB00CC0CD3 /* MNOLoginInfo.m */; };
+		15A662EE191D0C6D00E72BCE /* mwilson.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 15A662ED191D0C6D00E72BCE /* mwilson.p12 */; };
+		15A662F0191D0DA600E72BCE /* ext_tool_sprites.gif in Resources */ = {isa = PBXBuildFile; fileRef = 15A662EF191D0DA600E72BCE /* ext_tool_sprites.gif */; };
+		15A662F2191D0DCB00E72BCE /* ic_action_overflow.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A662F1191D0DCB00E72BCE /* ic_action_overflow.png */; };
+		15AD3539192D13DB00ED7C87 /* MNOReachabilityManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C10AD4192BE49300437D04 /* MNOReachabilityManagerTests.m */; };
+		15AD3540192D319100ED7C87 /* MNOConnectivityProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AD353F192D319100ED7C87 /* MNOConnectivityProcessor.m */; };
+		15B420031911A0DC002B58F8 /* MNOAggressiveCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B420001911A0DC002B58F8 /* MNOAggressiveCacheTests.m */; };
+		15B420041911A112002B58F8 /* BatteryManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15775614190FED94009DE672 /* BatteryManagerTests.m */; };
+		15B420051911A112002B58F8 /* GPSManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15775615190FED94009DE672 /* GPSManagerTests.m */; };
+		15B6472219094DED00BF0A2E /* MNOTileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6472119094DED00BF0A2E /* MNOTileInfo.m */; };
+		15BA0D3A194B481F00A4F130 /* arrow_down_white_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BA0D38194B481F00A4F130 /* arrow_down_white_@2x.png */; };
+		15BA0D3B194B481F00A4F130 /* arrow_up_white_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BA0D39194B481F00A4F130 /* arrow_up_white_@2x.png */; };
+		15BA0D3D194B603500A4F130 /* sprite_icons_320x320_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BA0D3C194B603500A4F130 /* sprite_icons_320x320_@2x.png */; };
+		6F12BD54188EF12400D8CB8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12BD53188EF12400D8CB8B /* Foundation.framework */; };
+		6F12BD56188EF12400D8CB8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12BD55188EF12400D8CB8B /* CoreGraphics.framework */; };
+		6F12BD58188EF12400D8CB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12BD57188EF12400D8CB8B /* UIKit.framework */; };
+		6F12BD76188EF12500D8CB8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12BD75188EF12500D8CB8B /* XCTest.framework */; };
+		6F12BD77188EF12500D8CB8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12BD53188EF12400D8CB8B /* Foundation.framework */; };
+		6F12BD78188EF12500D8CB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12BD57188EF12400D8CB8B /* UIKit.framework */; };
+		6F1670E4193D535500F400E2 /* icon_sync_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1670E3193D535500F400E2 /* icon_sync_@2x.png */; };
+		6F1670EB193FF7CB00F400E2 /* MNOSyncDashboardOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1670EA193FF7CB00F400E2 /* MNOSyncDashboardOp.m */; };
+		6F1670EE193FF7F200F400E2 /* MNOSyncWidgetsOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1670ED193FF7F200F400E2 /* MNOSyncWidgetsOp.m */; };
+		6F1670F31940A79E00F400E2 /* MNOSyncWidgetsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1670F21940A79E00F400E2 /* MNOSyncWidgetsTest.m */; };
+		6F23866B195A36FA006EC9AC /* MNOUpdateCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F23866A195A36FA006EC9AC /* MNOUpdateCache.m */; };
+		6F361A2C1923F76C0086160F /* MNOSyncDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F361A2B1923F76C0086160F /* MNOSyncDashboardViewController.m */; };
+		6F361A301923F7940086160F /* MNOIntentSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F361A2F1923F7940086160F /* MNOIntentSettingsViewController.m */; };
+		6F361A371923F7DE0086160F /* MNOAggressiveCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F361A361923F7DE0086160F /* MNOAggressiveCacheViewController.m */; };
+		6F4E9A10191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E9A0F191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.m */; };
+		6F4E9A13191C092B00B6B2E5 /* MNOLogInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E9A12191C092B00B6B2E5 /* MNOLogInTests.m */; };
+		6F4E9A19191C0A1100B6B2E5 /* echaney.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 6F4E9A18191C0A1100B6B2E5 /* echaney.p12 */; };
+		6F4E9A1A191C0C8100B6B2E5 /* MNOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E9A16191C099000B6B2E5 /* MNOLoginViewController.m */; };
+		6F4E9A1B191C0D0300B6B2E5 /* echaney.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 6F4E9A18191C0A1100B6B2E5 /* echaney.p12 */; };
+		6F4E9A1F191C7B7300B6B2E5 /* MNOTestDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E9A1E191C7B7300B6B2E5 /* MNOTestDB.m */; };
+		6F51E7CB1921867A00BBA01D /* MNOSyncDashboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F51E7CA1921867A00BBA01D /* MNOSyncDashboardTests.m */; };
+		6F5A63E919537DF9008A43A6 /* MNOCachedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A63E819537DF9008A43A6 /* MNOCachedData.m */; };
+		6F8593A518A043B700A004FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8593A418A043B700A004FA /* SystemConfiguration.framework */; };
+		6F8593A718A043D300A004FA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8593A618A043D300A004FA /* MobileCoreServices.framework */; };
+		6F872A0919477D010005C6E2 /* logo_ozone_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F872A0819477D010005C6E2 /* logo_ozone_@2x.png */; };
+		6FA2539B18ABD28300EC96BB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA2539A18ABD28300EC96BB /* Security.framework */; };
+		6FA253C518B1CB4600EC96BB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA253C418B1CB4600EC96BB /* CoreData.framework */; };
+		6FB2576F18E9BBD70076735B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB2576E18E9BBD70076735B /* QuartzCore.framework */; };
+		6FBA7F3D190FF4100027F169 /* RNCachedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA7F3C190FF4100027F169 /* RNCachedData.m */; };
+		6FBA7F42190FF4460027F169 /* MNOAggressiveCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA7F40190FF4460027F169 /* MNOAggressiveCache.m */; };
+		6FBA8D3A194785CB0024C39F /* icon_signout_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D39194785CB0024C39F /* icon_signout_@2x.png */; };
+		6FBA8D3C194785EE0024C39F /* icon_user_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D3B194785EE0024C39F /* icon_user_@2x.png */; };
+		6FBA8D3E194786070024C39F /* icon_settings_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D3D194786070024C39F /* icon_settings_@2x.png */; };
+		6FBA8D401947861A0024C39F /* icon_notification_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D3F1947861A0024C39F /* icon_notification_@2x.png */; };
+		6FBA8D42194786340024C39F /* icon_chats_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D41194786340024C39F /* icon_chats_@2x.png */; };
+		6FBA8D44194786430024C39F /* icon_applauncher_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D43194786430024C39F /* icon_applauncher_@2x.png */; };
+		6FBA8D46194787790024C39F /* icon_menu_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D45194787790024C39F /* icon_menu_@2x.png */; };
+		6FBA8D4C1947C64D0024C39F /* app_mall_default_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D4B1947C64D0024C39F /* app_mall_default_@2x.png */; };
+		6FBA8D4F1948ACA80024C39F /* radio_off_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D4D1948ACA80024C39F /* radio_off_@2x.png */; };
+		6FBA8D501948ACA80024C39F /* radio_on_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D4E1948ACA80024C39F /* radio_on_@2x.png */; };
+		6FBA8D52194A5D1A0024C39F /* icon_mobileready_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBA8D51194A5D1A0024C39F /* icon_mobileready_@2x.png */; };
+		6FBA8D56194A5E620024C39F /* MNOAppSwiperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA8D55194A5E620024C39F /* MNOAppSwiperView.m */; };
+		9EEF58561D7449EB8A318C5D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BE3E0E2C6B479BAA2FF0B3 /* libPods.a */; };
+		B026790219117D0200B41CC0 /* MNOOpenAMAuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B026790119117D0200B41CC0 /* MNOOpenAMAuthenticationManager.m */; };
+		B085C1EE19271167002AD1C8 /* MNOOpenAMAuthenticationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B085C1ED19271167002AD1C8 /* MNOOpenAMAuthenticationManagerTests.m */; };
+		B085C1F2192B878D002AD1C8 /* MNOHttpStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B085C1F1192B878D002AD1C8 /* MNOHttpStackTests.m */; };
+		B085C2321934CFDE002AD1C8 /* Server.plist in Resources */ = {isa = PBXBuildFile; fileRef = B085C2311934CFDE002AD1C8 /* Server.plist */; };
+		B085C2361934CFF9002AD1C8 /* MNOModalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B085C2351934CFF9002AD1C8 /* MNOModalManager.m */; };
+		B085C23A1934D01D002AD1C8 /* MNOModalProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B085C2391934D01D002AD1C8 /* MNOModalProcessor.m */; };
+		B085C2411934D05C002AD1C8 /* MNOSyncDashboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B085C23D1934D05C002AD1C8 /* MNOSyncDashboardManager.m */; };
+		B085C2421934D05C002AD1C8 /* MNOUserDownloadService.m in Sources */ = {isa = PBXBuildFile; fileRef = B085C2401934D05C002AD1C8 /* MNOUserDownloadService.m */; };
+		BE537198192305590092EE60 /* MNONotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE537197192305590092EE60 /* MNONotificationManager.m */; };
+		BE53719B192305780092EE60 /* MNONotificationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE53719A192305780092EE60 /* MNONotificationProcessor.m */; };
+		BE53719E1923DBC90092EE60 /* icon_mobile_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = BE53719D1923DBC90092EE60 /* icon_mobile_phone.png */; };
+		BE81B6741924FBDD00C9FFFA /* MNOConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B6731924FBDD00C9FFFA /* MNOConfigurationManager.m */; };
+		BE81B67A192509AE00C9FFFA /* NSURLRequest+NSURLRequestSSLY.m in Sources */ = {isa = PBXBuildFile; fileRef = BE81B679192509AE00C9FFFA /* NSURLRequest+NSURLRequestSSLY.m */; };
+		CC47B4B16AFE4A0180926A65 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BE3E0E2C6B479BAA2FF0B3 /* libPods.a */; };
+		F0A1FF83190567EE009D9C07 /* MNOCacheProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A1FF82190567EE009D9C07 /* MNOCacheProcessor.m */; };
+		F0AA458A1912AED0002FEAEB /* MNOAggressiveCacheDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B41FFF1911A0DC002B58F8 /* MNOAggressiveCacheDelegateTest.m */; };
+		F0AA458B1912AED0002FEAEB /* MNOMapCacheManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15775616190FED94009DE672 /* MNOMapCacheManagerTests.m */; };
+		F0AA458C1912AED0002FEAEB /* MNOAPIProcessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15775617190FED94009DE672 /* MNOAPIProcessingTests.m */; };
+		F0AA458D1912AED0002FEAEB /* MNODatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15775618190FED94009DE672 /* MNODatabaseTests.m */; };
+		F0AA458F1912AED0002FEAEB /* MNORequestRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577561A190FED94009DE672 /* MNORequestRouterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F12BD79188EF12500D8CB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F12BD48188EF12400D8CB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F12BD4F188EF12400D8CB8B;
+			remoteInfo = Mono2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1502FF04193620B400A0612F /* MNOCertSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCertSelectorViewController.h; sourceTree = "<group>"; };
+		1502FF05193620B400A0612F /* MNOCertSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCertSelectorViewController.m; sourceTree = "<group>"; };
+		150AADE719000C0E0031A053 /* MNOAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAccountViewController.h; sourceTree = "<group>"; };
+		150AADE819000C0E0031A053 /* MNOAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAccountViewController.m; sourceTree = "<group>"; };
+		150AADEA19000C0E0031A053 /* MNOAppLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppLauncherViewController.h; sourceTree = "<group>"; };
+		150AADEB19000C0E0031A053 /* MNOAppLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppLauncherViewController.m; sourceTree = "<group>"; };
+		150AADED19000C0E0031A053 /* MNOAppsBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppsBuilderViewController.h; sourceTree = "<group>"; };
+		150AADEE19000C0E0031A053 /* MNOAppsBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsBuilderViewController.m; sourceTree = "<group>"; };
+		150AADF019000C0E0031A053 /* MNOAppsMallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppsMallViewController.h; sourceTree = "<group>"; };
+		150AADF119000C0E0031A053 /* MNOAppsMallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsMallViewController.m; sourceTree = "<group>"; };
+		150AADF619000C0E0031A053 /* MNOContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOContainerViewController.h; sourceTree = "<group>"; };
+		150AADF719000C0E0031A053 /* MNOContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOContainerViewController.m; sourceTree = "<group>"; };
+		150AADF919000C0E0031A053 /* MNODashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNODashboardViewController.h; sourceTree = "<group>"; };
+		150AADFA19000C0E0031A053 /* MNODashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNODashboardViewController.m; sourceTree = "<group>"; };
+		150AADFC19000C0E0031A053 /* MNOMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMainViewController.h; sourceTree = "<group>"; };
+		150AADFD19000C0E0031A053 /* MNOMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMainViewController.m; sourceTree = "<group>"; };
+		150AAE0219000C0E0031A053 /* MNOOzoneWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOOzoneWebViewController.h; sourceTree = "<group>"; };
+		150AAE0319000C0E0031A053 /* MNOOzoneWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOOzoneWebViewController.m; sourceTree = "<group>"; };
+		150AAE0519000C0E0031A053 /* MNOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOSettingsViewController.h; sourceTree = "<group>"; };
+		150AAE0619000C0E0031A053 /* MNOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOSettingsViewController.m; sourceTree = "<group>"; };
+		150AAE0819000C0E0031A053 /* MNOWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOWidgetViewController.h; sourceTree = "<group>"; };
+		150AAE0919000C0E0031A053 /* MNOWidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOWidgetViewController.m; sourceTree = "<group>"; };
+		150B70D519104292003211FB /* MNOResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOResponse.h; sourceTree = "<group>"; };
+		150B70D619104292003211FB /* MNOResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOResponse.m; sourceTree = "<group>"; };
+		1518329C190ACCBB009A661C /* icon_ozone_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ozone_29x29.png; sourceTree = "<group>"; };
+		1518329D190ACCBB009A661C /* icon_ozone_29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_29x29@2x.png"; sourceTree = "<group>"; };
+		1518329E190ACCBB009A661C /* icon_ozone_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ozone_40x40.png; sourceTree = "<group>"; };
+		1518329F190ACCBB009A661C /* icon_ozone_40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_40x40@2x.png"; sourceTree = "<group>"; };
+		151832A0190ACCBB009A661C /* icon_ozone_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ozone_57x57.png; sourceTree = "<group>"; };
+		151832A1190ACCBB009A661C /* icon_ozone_57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_57x57@2x.png"; sourceTree = "<group>"; };
+		151832A2190ACCBB009A661C /* icon_ozone_60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_60x60@2x.png"; sourceTree = "<group>"; };
+		151832A3190ACCBB009A661C /* icon_ozone_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ozone_72x72.png; sourceTree = "<group>"; };
+		151832A4190ACCBB009A661C /* icon_ozone_72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_72x72@2x.png"; sourceTree = "<group>"; };
+		151832A5190ACCBB009A661C /* icon_ozone_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ozone_76x76.png; sourceTree = "<group>"; };
+		151832A6190ACCBB009A661C /* icon_ozone_76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_76x76@2x.png"; sourceTree = "<group>"; };
+		151832A7190ACCBB009A661C /* icon_ozone_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ozone_@2x.png"; sourceTree = "<group>"; };
+		15273D4118F46F88009E0F47 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		152EB874192E8B21005E502B /* NSString+MNOAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MNOAdditions.h"; sourceTree = "<group>"; };
+		152EB875192E8B21005E502B /* NSString+MNOAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MNOAdditions.m"; sourceTree = "<group>"; };
+		1531BEED1906AF1100085690 /* MNOMapCacheProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMapCacheProcessor.h; sourceTree = "<group>"; };
+		1531BEEE1906AF1100085690 /* MNOMapCacheProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMapCacheProcessor.m; sourceTree = "<group>"; };
+		1531BEF11906B23A00085690 /* MNOMapCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMapCacheManager.h; sourceTree = "<group>"; };
+		1531BEF21906B23A00085690 /* MNOMapCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMapCacheManager.m; sourceTree = "<group>"; };
+		1531BEF41906B78700085690 /* MNOTrackingStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOTrackingStatus.h; sourceTree = "<group>"; };
+		1531BEF51906B78700085690 /* MNOTrackingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOTrackingStatus.m; sourceTree = "<group>"; };
+		1531BEF81906D39800085690 /* MNOMapTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMapTile.h; sourceTree = "<group>"; };
+		1531BEF91906D39800085690 /* MNOMapTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMapTile.m; sourceTree = "<group>"; };
+		1531BEFC1906D41400085690 /* NSManagedObject+BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+BaseModel.h"; sourceTree = "<group>"; };
+		1531BEFD1906D41400085690 /* NSManagedObject+BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+BaseModel.m"; sourceTree = "<group>"; };
+		15503D7518FF0E7700CF7F6B /* alerman.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alerman.p12; sourceTree = "<group>"; };
+		15503D7618FF0E7700CF7F6B /* bscazzero.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bscazzero.p12; sourceTree = "<group>"; };
+		15503D8418FF0E7700CF7F6B /* bkg_stripe_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg_stripe_dark.png; sourceTree = "<group>"; };
+		15503D8518FF0E7700CF7F6B /* bkg_stripe_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg_stripe_light.png; sourceTree = "<group>"; };
+		15503D8618FF0E7700CF7F6B /* bkg_stripe_rpt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg_stripe_rpt.png; sourceTree = "<group>"; };
+		15503D8718FF0E7700CF7F6B /* bkg_stripe_rpt_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkg_stripe_rpt_dark.png; sourceTree = "<group>"; };
+		15503D8818FF0E7700CF7F6B /* icon_add_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_add_@2x.png"; sourceTree = "<group>"; };
+		15503D8918FF0E7700CF7F6B /* icon_app_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_app_@2x.png"; sourceTree = "<group>"; };
+		15503D8A18FF0E7700CF7F6B /* icon_appbuilder_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_appbuilder_@2x.png"; sourceTree = "<group>"; };
+		15503D8B18FF0E7700CF7F6B /* icon_appsmall_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_appsmall_@2x.png"; sourceTree = "<group>"; };
+		15503D8C18FF0E7700CF7F6B /* icon_back_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back_@2x.png"; sourceTree = "<group>"; };
+		15503D8D18FF0E7700CF7F6B /* icon_builder_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_builder_@2x.png"; sourceTree = "<group>"; };
+		15503D8F18FF0E7700CF7F6B /* icon_drawer_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_drawer_@2x.png"; sourceTree = "<group>"; };
+		15503D9218FF0E7700CF7F6B /* icon_more_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_more_@2x.png"; sourceTree = "<group>"; };
+		15503D9518FF0E7700CF7F6B /* icon_previewer_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_previewer_@2x.png"; sourceTree = "<group>"; };
+		15503D9718FF0E7700CF7F6B /* icon_trash_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_trash_@2x.png"; sourceTree = "<group>"; };
+		15503D9B18FF0E7700CF7F6B /* logo_square_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_square_@2x.png"; sourceTree = "<group>"; };
+		1551E9D4190EFBBD00577D92 /* MNOHttpStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOHttpStack.h; sourceTree = "<group>"; };
+		1551E9D5190EFBBD00577D92 /* MNOHttpStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOHttpStack.m; sourceTree = "<group>"; };
+		156269D318FF1CFA00BCC5E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		156269D418FF1CFA00BCC5E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		156269D518FF1CFA00BCC5E2 /* MNOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppDelegate.h; sourceTree = "<group>"; };
+		156269D618FF1CFA00BCC5E2 /* MNOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppDelegate.m; sourceTree = "<group>"; };
+		156269D718FF1CFA00BCC5E2 /* MNOmain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOmain.m; sourceTree = "<group>"; };
+		156269D818FF1CFA00BCC5E2 /* Mono-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mono-Info.plist"; sourceTree = "<group>"; };
+		156269D918FF1CFA00BCC5E2 /* Mono-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mono-Prefix.pch"; sourceTree = "<group>"; };
+		156269DC18FF1CFA00BCC5E2 /* MNOAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAccountManager.h; sourceTree = "<group>"; };
+		156269DD18FF1CFA00BCC5E2 /* MNOAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAccountManager.m; sourceTree = "<group>"; };
+		156269DF18FF1CFA00BCC5E2 /* MNONSURLCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNONSURLCacheManager.h; sourceTree = "<group>"; };
+		156269E018FF1CFA00BCC5E2 /* MNONSURLCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNONSURLCacheManager.m; sourceTree = "<group>"; };
+		156269E218FF1CFA00BCC5E2 /* MNODatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNODatabase.h; sourceTree = "<group>"; };
+		156269E318FF1CFA00BCC5E2 /* MNODatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNODatabase.m; sourceTree = "<group>"; };
+		156269E418FF1CFA00BCC5E2 /* MNODBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNODBManager.h; sourceTree = "<group>"; };
+		156269E518FF1CFA00BCC5E2 /* MNODBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNODBManager.m; sourceTree = "<group>"; };
+		156269E718FF1CFA00BCC5E2 /* MNOProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOProtocolManager.h; sourceTree = "<group>"; };
+		156269E818FF1CFA00BCC5E2 /* MNOProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOProtocolManager.m; sourceTree = "<group>"; };
+		156269EC18FF1CFB00BCC5E2 /* MNOReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOReachabilityManager.h; sourceTree = "<group>"; };
+		156269ED18FF1CFB00BCC5E2 /* MNOReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOReachabilityManager.m; sourceTree = "<group>"; };
+		156269EF18FF1CFB00BCC5E2 /* MNOWidgetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOWidgetManager.h; sourceTree = "<group>"; };
+		156269F018FF1CFB00BCC5E2 /* MNOWidgetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOWidgetManager.m; sourceTree = "<group>"; };
+		156269F318FF1CFB00BCC5E2 /* MNODashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNODashboard.h; sourceTree = "<group>"; };
+		156269F418FF1CFB00BCC5E2 /* MNODashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNODashboard.m; sourceTree = "<group>"; };
+		156269FD18FF1CFB00BCC5E2 /* Mono.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mono.xcdatamodel; sourceTree = "<group>"; };
+		156269FF18FF1CFB00BCC5E2 /* MNOSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOSubscriber.h; sourceTree = "<group>"; };
+		15626A0018FF1CFB00BCC5E2 /* MNOSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOSubscriber.m; sourceTree = "<group>"; };
+		15626A0218FF1CFB00BCC5E2 /* MNOGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOGroup.h; sourceTree = "<group>"; };
+		15626A0318FF1CFB00BCC5E2 /* MNOGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOGroup.m; sourceTree = "<group>"; };
+		15626A0418FF1CFB00BCC5E2 /* MNOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOUser.h; sourceTree = "<group>"; };
+		15626A0518FF1CFB00BCC5E2 /* MNOUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOUser.m; sourceTree = "<group>"; };
+		15626A0718FF1CFB00BCC5E2 /* MNOWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOWidget.h; sourceTree = "<group>"; };
+		15626A0818FF1CFB00BCC5E2 /* MNOWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOWidget.m; sourceTree = "<group>"; };
+		15626A1218FF1CFB00BCC5E2 /* MNOAPIProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAPIProcessor.h; sourceTree = "<group>"; };
+		15626A1318FF1CFB00BCC5E2 /* MNODataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNODataAccess.h; sourceTree = "<group>"; };
+		15626A4418FF1CFB00BCC5E2 /* MNOEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOEmpty.h; sourceTree = "<group>"; };
+		15626A4518FF1CFB00BCC5E2 /* MNOEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOEmpty.m; sourceTree = "<group>"; };
+		15626A4718FF1CFB00BCC5E2 /* MNOCustomUnwind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCustomUnwind.h; sourceTree = "<group>"; };
+		15626A4818FF1CFB00BCC5E2 /* MNOCustomUnwind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCustomUnwind.m; sourceTree = "<group>"; };
+		15626A4A18FF1CFB00BCC5E2 /* MNOWidgetSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOWidgetSegue.h; sourceTree = "<group>"; };
+		15626A4B18FF1CFB00BCC5E2 /* MNOWidgetSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOWidgetSegue.m; sourceTree = "<group>"; };
+		15626A4D18FF1CFB00BCC5E2 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		15626A4E18FF1CFB00BCC5E2 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		15626A5218FF1CFB00BCC5E2 /* MNODashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNODashboardView.h; sourceTree = "<group>"; };
+		15626A5318FF1CFB00BCC5E2 /* MNODashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNODashboardView.m; sourceTree = "<group>"; };
+		15626A5618FF1CFB00BCC5E2 /* MNOGreenTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOGreenTriangle.h; sourceTree = "<group>"; };
+		15626A5718FF1CFB00BCC5E2 /* MNOGreenTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOGreenTriangle.m; sourceTree = "<group>"; };
+		15626A5818FF1CFB00BCC5E2 /* MNOAppMallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppMallView.h; sourceTree = "<group>"; };
+		15626A5918FF1CFB00BCC5E2 /* MNOAppMallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppMallView.m; sourceTree = "<group>"; };
+		15626A5A18FF1CFB00BCC5E2 /* MNOAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppView.h; sourceTree = "<group>"; };
+		15626A5B18FF1CFB00BCC5E2 /* MNOAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppView.m; sourceTree = "<group>"; };
+		15626A5C18FF1CFB00BCC5E2 /* MNOAppViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppViewDelegate.h; sourceTree = "<group>"; };
+		15626A6718FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCustomIOS7AlertView.h; sourceTree = "<group>"; };
+		15626A6818FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCustomIOS7AlertView.m; sourceTree = "<group>"; };
+		15626A6B18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppLauncherDashboardView.h; sourceTree = "<group>"; };
+		15626A6C18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppLauncherDashboardView.m; sourceTree = "<group>"; };
+		15626A6E18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppLauncherWidgetView.h; sourceTree = "<group>"; };
+		15626A6F18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppLauncherWidgetView.m; sourceTree = "<group>"; };
+		15626A7218FF1CFB00BCC5E2 /* MNOIntentGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentGrid.h; sourceTree = "<group>"; };
+		15626A7318FF1CFB00BCC5E2 /* MNOIntentGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOIntentGrid.m; sourceTree = "<group>"; };
+		15626A7418FF1CFB00BCC5E2 /* MNOIntentGridDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentGridDelegate.h; sourceTree = "<group>"; };
+		15626A7518FF1CFB00BCC5E2 /* MNOAppsMallGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppsMallGridView.h; sourceTree = "<group>"; };
+		15626A7618FF1CFB00BCC5E2 /* MNOAppsMallGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsMallGridView.m; sourceTree = "<group>"; };
+		15626A7718FF1CFB00BCC5E2 /* MNOCustomGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCustomGridView.h; sourceTree = "<group>"; };
+		15626A7818FF1CFB00BCC5E2 /* MNOCustomGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCustomGridView.m; sourceTree = "<group>"; };
+		15626A7918FF1CFB00BCC5E2 /* MNOCustomGridViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCustomGridViewDelegate.h; sourceTree = "<group>"; };
+		15626A7C18FF1CFB00BCC5E2 /* MNOCenterMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCenterMenuView.h; sourceTree = "<group>"; };
+		15626A7D18FF1CFB00BCC5E2 /* MNOCenterMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCenterMenuView.m; sourceTree = "<group>"; };
+		15626A7E18FF1CFB00BCC5E2 /* MNOMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMenuView.h; sourceTree = "<group>"; };
+		15626A7F18FF1CFB00BCC5E2 /* MNOMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMenuView.m; sourceTree = "<group>"; };
+		15626A8018FF1CFB00BCC5E2 /* MNOMenuViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMenuViewDelegate.h; sourceTree = "<group>"; };
+		15626A8218FF1CFB00BCC5E2 /* MNOTopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOTopMenuView.h; sourceTree = "<group>"; };
+		15626A8318FF1CFB00BCC5E2 /* MNOTopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOTopMenuView.m; sourceTree = "<group>"; };
+		15626A8618FF1CFB00BCC5E2 /* MNOIntentSwiperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentSwiperView.h; sourceTree = "<group>"; };
+		15626A8718FF1CFB00BCC5E2 /* MNOIntentSwiperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOIntentSwiperView.m; sourceTree = "<group>"; };
+		15626A8818FF1CFB00BCC5E2 /* MNOSwiperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOSwiperView.h; sourceTree = "<group>"; };
+		15626A8918FF1CFB00BCC5E2 /* MNOSwiperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOSwiperView.m; sourceTree = "<group>"; };
+		15626A8A18FF1CFB00BCC5E2 /* MNOSwiperViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOSwiperViewDelegate.h; sourceTree = "<group>"; };
+		15626A8C18FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+OzoneWebView.h"; sourceTree = "<group>"; };
+		15626A8D18FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+OzoneWebView.m"; sourceTree = "<group>"; };
+		15626ADE18FF2A7E00BCC5E2 /* MNOIntentsProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentsProcessor.h; sourceTree = "<group>"; };
+		15626ADF18FF2A7E00BCC5E2 /* MNOIntentsProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOIntentsProcessor.m; sourceTree = "<group>"; };
+		15626AE118FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOPersistentStorageProcessor.h; sourceTree = "<group>"; };
+		15626AE218FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOPersistentStorageProcessor.m; sourceTree = "<group>"; };
+		15626AE418FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOPublishSubscribeProcessor.h; sourceTree = "<group>"; };
+		15626AE518FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOPublishSubscribeProcessor.m; sourceTree = "<group>"; };
+		15626AE718FF2A7E00BCC5E2 /* MNOAPIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAPIResponse.h; sourceTree = "<group>"; };
+		15626AE818FF2A7E00BCC5E2 /* MNOAPIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAPIResponse.m; sourceTree = "<group>"; };
+		15626AEA18FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAPITypeAndMethod.h; sourceTree = "<group>"; };
+		15626AEB18FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAPITypeAndMethod.m; sourceTree = "<group>"; };
+		15626AEC18FF2A7E00BCC5E2 /* MNORouteRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNORouteRequestManager.h; sourceTree = "<group>"; };
+		15626AED18FF2A7E00BCC5E2 /* MNORouteRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNORouteRequestManager.m; sourceTree = "<group>"; };
+		156779511901DF630040836C /* MNOAccelerometerProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAccelerometerProcessor.h; sourceTree = "<group>"; };
+		156779521901DF630040836C /* MNOAccelerometerProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAccelerometerProcessor.m; sourceTree = "<group>"; };
+		156779541901DF640040836C /* MNOBatteryProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOBatteryProcessor.h; sourceTree = "<group>"; };
+		156779551901DF640040836C /* MNOBatteryProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOBatteryProcessor.m; sourceTree = "<group>"; };
+		156779571901DF640040836C /* MNOLocationProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOLocationProcessor.h; sourceTree = "<group>"; };
+		156779581901DF640040836C /* MNOLocationProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOLocationProcessor.m; sourceTree = "<group>"; };
+		1567795D1901DF7A0040836C /* MNOAccelerometerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAccelerometerManager.h; sourceTree = "<group>"; };
+		1567795E1901DF7A0040836C /* MNOAccelerometerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAccelerometerManager.m; sourceTree = "<group>"; };
+		156779601901DF7A0040836C /* MNOBatteryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOBatteryManager.h; sourceTree = "<group>"; };
+		156779611901DF7A0040836C /* MNOBatteryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOBatteryManager.m; sourceTree = "<group>"; };
+		156779631901DF7A0040836C /* MNOLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOLocationManager.h; sourceTree = "<group>"; };
+		156779641901DF7A0040836C /* MNOLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOLocationManager.m; sourceTree = "<group>"; };
+		156779651901DF7A0040836C /* MNOLocationManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOLocationManagerDelegate.h; sourceTree = "<group>"; };
+		156779661901DF7A0040836C /* MNOLocationManagerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOLocationManagerDelegate.m; sourceTree = "<group>"; };
+		1567796C1901DF850040836C /* MNOAuthenticationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAuthenticationHandler.h; sourceTree = "<group>"; };
+		1567796D1901DF850040836C /* MNOAuthenticationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAuthenticationHandler.m; sourceTree = "<group>"; };
+		1567796E1901DF850040836C /* MNOUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOUtil.h; sourceTree = "<group>"; };
+		1567796F1901DF850040836C /* MNOUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOUtil.m; sourceTree = "<group>"; };
+		156779751901DF950040836C /* MNOSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOSettings.h; sourceTree = "<group>"; };
+		156779761901DF950040836C /* MNOSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOSettings.m; sourceTree = "<group>"; };
+		1567797C1901DFA60040836C /* MNOIntentSubscriberSaved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentSubscriberSaved.h; sourceTree = "<group>"; };
+		1567797D1901DFA60040836C /* MNOIntentSubscriberSaved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOIntentSubscriberSaved.m; sourceTree = "<group>"; };
+		156779801901DFA60040836C /* MNOIntentWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentWrapper.h; sourceTree = "<group>"; };
+		156779811901DFA60040836C /* MNOIntentWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOIntentWrapper.m; sourceTree = "<group>"; };
+		1567798C1901DFE80040836C /* MNOGridHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOGridHeaderView.h; sourceTree = "<group>"; };
+		1567798D1901DFE80040836C /* MNOGridHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOGridHeaderView.m; sourceTree = "<group>"; };
+		1567798E1901DFE80040836C /* MNOGridHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MNOGridHeaderView.xib; sourceTree = "<group>"; };
+		156779921901E3530040836C /* MNOIntentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOIntentHandler.h; sourceTree = "<group>"; };
+		156779931901E3530040836C /* MNOIntentHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOIntentHandler.m; sourceTree = "<group>"; };
+		157755F4190FE7CA009DE672 /* CacheUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUtils.h; sourceTree = "<group>"; };
+		157755F5190FE7CA009DE672 /* CacheUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUtils.m; sourceTree = "<group>"; };
+		157755F7190FE7CA009DE672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		157755FE190FE7CA009DE672 /* MonoTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MonoTests-Info.plist"; sourceTree = "<group>"; };
+		157755FF190FE7CA009DE672 /* TestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUtils.h; sourceTree = "<group>"; };
+		15775600190FE7CA009DE672 /* TestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtils.m; sourceTree = "<group>"; };
+		15775614190FED94009DE672 /* BatteryManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryManagerTests.m; sourceTree = "<group>"; };
+		15775615190FED94009DE672 /* GPSManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSManagerTests.m; sourceTree = "<group>"; };
+		15775616190FED94009DE672 /* MNOMapCacheManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMapCacheManagerTests.m; sourceTree = "<group>"; };
+		15775617190FED94009DE672 /* MNOAPIProcessingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAPIProcessingTests.m; sourceTree = "<group>"; };
+		15775618190FED94009DE672 /* MNODatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNODatabaseTests.m; sourceTree = "<group>"; };
+		1577561A190FED94009DE672 /* MNORequestRouterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNORequestRouterTests.m; sourceTree = "<group>"; };
+		157BA3751922555F0058F296 /* MNOAppsMall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppsMall.h; sourceTree = "<group>"; };
+		157BA3761922555F0058F296 /* MNOAppsMall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsMall.m; sourceTree = "<group>"; };
+		157BA3781922718E0058F296 /* MNOAppsMallTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsMallTests.m; sourceTree = "<group>"; };
+		157D8117192532BE00A67941 /* MNOHeaderBarProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOHeaderBarProcessor.h; sourceTree = "<group>"; };
+		157D8118192532BE00A67941 /* MNOHeaderBarProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOHeaderBarProcessor.m; sourceTree = "<group>"; };
+		157D811D192558E000A67941 /* testAdd1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAdd1.txt; sourceTree = "<group>"; };
+		157D811E192558E000A67941 /* testAdd2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAdd2.txt; sourceTree = "<group>"; };
+		157D8120192558E000A67941 /* testDelete1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testDelete1.txt; sourceTree = "<group>"; };
+		157D8121192558E000A67941 /* testDelete2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testDelete2.txt; sourceTree = "<group>"; };
+		157D8123192558E000A67941 /* testUpdate1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testUpdate1.txt; sourceTree = "<group>"; };
+		157D8124192558E000A67941 /* testUpdate2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testUpdate2.txt; sourceTree = "<group>"; };
+		157D813719255BEE00A67941 /* group.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = group.txt; sourceTree = "<group>"; };
+		157D813819255BEE00A67941 /* whoami.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whoami.txt; sourceTree = "<group>"; };
+		157D813B19255BF400A67941 /* dashboard.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dashboard.txt; sourceTree = "<group>"; };
+		157D813C19255BF400A67941 /* widgetList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = widgetList.txt; sourceTree = "<group>"; };
+		1584F914191BBC0100640438 /* MNOAccountManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAccountManagerTests.m; sourceTree = "<group>"; };
+		1584F917191BC5FA00640438 /* MNOChromeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOChromeButton.h; sourceTree = "<group>"; };
+		1584F918191BC5FA00640438 /* MNOChromeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOChromeButton.m; sourceTree = "<group>"; };
+		1584F919191BC5FA00640438 /* MNOChromeDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOChromeDrawer.h; sourceTree = "<group>"; };
+		1584F91A191BC5FA00640438 /* MNOChromeDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOChromeDrawer.m; sourceTree = "<group>"; };
+		1587691D1921434F007E2B41 /* MNOAppsMallStorefrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppsMallStorefrontViewController.h; sourceTree = "<group>"; };
+		1587691E1921434F007E2B41 /* MNOAppsMallStorefrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsMallStorefrontViewController.m; sourceTree = "<group>"; };
+		158769241921755A007E2B41 /* MNOAppsMallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAppsMallManager.h; sourceTree = "<group>"; };
+		158769251921755A007E2B41 /* MNOAppsMallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAppsMallManager.m; sourceTree = "<group>"; };
+		158CA7F519117E85005D9581 /* MNONetworkWrapperProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNONetworkWrapperProtocol.h; sourceTree = "<group>"; };
+		158CA7F619117E85005D9581 /* MNONetworkWrapperProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNONetworkWrapperProtocol.m; sourceTree = "<group>"; };
+		15A45B4D1917FAAF0075CE40 /* svaughn.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = svaughn.p12; sourceTree = "<group>"; };
+		15A6489C19376DFB00CC0CD3 /* MNOLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOLoginInfo.h; sourceTree = "<group>"; };
+		15A6489D19376DFB00CC0CD3 /* MNOLoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOLoginInfo.m; sourceTree = "<group>"; };
+		15A662ED191D0C6D00E72BCE /* mwilson.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mwilson.p12; sourceTree = "<group>"; };
+		15A662EF191D0DA600E72BCE /* ext_tool_sprites.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ext_tool_sprites.gif; sourceTree = "<group>"; };
+		15A662F1191D0DCB00E72BCE /* ic_action_overflow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_overflow.png; sourceTree = "<group>"; };
+		15AD353E192D319100ED7C87 /* MNOConnectivityProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOConnectivityProcessor.h; sourceTree = "<group>"; };
+		15AD353F192D319100ED7C87 /* MNOConnectivityProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOConnectivityProcessor.m; sourceTree = "<group>"; };
+		15B41FFE1911A0DC002B58F8 /* MNOAggressiveCacheDelegateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOAggressiveCacheDelegateTest.h; sourceTree = "<group>"; };
+		15B41FFF1911A0DC002B58F8 /* MNOAggressiveCacheDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAggressiveCacheDelegateTest.m; sourceTree = "<group>"; };
+		15B420001911A0DC002B58F8 /* MNOAggressiveCacheTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOAggressiveCacheTests.m; sourceTree = "<group>"; };
+		15B6472019094DED00BF0A2E /* MNOTileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOTileInfo.h; sourceTree = "<group>"; };
+		15B6472119094DED00BF0A2E /* MNOTileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOTileInfo.m; sourceTree = "<group>"; };
+		15BA0D38194B481F00A4F130 /* arrow_down_white_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down_white_@2x.png"; sourceTree = "<group>"; };
+		15BA0D39194B481F00A4F130 /* arrow_up_white_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up_white_@2x.png"; sourceTree = "<group>"; };
+		15BA0D3C194B603500A4F130 /* sprite_icons_320x320_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprite_icons_320x320_@2x.png"; sourceTree = "<group>"; };
+		15C10AD4192BE49300437D04 /* MNOReachabilityManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOReachabilityManagerTests.m; sourceTree = "<group>"; };
+		15CEFED81908417B007FF6AD /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		6F12BD50188EF12400D8CB8B /* Mono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F12BD53188EF12400D8CB8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F12BD55188EF12400D8CB8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F12BD57188EF12400D8CB8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F12BD74188EF12500D8CB8B /* MonoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F12BD75188EF12500D8CB8B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F1670E3193D535500F400E2 /* icon_sync_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_sync_@2x.png"; path = "AppIcons/icon_sync_@2x.png"; sourceTree = "<group>"; };
+		6F1670E9193FF7CB00F400E2 /* MNOSyncDashboardOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOSyncDashboardOp.h; path = Concurrency/MNOSyncDashboardOp.h; sourceTree = "<group>"; };
+		6F1670EA193FF7CB00F400E2 /* MNOSyncDashboardOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOSyncDashboardOp.m; path = Concurrency/MNOSyncDashboardOp.m; sourceTree = "<group>"; };
+		6F1670EC193FF7F200F400E2 /* MNOSyncWidgetsOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOSyncWidgetsOp.h; path = Concurrency/MNOSyncWidgetsOp.h; sourceTree = "<group>"; };
+		6F1670ED193FF7F200F400E2 /* MNOSyncWidgetsOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOSyncWidgetsOp.m; path = Concurrency/MNOSyncWidgetsOp.m; sourceTree = "<group>"; };
+		6F1670F21940A79E00F400E2 /* MNOSyncWidgetsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOSyncWidgetsTest.m; path = SyncWidgets/MNOSyncWidgetsTest.m; sourceTree = "<group>"; };
+		6F238669195A36FA006EC9AC /* MNOUpdateCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOUpdateCache.h; sourceTree = "<group>"; };
+		6F23866A195A36FA006EC9AC /* MNOUpdateCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOUpdateCache.m; sourceTree = "<group>"; };
+		6F361A2A1923F76C0086160F /* MNOSyncDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOSyncDashboardViewController.h; path = MNOSyncDashboardViewController/MNOSyncDashboardViewController.h; sourceTree = "<group>"; };
+		6F361A2B1923F76C0086160F /* MNOSyncDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOSyncDashboardViewController.m; path = MNOSyncDashboardViewController/MNOSyncDashboardViewController.m; sourceTree = "<group>"; };
+		6F361A2E1923F7940086160F /* MNOIntentSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOIntentSettingsViewController.h; path = MNOIntentSettingsViewController/MNOIntentSettingsViewController.h; sourceTree = "<group>"; };
+		6F361A2F1923F7940086160F /* MNOIntentSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOIntentSettingsViewController.m; path = MNOIntentSettingsViewController/MNOIntentSettingsViewController.m; sourceTree = "<group>"; };
+		6F361A351923F7DE0086160F /* MNOAggressiveCacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOAggressiveCacheViewController.h; path = MNOAggressiveCacheViewController/MNOAggressiveCacheViewController.h; sourceTree = "<group>"; };
+		6F361A361923F7DE0086160F /* MNOAggressiveCacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOAggressiveCacheViewController.m; path = MNOAggressiveCacheViewController/MNOAggressiveCacheViewController.m; sourceTree = "<group>"; };
+		6F4E9A0E191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+XCTestCaseExt.h"; sourceTree = "<group>"; };
+		6F4E9A0F191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+XCTestCaseExt.m"; sourceTree = "<group>"; };
+		6F4E9A12191C092B00B6B2E5 /* MNOLogInTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOLogInTests.m; sourceTree = "<group>"; };
+		6F4E9A15191C099000B6B2E5 /* MNOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOLoginViewController.h; sourceTree = "<group>"; };
+		6F4E9A16191C099000B6B2E5 /* MNOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOLoginViewController.m; sourceTree = "<group>"; };
+		6F4E9A18191C0A1100B6B2E5 /* echaney.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = echaney.p12; sourceTree = "<group>"; };
+		6F4E9A1D191C7B7300B6B2E5 /* MNOTestDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOTestDB.h; path = SampleTestDBs/MNOTestDB.h; sourceTree = "<group>"; };
+		6F4E9A1E191C7B7300B6B2E5 /* MNOTestDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOTestDB.m; path = SampleTestDBs/MNOTestDB.m; sourceTree = "<group>"; };
+		6F51E7CA1921867A00BBA01D /* MNOSyncDashboardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOSyncDashboardTests.m; path = MNOSyncDashboardTests/MNOSyncDashboardTests.m; sourceTree = "<group>"; };
+		6F5A63E719537DF9008A43A6 /* MNOCachedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCachedData.h; sourceTree = "<group>"; };
+		6F5A63E819537DF9008A43A6 /* MNOCachedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCachedData.m; sourceTree = "<group>"; };
+		6F8593A418A043B700A004FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F8593A618A043D300A004FA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6F872A0819477D010005C6E2 /* logo_ozone_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_ozone_@2x.png"; sourceTree = "<group>"; };
+		6FA2539A18ABD28300EC96BB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6FA253C418B1CB4600EC96BB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6FA253C618B1CB5900EC96BB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6FB2576E18E9BBD70076735B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FBA7F3B190FF4100027F169 /* RNCachedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCachedData.h; path = Libraries/RNCachedData/RNCachedData.h; sourceTree = SOURCE_ROOT; };
+		6FBA7F3C190FF4100027F169 /* RNCachedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCachedData.m; path = Libraries/RNCachedData/RNCachedData.m; sourceTree = SOURCE_ROOT; };
+		6FBA7F3F190FF4460027F169 /* MNOAggressiveCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOAggressiveCache.h; path = AggressiveCache/MNOAggressiveCache.h; sourceTree = "<group>"; };
+		6FBA7F40190FF4460027F169 /* MNOAggressiveCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOAggressiveCache.m; path = AggressiveCache/MNOAggressiveCache.m; sourceTree = "<group>"; };
+		6FBA7F41190FF4460027F169 /* MNOAggressiveCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOAggressiveCacheDelegate.h; path = AggressiveCache/MNOAggressiveCacheDelegate.h; sourceTree = "<group>"; };
+		6FBA8D39194785CB0024C39F /* icon_signout_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_signout_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D3B194785EE0024C39F /* icon_user_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_user_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D3D194786070024C39F /* icon_settings_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_settings_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D3F1947861A0024C39F /* icon_notification_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_notification_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D41194786340024C39F /* icon_chats_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_chats_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D43194786430024C39F /* icon_applauncher_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_applauncher_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D45194787790024C39F /* icon_menu_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_menu_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D4B1947C64D0024C39F /* app_mall_default_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_mall_default_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D4D1948ACA80024C39F /* radio_off_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_off_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D4E1948ACA80024C39F /* radio_on_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_on_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D51194A5D1A0024C39F /* icon_mobileready_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mobileready_@2x.png"; sourceTree = "<group>"; };
+		6FBA8D54194A5E620024C39F /* MNOAppSwiperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNOAppSwiperView.h; path = AppSwiperViews/MNOAppSwiperView.h; sourceTree = "<group>"; };
+		6FBA8D55194A5E620024C39F /* MNOAppSwiperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNOAppSwiperView.m; path = AppSwiperViews/MNOAppSwiperView.m; sourceTree = "<group>"; };
+		ACDDBE513FFB466AA3C16FA7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B026790019117D0200B41CC0 /* MNOOpenAMAuthenticationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOOpenAMAuthenticationManager.h; sourceTree = "<group>"; };
+		B026790119117D0200B41CC0 /* MNOOpenAMAuthenticationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOOpenAMAuthenticationManager.m; sourceTree = "<group>"; };
+		B085C1ED19271167002AD1C8 /* MNOOpenAMAuthenticationManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOOpenAMAuthenticationManagerTests.m; sourceTree = "<group>"; };
+		B085C1F1192B878D002AD1C8 /* MNOHttpStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOHttpStackTests.m; sourceTree = "<group>"; };
+		B085C2311934CFDE002AD1C8 /* Server.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Server.plist; sourceTree = "<group>"; };
+		B085C2341934CFF9002AD1C8 /* MNOModalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOModalManager.h; sourceTree = "<group>"; };
+		B085C2351934CFF9002AD1C8 /* MNOModalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOModalManager.m; sourceTree = "<group>"; };
+		B085C2381934D01D002AD1C8 /* MNOModalProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOModalProcessor.h; sourceTree = "<group>"; };
+		B085C2391934D01D002AD1C8 /* MNOModalProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOModalProcessor.m; sourceTree = "<group>"; };
+		B085C23C1934D05C002AD1C8 /* MNOSyncDashboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOSyncDashboardManager.h; sourceTree = "<group>"; };
+		B085C23D1934D05C002AD1C8 /* MNOSyncDashboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOSyncDashboardManager.m; sourceTree = "<group>"; };
+		B085C23F1934D05C002AD1C8 /* MNOUserDownloadService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOUserDownloadService.h; sourceTree = "<group>"; };
+		B085C2401934D05C002AD1C8 /* MNOUserDownloadService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOUserDownloadService.m; sourceTree = "<group>"; };
+		B7BE3E0E2C6B479BAA2FF0B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE537196192305590092EE60 /* MNONotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNONotificationManager.h; sourceTree = "<group>"; };
+		BE537197192305590092EE60 /* MNONotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNONotificationManager.m; sourceTree = "<group>"; };
+		BE537199192305780092EE60 /* MNONotificationProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNONotificationProcessor.h; sourceTree = "<group>"; };
+		BE53719A192305780092EE60 /* MNONotificationProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNONotificationProcessor.m; sourceTree = "<group>"; };
+		BE53719D1923DBC90092EE60 /* icon_mobile_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mobile_phone.png; sourceTree = "<group>"; };
+		BE81B6721924FAFC00C9FFFA /* MNOConfigurationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNOConfigurationManager.h; sourceTree = "<group>"; };
+		BE81B6731924FBDD00C9FFFA /* MNOConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOConfigurationManager.m; sourceTree = "<group>"; };
+		BE81B6781925098900C9FFFA /* NSURLRequest+NSURLRequestSSLY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+NSURLRequestSSLY.h"; sourceTree = "<group>"; };
+		BE81B679192509AE00C9FFFA /* NSURLRequest+NSURLRequestSSLY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+NSURLRequestSSLY.m"; sourceTree = "<group>"; };
+		F0A1FF81190567EE009D9C07 /* MNOCacheProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOCacheProcessor.h; sourceTree = "<group>"; };
+		F0A1FF82190567EE009D9C07 /* MNOCacheProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOCacheProcessor.m; sourceTree = "<group>"; };
+		F0A1FF9B19056A09009D9C07 /* MNOMemoryCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOMemoryCacheManager.h; sourceTree = "<group>"; };
+		F0A1FF9C19056A09009D9C07 /* MNOMemoryCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOMemoryCacheManager.m; sourceTree = "<group>"; };
+		F0A1FF9E19056AC0009D9C07 /* MNOPersistentCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOPersistentCacheManager.h; sourceTree = "<group>"; };
+		F0A1FF9F19056AC0009D9C07 /* MNOPersistentCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOPersistentCacheManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F12BD4D188EF12400D8CB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB2576F18E9BBD70076735B /* QuartzCore.framework in Frameworks */,
+				6FA253C518B1CB4600EC96BB /* CoreData.framework in Frameworks */,
+				6FA2539B18ABD28300EC96BB /* Security.framework in Frameworks */,
+				6F8593A718A043D300A004FA /* MobileCoreServices.framework in Frameworks */,
+				6F8593A518A043B700A004FA /* SystemConfiguration.framework in Frameworks */,
+				6F12BD56188EF12400D8CB8B /* CoreGraphics.framework in Frameworks */,
+				6F12BD58188EF12400D8CB8B /* UIKit.framework in Frameworks */,
+				6F12BD54188EF12400D8CB8B /* Foundation.framework in Frameworks */,
+				9EEF58561D7449EB8A318C5D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12BD71188EF12500D8CB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F12BD76188EF12500D8CB8B /* XCTest.framework in Frameworks */,
+				6F12BD78188EF12500D8CB8B /* UIKit.framework in Frameworks */,
+				6F12BD77188EF12500D8CB8B /* Foundation.framework in Frameworks */,
+				CC47B4B16AFE4A0180926A65 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1502FF031936205B00A0612F /* CertSelector */ = {
+			isa = PBXGroup;
+			children = (
+				1502FF04193620B400A0612F /* MNOCertSelectorViewController.h */,
+				1502FF05193620B400A0612F /* MNOCertSelectorViewController.m */,
+			);
+			path = CertSelector;
+			sourceTree = "<group>";
+		};
+		150AADE619000C0E0031A053 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				150AADE719000C0E0031A053 /* MNOAccountViewController.h */,
+				150AADE819000C0E0031A053 /* MNOAccountViewController.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		150AADE919000C0E0031A053 /* AppLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				150AADEA19000C0E0031A053 /* MNOAppLauncherViewController.h */,
+				150AADEB19000C0E0031A053 /* MNOAppLauncherViewController.m */,
+			);
+			path = AppLauncher;
+			sourceTree = "<group>";
+		};
+		150AADEC19000C0E0031A053 /* AppsBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				150AADED19000C0E0031A053 /* MNOAppsBuilderViewController.h */,
+				150AADEE19000C0E0031A053 /* MNOAppsBuilderViewController.m */,
+			);
+			path = AppsBuilder;
+			sourceTree = "<group>";
+		};
+		150AADEF19000C0E0031A053 /* AppsMall */ = {
+			isa = PBXGroup;
+			children = (
+				150AADF019000C0E0031A053 /* MNOAppsMallViewController.h */,
+				150AADF119000C0E0031A053 /* MNOAppsMallViewController.m */,
+				1587691D1921434F007E2B41 /* MNOAppsMallStorefrontViewController.h */,
+				1587691E1921434F007E2B41 /* MNOAppsMallStorefrontViewController.m */,
+			);
+			path = AppsMall;
+			sourceTree = "<group>";
+		};
+		150AADF519000C0E0031A053 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				150AADF619000C0E0031A053 /* MNOContainerViewController.h */,
+				150AADF719000C0E0031A053 /* MNOContainerViewController.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		150AADF819000C0E0031A053 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				156779911901E3530040836C /* Intents */,
+				150AADF919000C0E0031A053 /* MNODashboardViewController.h */,
+				150AADFA19000C0E0031A053 /* MNODashboardViewController.m */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		150AADFB19000C0E0031A053 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				150AADFC19000C0E0031A053 /* MNOMainViewController.h */,
+				150AADFD19000C0E0031A053 /* MNOMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		150AAE0119000C0E0031A053 /* OzoneWebView */ = {
+			isa = PBXGroup;
+			children = (
+				150AAE0219000C0E0031A053 /* MNOOzoneWebViewController.h */,
+				150AAE0319000C0E0031A053 /* MNOOzoneWebViewController.m */,
+			);
+			path = OzoneWebView;
+			sourceTree = "<group>";
+		};
+		150AAE0419000C0E0031A053 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6F361A311923F79A0086160F /* MNOAggressiveCacheViewController */,
+				6F361A2D1923F7720086160F /* MNOIntentSettingsViewController */,
+				6F361A291923F7470086160F /* MNOSyncDashboardViewController */,
+				150AAE0519000C0E0031A053 /* MNOSettingsViewController.h */,
+				150AAE0619000C0E0031A053 /* MNOSettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		150AAE0719000C0E0031A053 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				150AAE0819000C0E0031A053 /* MNOWidgetViewController.h */,
+				150AAE0919000C0E0031A053 /* MNOWidgetViewController.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		1518329B190ACCBB009A661C /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				6F872A0819477D010005C6E2 /* logo_ozone_@2x.png */,
+				1518329C190ACCBB009A661C /* icon_ozone_29x29.png */,
+				1518329D190ACCBB009A661C /* icon_ozone_29x29@2x.png */,
+				1518329E190ACCBB009A661C /* icon_ozone_40x40.png */,
+				1518329F190ACCBB009A661C /* icon_ozone_40x40@2x.png */,
+				151832A0190ACCBB009A661C /* icon_ozone_57x57.png */,
+				151832A1190ACCBB009A661C /* icon_ozone_57x57@2x.png */,
+				151832A2190ACCBB009A661C /* icon_ozone_60x60@2x.png */,
+				151832A3190ACCBB009A661C /* icon_ozone_72x72.png */,
+				151832A4190ACCBB009A661C /* icon_ozone_72x72@2x.png */,
+				151832A5190ACCBB009A661C /* icon_ozone_76x76.png */,
+				151832A6190ACCBB009A661C /* icon_ozone_76x76@2x.png */,
+				151832A7190ACCBB009A661C /* icon_ozone_@2x.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		152EB873192E8B21005E502B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				152EB874192E8B21005E502B /* NSString+MNOAdditions.h */,
+				152EB875192E8B21005E502B /* NSString+MNOAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1531BEEC1906AEEA00085690 /* MapCache */ = {
+			isa = PBXGroup;
+			children = (
+				1531BEED1906AF1100085690 /* MNOMapCacheProcessor.h */,
+				1531BEEE1906AF1100085690 /* MNOMapCacheProcessor.m */,
+			);
+			path = MapCache;
+			sourceTree = "<group>";
+		};
+		1531BEF01906B20900085690 /* MapCache */ = {
+			isa = PBXGroup;
+			children = (
+				1531BEF11906B23A00085690 /* MNOMapCacheManager.h */,
+				1531BEF21906B23A00085690 /* MNOMapCacheManager.m */,
+				1531BEF41906B78700085690 /* MNOTrackingStatus.h */,
+				1531BEF51906B78700085690 /* MNOTrackingStatus.m */,
+				15B6472019094DED00BF0A2E /* MNOTileInfo.h */,
+				15B6472119094DED00BF0A2E /* MNOTileInfo.m */,
+			);
+			path = MapCache;
+			sourceTree = "<group>";
+		};
+		1531BEF71906BFA400085690 /* MapCaching */ = {
+			isa = PBXGroup;
+			children = (
+				1531BEF81906D39800085690 /* MNOMapTile.h */,
+				1531BEF91906D39800085690 /* MNOMapTile.m */,
+			);
+			path = MapCaching;
+			sourceTree = "<group>";
+		};
+		1531BEFB1906D3EB00085690 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				1531BEFC1906D41400085690 /* NSManagedObject+BaseModel.h */,
+				1531BEFD1906D41400085690 /* NSManagedObject+BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		15503C5318FEF05300CF7F6B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				15503DC918FF10A500CF7F6B /* RNCaching */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		15503D7318FF0E7700CF7F6B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				15503D7418FF0E7700CF7F6B /* Certs */,
+				15503D8318FF0E7700CF7F6B /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		15503D7418FF0E7700CF7F6B /* Certs */ = {
+			isa = PBXGroup;
+			children = (
+				6F4E9A18191C0A1100B6B2E5 /* echaney.p12 */,
+				15A662ED191D0C6D00E72BCE /* mwilson.p12 */,
+				15A45B4D1917FAAF0075CE40 /* svaughn.p12 */,
+				15503D7518FF0E7700CF7F6B /* alerman.p12 */,
+				15503D7618FF0E7700CF7F6B /* bscazzero.p12 */,
+			);
+			path = Certs;
+			sourceTree = "<group>";
+		};
+		15503D8318FF0E7700CF7F6B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15BA0D38194B481F00A4F130 /* arrow_down_white_@2x.png */,
+				15BA0D39194B481F00A4F130 /* arrow_up_white_@2x.png */,
+				6FBA8D51194A5D1A0024C39F /* icon_mobileready_@2x.png */,
+				6FBA8D4D1948ACA80024C39F /* radio_off_@2x.png */,
+				6FBA8D4E1948ACA80024C39F /* radio_on_@2x.png */,
+				6FBA8D4B1947C64D0024C39F /* app_mall_default_@2x.png */,
+				6FBA8D45194787790024C39F /* icon_menu_@2x.png */,
+				6FBA8D43194786430024C39F /* icon_applauncher_@2x.png */,
+				6FBA8D41194786340024C39F /* icon_chats_@2x.png */,
+				6FBA8D3F1947861A0024C39F /* icon_notification_@2x.png */,
+				6FBA8D3D194786070024C39F /* icon_settings_@2x.png */,
+				6FBA8D3B194785EE0024C39F /* icon_user_@2x.png */,
+				6FBA8D39194785CB0024C39F /* icon_signout_@2x.png */,
+				1518329B190ACCBB009A661C /* AppIcons */,
+				6F1670E3193D535500F400E2 /* icon_sync_@2x.png */,
+				15503D8418FF0E7700CF7F6B /* bkg_stripe_dark.png */,
+				15503D8518FF0E7700CF7F6B /* bkg_stripe_light.png */,
+				BE53719D1923DBC90092EE60 /* icon_mobile_phone.png */,
+				15503D8618FF0E7700CF7F6B /* bkg_stripe_rpt.png */,
+				15503D8718FF0E7700CF7F6B /* bkg_stripe_rpt_dark.png */,
+				15A662EF191D0DA600E72BCE /* ext_tool_sprites.gif */,
+				15A662F1191D0DCB00E72BCE /* ic_action_overflow.png */,
+				15503D8818FF0E7700CF7F6B /* icon_add_@2x.png */,
+				15503D8918FF0E7700CF7F6B /* icon_app_@2x.png */,
+				15503D8A18FF0E7700CF7F6B /* icon_appbuilder_@2x.png */,
+				15503D8B18FF0E7700CF7F6B /* icon_appsmall_@2x.png */,
+				15503D8C18FF0E7700CF7F6B /* icon_back_@2x.png */,
+				15503D8D18FF0E7700CF7F6B /* icon_builder_@2x.png */,
+				15503D8F18FF0E7700CF7F6B /* icon_drawer_@2x.png */,
+				15503D9218FF0E7700CF7F6B /* icon_more_@2x.png */,
+				15503D9518FF0E7700CF7F6B /* icon_previewer_@2x.png */,
+				15503D9718FF0E7700CF7F6B /* icon_trash_@2x.png */,
+				15503D9B18FF0E7700CF7F6B /* logo_square_@2x.png */,
+				15BA0D3C194B603500A4F130 /* sprite_icons_320x320_@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		15503DC918FF10A500CF7F6B /* RNCaching */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA7F3B190FF4100027F169 /* RNCachedData.h */,
+				6FBA7F3C190FF4100027F169 /* RNCachedData.m */,
+			);
+			path = RNCaching;
+			sourceTree = "<group>";
+		};
+		1551E9D3190EFBA000577D92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1551E9D4190EFBBD00577D92 /* MNOHttpStack.h */,
+				1551E9D5190EFBBD00577D92 /* MNOHttpStack.m */,
+				150B70D519104292003211FB /* MNOResponse.h */,
+				150B70D619104292003211FB /* MNOResponse.m */,
+				BE81B6781925098900C9FFFA /* NSURLRequest+NSURLRequestSSLY.h */,
+				BE81B679192509AE00C9FFFA /* NSURLRequest+NSURLRequestSSLY.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		156269D118FF1CFA00BCC5E2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				156269D218FF1CFA00BCC5E2 /* InfoPlist.strings */,
+				156269D418FF1CFA00BCC5E2 /* Images.xcassets */,
+				156269D518FF1CFA00BCC5E2 /* MNOAppDelegate.h */,
+				156269D618FF1CFA00BCC5E2 /* MNOAppDelegate.m */,
+				156269D718FF1CFA00BCC5E2 /* MNOmain.m */,
+				156269D818FF1CFA00BCC5E2 /* Mono-Info.plist */,
+				156269D918FF1CFA00BCC5E2 /* Mono-Prefix.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		156269DA18FF1CFA00BCC5E2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				156269DB18FF1CFA00BCC5E2 /* Account */,
+				1567795C1901DF7A0040836C /* Accelerometer */,
+				6FBA7F3E190FF4340027F169 /* AggressiveCache */,
+				158769231921755A007E2B41 /* AppsMall */,
+				B02678FF19117CB200B41CC0 /* Authentication */,
+				1567795F1901DF7A0040836C /* Battery */,
+				156269DE18FF1CFA00BCC5E2 /* Cache */,
+				BE81B6711924FAD700C9FFFA /* Configuration */,
+				156269E118FF1CFA00BCC5E2 /* Database */,
+				156779621901DF7A0040836C /* Location */,
+				1531BEF01906B20900085690 /* MapCache */,
+				B085C2331934CFF9002AD1C8 /* Modal */,
+				BE5371951923053C0092EE60 /* Notification */,
+				156269E618FF1CFA00BCC5E2 /* Protocol */,
+				156269E918FF1CFA00BCC5E2 /* Reachability */,
+				15626ADA18FF2A7E00BCC5E2 /* Router */,
+				B085C23B1934D05C002AD1C8 /* SyncDashboard */,
+				B085C23E1934D05C002AD1C8 /* UserDownloadService */,
+				156269EE18FF1CFB00BCC5E2 /* Widget */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		156269DB18FF1CFA00BCC5E2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				156269DC18FF1CFA00BCC5E2 /* MNOAccountManager.h */,
+				156269DD18FF1CFA00BCC5E2 /* MNOAccountManager.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		156269DE18FF1CFA00BCC5E2 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F0A1FF9E19056AC0009D9C07 /* MNOPersistentCacheManager.h */,
+				F0A1FF9F19056AC0009D9C07 /* MNOPersistentCacheManager.m */,
+				F0A1FF9B19056A09009D9C07 /* MNOMemoryCacheManager.h */,
+				F0A1FF9C19056A09009D9C07 /* MNOMemoryCacheManager.m */,
+				156269DF18FF1CFA00BCC5E2 /* MNONSURLCacheManager.h */,
+				156269E018FF1CFA00BCC5E2 /* MNONSURLCacheManager.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		156269E118FF1CFA00BCC5E2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				156269E218FF1CFA00BCC5E2 /* MNODatabase.h */,
+				156269E318FF1CFA00BCC5E2 /* MNODatabase.m */,
+				156269E418FF1CFA00BCC5E2 /* MNODBManager.h */,
+				156269E518FF1CFA00BCC5E2 /* MNODBManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		156269E618FF1CFA00BCC5E2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				158CA7F519117E85005D9581 /* MNONetworkWrapperProtocol.h */,
+				158CA7F619117E85005D9581 /* MNONetworkWrapperProtocol.m */,
+				156269E718FF1CFA00BCC5E2 /* MNOProtocolManager.h */,
+				156269E818FF1CFA00BCC5E2 /* MNOProtocolManager.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		156269E918FF1CFA00BCC5E2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				156269EC18FF1CFB00BCC5E2 /* MNOReachabilityManager.h */,
+				156269ED18FF1CFB00BCC5E2 /* MNOReachabilityManager.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		156269EE18FF1CFB00BCC5E2 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				156269EF18FF1CFB00BCC5E2 /* MNOWidgetManager.h */,
+				156269F018FF1CFB00BCC5E2 /* MNOWidgetManager.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		156269F118FF1CFB00BCC5E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				157BA3741922555F0058F296 /* AppsMall */,
+				1531BEFB1906D3EB00085690 /* BaseModel */,
+				FE86826BE65DCCAB69016018 /* Caching */,
+				156269F218FF1CFB00BCC5E2 /* Dashboard */,
+				156269F518FF1CFB00BCC5E2 /* Intent */,
+				15A6489A19376D8D00CC0CD3 /* LoginInfo */,
+				1531BEF71906BFA400085690 /* MapCaching */,
+				156269FC18FF1CFB00BCC5E2 /* Mono.xcdatamodeld */,
+				156779721901DF950040836C /* Settings */,
+				156269FE18FF1CFB00BCC5E2 /* Subscriber */,
+				15626A0118FF1CFB00BCC5E2 /* User */,
+				15626A0618FF1CFB00BCC5E2 /* Widget */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		156269F218FF1CFB00BCC5E2 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				156269F318FF1CFB00BCC5E2 /* MNODashboard.h */,
+				156269F418FF1CFB00BCC5E2 /* MNODashboard.m */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		156269F518FF1CFB00BCC5E2 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				1567797C1901DFA60040836C /* MNOIntentSubscriberSaved.h */,
+				1567797D1901DFA60040836C /* MNOIntentSubscriberSaved.m */,
+				156779801901DFA60040836C /* MNOIntentWrapper.h */,
+				156779811901DFA60040836C /* MNOIntentWrapper.m */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		156269FE18FF1CFB00BCC5E2 /* Subscriber */ = {
+			isa = PBXGroup;
+			children = (
+				156269FF18FF1CFB00BCC5E2 /* MNOSubscriber.h */,
+				15626A0018FF1CFB00BCC5E2 /* MNOSubscriber.m */,
+			);
+			path = Subscriber;
+			sourceTree = "<group>";
+		};
+		15626A0118FF1CFB00BCC5E2 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				15626A0218FF1CFB00BCC5E2 /* MNOGroup.h */,
+				15626A0318FF1CFB00BCC5E2 /* MNOGroup.m */,
+				15626A0418FF1CFB00BCC5E2 /* MNOUser.h */,
+				15626A0518FF1CFB00BCC5E2 /* MNOUser.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		15626A0618FF1CFB00BCC5E2 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				15626A0718FF1CFB00BCC5E2 /* MNOWidget.h */,
+				15626A0818FF1CFB00BCC5E2 /* MNOWidget.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		15626A1118FF1CFB00BCC5E2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				15626A1218FF1CFB00BCC5E2 /* MNOAPIProcessor.h */,
+				15626A1318FF1CFB00BCC5E2 /* MNODataAccess.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		15626A2818FF1CFB00BCC5E2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				15626A2918FF1CFB00BCC5E2 /* Controllers */,
+				15626A4218FF1CFB00BCC5E2 /* Segues */,
+				15626A4C18FF1CFB00BCC5E2 /* Storyboards */,
+				15626A4F18FF1CFB00BCC5E2 /* Views */,
+				15626A8B18FF1CFB00BCC5E2 /* WebView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		15626A2918FF1CFB00BCC5E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				150AADE619000C0E0031A053 /* Account */,
+				150AADE919000C0E0031A053 /* AppLauncher */,
+				150AADEC19000C0E0031A053 /* AppsBuilder */,
+				150AADEF19000C0E0031A053 /* AppsMall */,
+				1502FF031936205B00A0612F /* CertSelector */,
+				150AADF519000C0E0031A053 /* Container */,
+				150AADF819000C0E0031A053 /* Dashboard */,
+				6F4E9A14191C099000B6B2E5 /* LogIn */,
+				150AADFB19000C0E0031A053 /* Main */,
+				150AAE0119000C0E0031A053 /* OzoneWebView */,
+				150AAE0419000C0E0031A053 /* Settings */,
+				150AAE0719000C0E0031A053 /* Widget */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		15626A4218FF1CFB00BCC5E2 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				15626A4318FF1CFB00BCC5E2 /* Empty */,
+				15626A4618FF1CFB00BCC5E2 /* Unwind */,
+				15626A4918FF1CFB00BCC5E2 /* Wind */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		15626A4318FF1CFB00BCC5E2 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				15626A4418FF1CFB00BCC5E2 /* MNOEmpty.h */,
+				15626A4518FF1CFB00BCC5E2 /* MNOEmpty.m */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		15626A4618FF1CFB00BCC5E2 /* Unwind */ = {
+			isa = PBXGroup;
+			children = (
+				15626A4718FF1CFB00BCC5E2 /* MNOCustomUnwind.h */,
+				15626A4818FF1CFB00BCC5E2 /* MNOCustomUnwind.m */,
+			);
+			path = Unwind;
+			sourceTree = "<group>";
+		};
+		15626A4918FF1CFB00BCC5E2 /* Wind */ = {
+			isa = PBXGroup;
+			children = (
+				15626A4A18FF1CFB00BCC5E2 /* MNOWidgetSegue.h */,
+				15626A4B18FF1CFB00BCC5E2 /* MNOWidgetSegue.m */,
+			);
+			path = Wind;
+			sourceTree = "<group>";
+		};
+		15626A4C18FF1CFB00BCC5E2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				15626A4D18FF1CFB00BCC5E2 /* Main_iPad.storyboard */,
+				15626A4E18FF1CFB00BCC5E2 /* Main_iPhone.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		15626A4F18FF1CFB00BCC5E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15626A5018FF1CFB00BCC5E2 /* AppView */,
+				1584F916191BC5FA00640438 /* Chrome */,
+				15626A6618FF1CFB00BCC5E2 /* CustomPopUp */,
+				1567798B1901DFE80040836C /* GridHeaderView */,
+				15626A6918FF1CFB00BCC5E2 /* GridView */,
+				15626A7A18FF1CFB00BCC5E2 /* MenuView */,
+				15626A8418FF1CFB00BCC5E2 /* Swiper */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15626A5018FF1CFB00BCC5E2 /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA8D53194A5E0B0024C39F /* AppSwiperViews */,
+				15626A5118FF1CFB00BCC5E2 /* AppsLauncherViews */,
+				15626A5418FF1CFB00BCC5E2 /* AppsMallViews */,
+				15626A5A18FF1CFB00BCC5E2 /* MNOAppView.h */,
+				15626A5B18FF1CFB00BCC5E2 /* MNOAppView.m */,
+				15626A5C18FF1CFB00BCC5E2 /* MNOAppViewDelegate.h */,
+			);
+			path = AppView;
+			sourceTree = "<group>";
+		};
+		15626A5118FF1CFB00BCC5E2 /* AppsLauncherViews */ = {
+			isa = PBXGroup;
+			children = (
+				15626A5218FF1CFB00BCC5E2 /* MNODashboardView.h */,
+				15626A5318FF1CFB00BCC5E2 /* MNODashboardView.m */,
+			);
+			path = AppsLauncherViews;
+			sourceTree = "<group>";
+		};
+		15626A5418FF1CFB00BCC5E2 /* AppsMallViews */ = {
+			isa = PBXGroup;
+			children = (
+				15626A5518FF1CFB00BCC5E2 /* AddedTriangle */,
+				15626A5818FF1CFB00BCC5E2 /* MNOAppMallView.h */,
+				15626A5918FF1CFB00BCC5E2 /* MNOAppMallView.m */,
+			);
+			path = AppsMallViews;
+			sourceTree = "<group>";
+		};
+		15626A5518FF1CFB00BCC5E2 /* AddedTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				15626A5618FF1CFB00BCC5E2 /* MNOGreenTriangle.h */,
+				15626A5718FF1CFB00BCC5E2 /* MNOGreenTriangle.m */,
+			);
+			path = AddedTriangle;
+			sourceTree = "<group>";
+		};
+		15626A6618FF1CFB00BCC5E2 /* CustomPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				15626A6718FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.h */,
+				15626A6818FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.m */,
+			);
+			path = CustomPopUp;
+			sourceTree = "<group>";
+		};
+		15626A6918FF1CFB00BCC5E2 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				15626A6A18FF1CFB00BCC5E2 /* AppLauncherDashboard */,
+				15626A6D18FF1CFB00BCC5E2 /* AppLauncherWidget */,
+				15626A7018FF1CFB00BCC5E2 /* AppsMall */,
+				15626A7718FF1CFB00BCC5E2 /* MNOCustomGridView.h */,
+				15626A7818FF1CFB00BCC5E2 /* MNOCustomGridView.m */,
+				15626A7918FF1CFB00BCC5E2 /* MNOCustomGridViewDelegate.h */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		15626A6A18FF1CFB00BCC5E2 /* AppLauncherDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				15626A6B18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.h */,
+				15626A6C18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.m */,
+			);
+			path = AppLauncherDashboard;
+			sourceTree = "<group>";
+		};
+		15626A6D18FF1CFB00BCC5E2 /* AppLauncherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				15626A6E18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.h */,
+				15626A6F18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.m */,
+			);
+			path = AppLauncherWidget;
+			sourceTree = "<group>";
+		};
+		15626A7018FF1CFB00BCC5E2 /* AppsMall */ = {
+			isa = PBXGroup;
+			children = (
+				15626A7118FF1CFB00BCC5E2 /* IntentGrid */,
+				15626A7518FF1CFB00BCC5E2 /* MNOAppsMallGridView.h */,
+				15626A7618FF1CFB00BCC5E2 /* MNOAppsMallGridView.m */,
+			);
+			path = AppsMall;
+			sourceTree = "<group>";
+		};
+		15626A7118FF1CFB00BCC5E2 /* IntentGrid */ = {
+			isa = PBXGroup;
+			children = (
+				15626A7218FF1CFB00BCC5E2 /* MNOIntentGrid.h */,
+				15626A7318FF1CFB00BCC5E2 /* MNOIntentGrid.m */,
+				15626A7418FF1CFB00BCC5E2 /* MNOIntentGridDelegate.h */,
+			);
+			path = IntentGrid;
+			sourceTree = "<group>";
+		};
+		15626A7A18FF1CFB00BCC5E2 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				15626A7B18FF1CFB00BCC5E2 /* CenterMenu */,
+				15626A7E18FF1CFB00BCC5E2 /* MNOMenuView.h */,
+				15626A7F18FF1CFB00BCC5E2 /* MNOMenuView.m */,
+				15626A8018FF1CFB00BCC5E2 /* MNOMenuViewDelegate.h */,
+				15626A8118FF1CFB00BCC5E2 /* TopMenu */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		15626A7B18FF1CFB00BCC5E2 /* CenterMenu */ = {
+			isa = PBXGroup;
+			children = (
+				15626A7C18FF1CFB00BCC5E2 /* MNOCenterMenuView.h */,
+				15626A7D18FF1CFB00BCC5E2 /* MNOCenterMenuView.m */,
+			);
+			path = CenterMenu;
+			sourceTree = "<group>";
+		};
+		15626A8118FF1CFB00BCC5E2 /* TopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				15626A8218FF1CFB00BCC5E2 /* MNOTopMenuView.h */,
+				15626A8318FF1CFB00BCC5E2 /* MNOTopMenuView.m */,
+			);
+			path = TopMenu;
+			sourceTree = "<group>";
+		};
+		15626A8418FF1CFB00BCC5E2 /* Swiper */ = {
+			isa = PBXGroup;
+			children = (
+				15626A8518FF1CFB00BCC5E2 /* IntentSwiper */,
+				15626A8818FF1CFB00BCC5E2 /* MNOSwiperView.h */,
+				15626A8918FF1CFB00BCC5E2 /* MNOSwiperView.m */,
+				15626A8A18FF1CFB00BCC5E2 /* MNOSwiperViewDelegate.h */,
+			);
+			path = Swiper;
+			sourceTree = "<group>";
+		};
+		15626A8518FF1CFB00BCC5E2 /* IntentSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				15626A8618FF1CFB00BCC5E2 /* MNOIntentSwiperView.h */,
+				15626A8718FF1CFB00BCC5E2 /* MNOIntentSwiperView.m */,
+			);
+			path = IntentSwiper;
+			sourceTree = "<group>";
+		};
+		15626A8B18FF1CFB00BCC5E2 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				15626A8C18FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.h */,
+				15626A8D18FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		15626ADA18FF2A7E00BCC5E2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				15626ADB18FF2A7E00BCC5E2 /* API */,
+				15626AEC18FF2A7E00BCC5E2 /* MNORouteRequestManager.h */,
+				15626AED18FF2A7E00BCC5E2 /* MNORouteRequestManager.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		15626ADB18FF2A7E00BCC5E2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				15626ADC18FF2A7E00BCC5E2 /* Processors */,
+				15626AE618FF2A7E00BCC5E2 /* Response */,
+				15626AE918FF2A7E00BCC5E2 /* TypeAndMethod */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		15626ADC18FF2A7E00BCC5E2 /* Processors */ = {
+			isa = PBXGroup;
+			children = (
+				156779501901DF630040836C /* Accelerometer */,
+				156779531901DF640040836C /* Battery */,
+				FE868D84CBCD5D202F3D3787 /* Caching */,
+				15AD353D192D319100ED7C87 /* Connectivity */,
+				157D8116192532BE00A67941 /* HeaderBar */,
+				15626ADD18FF2A7E00BCC5E2 /* Intents */,
+				1531BEEC1906AEEA00085690 /* MapCache */,
+				B085C2371934D01D002AD1C8 /* Modal */,
+				BE53719C192305800092EE60 /* Notification */,
+				156779561901DF640040836C /* Location */,
+				15626AE018FF2A7E00BCC5E2 /* PersistentStorage */,
+				15626AE318FF2A7E00BCC5E2 /* PublishSubscribe */,
+			);
+			path = Processors;
+			sourceTree = "<group>";
+		};
+		15626ADD18FF2A7E00BCC5E2 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				15626ADE18FF2A7E00BCC5E2 /* MNOIntentsProcessor.h */,
+				15626ADF18FF2A7E00BCC5E2 /* MNOIntentsProcessor.m */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		15626AE018FF2A7E00BCC5E2 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				15626AE118FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.h */,
+				15626AE218FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.m */,
+			);
+			path = PersistentStorage;
+			sourceTree = "<group>";
+		};
+		15626AE318FF2A7E00BCC5E2 /* PublishSubscribe */ = {
+			isa = PBXGroup;
+			children = (
+				15626AE418FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.h */,
+				15626AE518FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.m */,
+			);
+			path = PublishSubscribe;
+			sourceTree = "<group>";
+		};
+		15626AE618FF2A7E00BCC5E2 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				15626AE718FF2A7E00BCC5E2 /* MNOAPIResponse.h */,
+				15626AE818FF2A7E00BCC5E2 /* MNOAPIResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		15626AE918FF2A7E00BCC5E2 /* TypeAndMethod */ = {
+			isa = PBXGroup;
+			children = (
+				15626AEA18FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.h */,
+				15626AEB18FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.m */,
+			);
+			path = TypeAndMethod;
+			sourceTree = "<group>";
+		};
+		156779501901DF630040836C /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				156779511901DF630040836C /* MNOAccelerometerProcessor.h */,
+				156779521901DF630040836C /* MNOAccelerometerProcessor.m */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		156779531901DF640040836C /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				156779541901DF640040836C /* MNOBatteryProcessor.h */,
+				156779551901DF640040836C /* MNOBatteryProcessor.m */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		156779561901DF640040836C /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				156779571901DF640040836C /* MNOLocationProcessor.h */,
+				156779581901DF640040836C /* MNOLocationProcessor.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		1567795C1901DF7A0040836C /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				1567795D1901DF7A0040836C /* MNOAccelerometerManager.h */,
+				1567795E1901DF7A0040836C /* MNOAccelerometerManager.m */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		1567795F1901DF7A0040836C /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				156779601901DF7A0040836C /* MNOBatteryManager.h */,
+				156779611901DF7A0040836C /* MNOBatteryManager.m */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		156779621901DF7A0040836C /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				156779631901DF7A0040836C /* MNOLocationManager.h */,
+				156779641901DF7A0040836C /* MNOLocationManager.m */,
+				156779651901DF7A0040836C /* MNOLocationManagerDelegate.h */,
+				156779661901DF7A0040836C /* MNOLocationManagerDelegate.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		1567796B1901DF850040836C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1567796C1901DF850040836C /* MNOAuthenticationHandler.h */,
+				1567796D1901DF850040836C /* MNOAuthenticationHandler.m */,
+				1567796E1901DF850040836C /* MNOUtil.h */,
+				1567796F1901DF850040836C /* MNOUtil.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		156779721901DF950040836C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				156779751901DF950040836C /* MNOSettings.h */,
+				156779761901DF950040836C /* MNOSettings.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1567798B1901DFE80040836C /* GridHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				1567798C1901DFE80040836C /* MNOGridHeaderView.h */,
+				1567798D1901DFE80040836C /* MNOGridHeaderView.m */,
+				1567798E1901DFE80040836C /* MNOGridHeaderView.xib */,
+			);
+			path = GridHeaderView;
+			sourceTree = "<group>";
+		};
+		156779911901E3530040836C /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				156779921901E3530040836C /* MNOIntentHandler.h */,
+				156779931901E3530040836C /* MNOIntentHandler.m */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		157755F2190FE7CA009DE672 /* MonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1670EF1940A61300F400E2 /* SyncWidgets */,
+				15C10AD4192BE49300437D04 /* MNOReachabilityManagerTests.m */,
+				157D811A192558E000A67941 /* TestData */,
+				6F51E7C71921861000BBA01D /* MNOSyncDashboardTests */,
+				157BA3781922718E0058F296 /* MNOAppsMallTests.m */,
+				6F4E9A1C191C7B4600B6B2E5 /* SampleTestDBs */,
+				15B41FFC1911A0DC002B58F8 /* MNOAggressiveCacheTests */,
+				6F4E9A11191C092B00B6B2E5 /* MNOLogInTests */,
+				6F4E9A0E191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.h */,
+				6F4E9A0F191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.m */,
+				15775614190FED94009DE672 /* BatteryManagerTests.m */,
+				15775615190FED94009DE672 /* GPSManagerTests.m */,
+				1584F914191BBC0100640438 /* MNOAccountManagerTests.m */,
+				15775617190FED94009DE672 /* MNOAPIProcessingTests.m */,
+				15775618190FED94009DE672 /* MNODatabaseTests.m */,
+				15775616190FED94009DE672 /* MNOMapCacheManagerTests.m */,
+				1577561A190FED94009DE672 /* MNORequestRouterTests.m */,
+				157755F4190FE7CA009DE672 /* CacheUtils.h */,
+				157755F5190FE7CA009DE672 /* CacheUtils.m */,
+				157755F6190FE7CA009DE672 /* InfoPlist.strings */,
+				157755FE190FE7CA009DE672 /* MonoTests-Info.plist */,
+				157755FF190FE7CA009DE672 /* TestUtils.h */,
+				15775600190FE7CA009DE672 /* TestUtils.m */,
+				B085C1ED19271167002AD1C8 /* MNOOpenAMAuthenticationManagerTests.m */,
+				B085C1F1192B878D002AD1C8 /* MNOHttpStackTests.m */,
+			);
+			path = MonoTests;
+			sourceTree = "<group>";
+		};
+		157BA3741922555F0058F296 /* AppsMall */ = {
+			isa = PBXGroup;
+			children = (
+				157BA3751922555F0058F296 /* MNOAppsMall.h */,
+				157BA3761922555F0058F296 /* MNOAppsMall.m */,
+			);
+			path = AppsMall;
+			sourceTree = "<group>";
+		};
+		157D8116192532BE00A67941 /* HeaderBar */ = {
+			isa = PBXGroup;
+			children = (
+				157D8117192532BE00A67941 /* MNOHeaderBarProcessor.h */,
+				157D8118192532BE00A67941 /* MNOHeaderBarProcessor.m */,
+			);
+			path = HeaderBar;
+			sourceTree = "<group>";
+		};
+		157D811A192558E000A67941 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				157D811C192558E000A67941 /* testDashboardAdded */,
+				157D811F192558E000A67941 /* testDashboardDeleted */,
+				157D8122192558E000A67941 /* testDashboardUpdated */,
+				157D8125192558E000A67941 /* user */,
+				157D8128192558E000A67941 /* widgets */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		157D811C192558E000A67941 /* testDashboardAdded */ = {
+			isa = PBXGroup;
+			children = (
+				157D811D192558E000A67941 /* testAdd1.txt */,
+				157D811E192558E000A67941 /* testAdd2.txt */,
+			);
+			path = testDashboardAdded;
+			sourceTree = "<group>";
+		};
+		157D811F192558E000A67941 /* testDashboardDeleted */ = {
+			isa = PBXGroup;
+			children = (
+				157D8120192558E000A67941 /* testDelete1.txt */,
+				157D8121192558E000A67941 /* testDelete2.txt */,
+			);
+			path = testDashboardDeleted;
+			sourceTree = "<group>";
+		};
+		157D8122192558E000A67941 /* testDashboardUpdated */ = {
+			isa = PBXGroup;
+			children = (
+				157D8123192558E000A67941 /* testUpdate1.txt */,
+				157D8124192558E000A67941 /* testUpdate2.txt */,
+			);
+			path = testDashboardUpdated;
+			sourceTree = "<group>";
+		};
+		157D8125192558E000A67941 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				157D813719255BEE00A67941 /* group.txt */,
+				157D813819255BEE00A67941 /* whoami.txt */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		157D8128192558E000A67941 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				157D813B19255BF400A67941 /* dashboard.txt */,
+				157D813C19255BF400A67941 /* widgetList.txt */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		1584F916191BC5FA00640438 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				1584F917191BC5FA00640438 /* MNOChromeButton.h */,
+				1584F918191BC5FA00640438 /* MNOChromeButton.m */,
+				1584F919191BC5FA00640438 /* MNOChromeDrawer.h */,
+				1584F91A191BC5FA00640438 /* MNOChromeDrawer.m */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		158769231921755A007E2B41 /* AppsMall */ = {
+			isa = PBXGroup;
+			children = (
+				158769241921755A007E2B41 /* MNOAppsMallManager.h */,
+				158769251921755A007E2B41 /* MNOAppsMallManager.m */,
+			);
+			path = AppsMall;
+			sourceTree = "<group>";
+		};
+		15A6489A19376D8D00CC0CD3 /* LoginInfo */ = {
+			isa = PBXGroup;
+			children = (
+				15A6489C19376DFB00CC0CD3 /* MNOLoginInfo.h */,
+				15A6489D19376DFB00CC0CD3 /* MNOLoginInfo.m */,
+			);
+			path = LoginInfo;
+			sourceTree = "<group>";
+		};
+		15AD353D192D319100ED7C87 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				15AD353E192D319100ED7C87 /* MNOConnectivityProcessor.h */,
+				15AD353F192D319100ED7C87 /* MNOConnectivityProcessor.m */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		15AD3541192D4EA300ED7C87 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		15B41FFC1911A0DC002B58F8 /* MNOAggressiveCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				15B41FFE1911A0DC002B58F8 /* MNOAggressiveCacheDelegateTest.h */,
+				15B41FFF1911A0DC002B58F8 /* MNOAggressiveCacheDelegateTest.m */,
+				15B420001911A0DC002B58F8 /* MNOAggressiveCacheTests.m */,
+			);
+			path = MNOAggressiveCacheTests;
+			sourceTree = "<group>";
+		};
+		6F12BD47188EF12400D8CB8B = {
+			isa = PBXGroup;
+			children = (
+				15AD3541192D4EA300ED7C87 /* iPad */,
+				15503D7318FF0E7700CF7F6B /* Assets */,
+				152EB873192E8B21005E502B /* Categories */,
+				B085C2301934CFDE002AD1C8 /* Configuration */,
+				6F1670E5193D8D2B00F400E2 /* Concurrency */,
+				15503C5318FEF05300CF7F6B /* Libraries */,
+				156269D118FF1CFA00BCC5E2 /* Main */,
+				156269DA18FF1CFA00BCC5E2 /* Managers */,
+				156269F118FF1CFB00BCC5E2 /* Models */,
+				157755F2190FE7CA009DE672 /* MonoTests */,
+				1551E9D3190EFBA000577D92 /* Networking */,
+				6F12BD51188EF12400D8CB8B /* Products */,
+				15626A1118FF1CFB00BCC5E2 /* Protocols */,
+				15626A2818FF1CFB00BCC5E2 /* UI */,
+				1567796B1901DF850040836C /* Utility */,
+				6F12BD51188EF12400D8CB8B /* Products */,
+				6F12BD52188EF12400D8CB8B /* Frameworks */,
+				ACDDBE513FFB466AA3C16FA7 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6F12BD51188EF12400D8CB8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F12BD50188EF12400D8CB8B /* Mono.app */,
+				6F12BD74188EF12500D8CB8B /* MonoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F12BD52188EF12400D8CB8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15CEFED81908417B007FF6AD /* libxml2.2.dylib */,
+				6FB2576E18E9BBD70076735B /* QuartzCore.framework */,
+				15273D4118F46F88009E0F47 /* libsqlite3.dylib */,
+				6FA253C618B1CB5900EC96BB /* SenTestingKit.framework */,
+				6FA253C418B1CB4600EC96BB /* CoreData.framework */,
+				6FA2539A18ABD28300EC96BB /* Security.framework */,
+				6F8593A618A043D300A004FA /* MobileCoreServices.framework */,
+				6F8593A418A043B700A004FA /* SystemConfiguration.framework */,
+				6F12BD53188EF12400D8CB8B /* Foundation.framework */,
+				6F12BD55188EF12400D8CB8B /* CoreGraphics.framework */,
+				6F12BD57188EF12400D8CB8B /* UIKit.framework */,
+				6F12BD75188EF12500D8CB8B /* XCTest.framework */,
+				B7BE3E0E2C6B479BAA2FF0B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F1670E5193D8D2B00F400E2 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				6F1670EC193FF7F200F400E2 /* MNOSyncWidgetsOp.h */,
+				6F1670ED193FF7F200F400E2 /* MNOSyncWidgetsOp.m */,
+				6F1670E9193FF7CB00F400E2 /* MNOSyncDashboardOp.h */,
+				6F1670EA193FF7CB00F400E2 /* MNOSyncDashboardOp.m */,
+				6F238669195A36FA006EC9AC /* MNOUpdateCache.h */,
+				6F23866A195A36FA006EC9AC /* MNOUpdateCache.m */,
+			);
+			name = Concurrency;
+			sourceTree = "<group>";
+		};
+		6F1670EF1940A61300F400E2 /* SyncWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				6F1670F21940A79E00F400E2 /* MNOSyncWidgetsTest.m */,
+			);
+			name = SyncWidgets;
+			sourceTree = "<group>";
+		};
+		6F361A291923F7470086160F /* MNOSyncDashboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F361A2A1923F76C0086160F /* MNOSyncDashboardViewController.h */,
+				6F361A2B1923F76C0086160F /* MNOSyncDashboardViewController.m */,
+			);
+			name = MNOSyncDashboardViewController;
+			sourceTree = "<group>";
+		};
+		6F361A2D1923F7720086160F /* MNOIntentSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F361A2E1923F7940086160F /* MNOIntentSettingsViewController.h */,
+				6F361A2F1923F7940086160F /* MNOIntentSettingsViewController.m */,
+			);
+			name = MNOIntentSettingsViewController;
+			sourceTree = "<group>";
+		};
+		6F361A311923F79A0086160F /* MNOAggressiveCacheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F361A351923F7DE0086160F /* MNOAggressiveCacheViewController.h */,
+				6F361A361923F7DE0086160F /* MNOAggressiveCacheViewController.m */,
+			);
+			name = MNOAggressiveCacheViewController;
+			sourceTree = "<group>";
+		};
+		6F4E9A11191C092B00B6B2E5 /* MNOLogInTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4E9A12191C092B00B6B2E5 /* MNOLogInTests.m */,
+			);
+			path = MNOLogInTests;
+			sourceTree = "<group>";
+		};
+		6F4E9A14191C099000B6B2E5 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				6F4E9A15191C099000B6B2E5 /* MNOLoginViewController.h */,
+				6F4E9A16191C099000B6B2E5 /* MNOLoginViewController.m */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		6F4E9A1C191C7B4600B6B2E5 /* SampleTestDBs */ = {
+			isa = PBXGroup;
+			children = (
+				6F4E9A1D191C7B7300B6B2E5 /* MNOTestDB.h */,
+				6F4E9A1E191C7B7300B6B2E5 /* MNOTestDB.m */,
+			);
+			name = SampleTestDBs;
+			sourceTree = "<group>";
+		};
+		6F51E7C71921861000BBA01D /* MNOSyncDashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F51E7CA1921867A00BBA01D /* MNOSyncDashboardTests.m */,
+			);
+			name = MNOSyncDashboardTests;
+			sourceTree = "<group>";
+		};
+		6FBA7F3E190FF4340027F169 /* AggressiveCache */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA7F3F190FF4460027F169 /* MNOAggressiveCache.h */,
+				6FBA7F40190FF4460027F169 /* MNOAggressiveCache.m */,
+				6FBA7F41190FF4460027F169 /* MNOAggressiveCacheDelegate.h */,
+			);
+			name = AggressiveCache;
+			sourceTree = "<group>";
+		};
+		6FBA8D53194A5E0B0024C39F /* AppSwiperViews */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA8D54194A5E620024C39F /* MNOAppSwiperView.h */,
+				6FBA8D55194A5E620024C39F /* MNOAppSwiperView.m */,
+			);
+			name = AppSwiperViews;
+			sourceTree = "<group>";
+		};
+		B02678FF19117CB200B41CC0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B026790019117D0200B41CC0 /* MNOOpenAMAuthenticationManager.h */,
+				B026790119117D0200B41CC0 /* MNOOpenAMAuthenticationManager.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B085C2301934CFDE002AD1C8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B085C2311934CFDE002AD1C8 /* Server.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		B085C2331934CFF9002AD1C8 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				B085C2341934CFF9002AD1C8 /* MNOModalManager.h */,
+				B085C2351934CFF9002AD1C8 /* MNOModalManager.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		B085C2371934D01D002AD1C8 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				B085C2381934D01D002AD1C8 /* MNOModalProcessor.h */,
+				B085C2391934D01D002AD1C8 /* MNOModalProcessor.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		B085C23B1934D05C002AD1C8 /* SyncDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B085C23C1934D05C002AD1C8 /* MNOSyncDashboardManager.h */,
+				B085C23D1934D05C002AD1C8 /* MNOSyncDashboardManager.m */,
+			);
+			path = SyncDashboard;
+			sourceTree = "<group>";
+		};
+		B085C23E1934D05C002AD1C8 /* UserDownloadService */ = {
+			isa = PBXGroup;
+			children = (
+				B085C23F1934D05C002AD1C8 /* MNOUserDownloadService.h */,
+				B085C2401934D05C002AD1C8 /* MNOUserDownloadService.m */,
+			);
+			path = UserDownloadService;
+			sourceTree = "<group>";
+		};
+		BE5371951923053C0092EE60 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BE537196192305590092EE60 /* MNONotificationManager.h */,
+				BE537197192305590092EE60 /* MNONotificationManager.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		BE53719C192305800092EE60 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BE537199192305780092EE60 /* MNONotificationProcessor.h */,
+				BE53719A192305780092EE60 /* MNONotificationProcessor.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		BE81B6711924FAD700C9FFFA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				BE81B6721924FAFC00C9FFFA /* MNOConfigurationManager.h */,
+				BE81B6731924FBDD00C9FFFA /* MNOConfigurationManager.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		FE86826BE65DCCAB69016018 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A63E719537DF9008A43A6 /* MNOCachedData.h */,
+				6F5A63E819537DF9008A43A6 /* MNOCachedData.m */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
+		FE868D84CBCD5D202F3D3787 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				F0A1FF81190567EE009D9C07 /* MNOCacheProcessor.h */,
+				F0A1FF82190567EE009D9C07 /* MNOCacheProcessor.m */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F12BD4F188EF12400D8CB8B /* Mono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F12BD85188EF12500D8CB8B /* Build configuration list for PBXNativeTarget "Mono" */;
+			buildPhases = (
+				ECBFFF7663404A4A977C6EC9 /* Check Pods Manifest.lock */,
+				6F12BD4C188EF12400D8CB8B /* Sources */,
+				6F12BD4D188EF12400D8CB8B /* Frameworks */,
+				6F12BD4E188EF12400D8CB8B /* Resources */,
+				8495CC5248D44C0F8E91E10D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mono;
+			productName = Mono2;
+			productReference = 6F12BD50188EF12400D8CB8B /* Mono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F12BD73188EF12500D8CB8B /* MonoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F12BD88188EF12500D8CB8B /* Build configuration list for PBXNativeTarget "MonoTests" */;
+			buildPhases = (
+				71AECE4EFC4C4565A24C7BDF /* Check Pods Manifest.lock */,
+				6F12BD70188EF12500D8CB8B /* Sources */,
+				6F12BD71188EF12500D8CB8B /* Frameworks */,
+				6F12BD72188EF12500D8CB8B /* Resources */,
+				B9AC69ADBD64482094A6282B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F12BD7A188EF12500D8CB8B /* PBXTargetDependency */,
+			);
+			name = MonoTests;
+			productName = Mono2Tests;
+			productReference = 6F12BD74188EF12500D8CB8B /* MonoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F12BD48188EF12400D8CB8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "42Six, a CSC company";
+				TargetAttributes = {
+					6F12BD4F188EF12400D8CB8B = {
+						DevelopmentTeam = P6TN6SF4N2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6F12BD73188EF12500D8CB8B = {
+						TestTargetID = 6F12BD4F188EF12400D8CB8B;
+					};
+				};
+			};
+			buildConfigurationList = 6F12BD4B188EF12400D8CB8B /* Build configuration list for PBXProject "Mono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F12BD47188EF12400D8CB8B;
+			productRefGroup = 6F12BD51188EF12400D8CB8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F12BD4F188EF12400D8CB8B /* Mono */,
+				6F12BD73188EF12500D8CB8B /* MonoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F12BD4E188EF12400D8CB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B085C2321934CFDE002AD1C8 /* Server.plist in Resources */,
+				6F4E9A1B191C0D0300B6B2E5 /* echaney.p12 in Resources */,
+				15503DAC18FF0E7700CF7F6B /* bkg_stripe_rpt.png in Resources */,
+				15626A8F18FF1CFB00BCC5E2 /* Images.xcassets in Resources */,
+				6FBA8D42194786340024C39F /* icon_chats_@2x.png in Resources */,
+				6FBA8D4C1947C64D0024C39F /* app_mall_default_@2x.png in Resources */,
+				151832AB190ACCBB009A661C /* icon_ozone_40x40@2x.png in Resources */,
+				15503DAE18FF0E7700CF7F6B /* icon_add_@2x.png in Resources */,
+				151832AA190ACCBB009A661C /* icon_ozone_40x40.png in Resources */,
+				15775603190FE7CA009DE672 /* InfoPlist.strings in Resources */,
+				6FBA8D3C194785EE0024C39F /* icon_user_@2x.png in Resources */,
+				15503DB318FF0E7700CF7F6B /* icon_builder_@2x.png in Resources */,
+				15503D9C18FF0E7700CF7F6B /* alerman.p12 in Resources */,
+				6FBA8D4F1948ACA80024C39F /* radio_off_@2x.png in Resources */,
+				151832B0190ACCBB009A661C /* icon_ozone_72x72@2x.png in Resources */,
+				15503DB018FF0E7700CF7F6B /* icon_appbuilder_@2x.png in Resources */,
+				151832B1190ACCBB009A661C /* icon_ozone_76x76.png in Resources */,
+				151832AD190ACCBB009A661C /* icon_ozone_57x57@2x.png in Resources */,
+				15626A8E18FF1CFB00BCC5E2 /* InfoPlist.strings in Resources */,
+				15BA0D3D194B603500A4F130 /* sprite_icons_320x320_@2x.png in Resources */,
+				151832AC190ACCBB009A661C /* icon_ozone_57x57.png in Resources */,
+				BE53719E1923DBC90092EE60 /* icon_mobile_phone.png in Resources */,
+				151832AF190ACCBB009A661C /* icon_ozone_72x72.png in Resources */,
+				15A45B4E1917FAAF0075CE40 /* svaughn.p12 in Resources */,
+				15503DB118FF0E7700CF7F6B /* icon_appsmall_@2x.png in Resources */,
+				15503DB818FF0E7700CF7F6B /* icon_more_@2x.png in Resources */,
+				6FBA8D44194786430024C39F /* icon_applauncher_@2x.png in Resources */,
+				15503DBB18FF0E7700CF7F6B /* icon_previewer_@2x.png in Resources */,
+				6FBA8D52194A5D1A0024C39F /* icon_mobileready_@2x.png in Resources */,
+				15626ABF18FF1CFB00BCC5E2 /* Main_iPad.storyboard in Resources */,
+				15503DB218FF0E7700CF7F6B /* icon_back_@2x.png in Resources */,
+				151832B3190ACCBB009A661C /* icon_ozone_@2x.png in Resources */,
+				156779901901DFE80040836C /* MNOGridHeaderView.xib in Resources */,
+				6FBA8D3A194785CB0024C39F /* icon_signout_@2x.png in Resources */,
+				15503DC118FF0E7700CF7F6B /* logo_square_@2x.png in Resources */,
+				15503DB518FF0E7700CF7F6B /* icon_drawer_@2x.png in Resources */,
+				15503DAB18FF0E7700CF7F6B /* bkg_stripe_light.png in Resources */,
+				15626AC018FF1CFB00BCC5E2 /* Main_iPhone.storyboard in Resources */,
+				15503DAA18FF0E7700CF7F6B /* bkg_stripe_dark.png in Resources */,
+				15A662F0191D0DA600E72BCE /* ext_tool_sprites.gif in Resources */,
+				15BA0D3A194B481F00A4F130 /* arrow_down_white_@2x.png in Resources */,
+				15BA0D3B194B481F00A4F130 /* arrow_up_white_@2x.png in Resources */,
+				6F1670E4193D535500F400E2 /* icon_sync_@2x.png in Resources */,
+				6F872A0919477D010005C6E2 /* logo_ozone_@2x.png in Resources */,
+				15503D9D18FF0E7700CF7F6B /* bscazzero.p12 in Resources */,
+				15A662F2191D0DCB00E72BCE /* ic_action_overflow.png in Resources */,
+				15A662EE191D0C6D00E72BCE /* mwilson.p12 in Resources */,
+				151832A9190ACCBB009A661C /* icon_ozone_29x29@2x.png in Resources */,
+				6FBA8D46194787790024C39F /* icon_menu_@2x.png in Resources */,
+				15503DBD18FF0E7700CF7F6B /* icon_trash_@2x.png in Resources */,
+				6FBA8D501948ACA80024C39F /* radio_on_@2x.png in Resources */,
+				15503DAF18FF0E7700CF7F6B /* icon_app_@2x.png in Resources */,
+				6FBA8D401947861A0024C39F /* icon_notification_@2x.png in Resources */,
+				151832B2190ACCBB009A661C /* icon_ozone_76x76@2x.png in Resources */,
+				151832A8190ACCBB009A661C /* icon_ozone_29x29.png in Resources */,
+				151832AE190ACCBB009A661C /* icon_ozone_60x60@2x.png in Resources */,
+				6FBA8D3E194786070024C39F /* icon_settings_@2x.png in Resources */,
+				15503DAD18FF0E7700CF7F6B /* bkg_stripe_rpt_dark.png in Resources */,
+				1577560A190FE7CA009DE672 /* MonoTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12BD72188EF12500D8CB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157D812D192558E000A67941 /* testAdd2.txt in Resources */,
+				157D813D19255BF400A67941 /* dashboard.txt in Resources */,
+				157D8131192558E000A67941 /* testUpdate2.txt in Resources */,
+				157D813919255BEE00A67941 /* group.txt in Resources */,
+				157D812F192558E000A67941 /* testDelete2.txt in Resources */,
+				157D812E192558E000A67941 /* testDelete1.txt in Resources */,
+				157D812C192558E000A67941 /* testAdd1.txt in Resources */,
+				157D813E19255BF400A67941 /* widgetList.txt in Resources */,
+				157D8130192558E000A67941 /* testUpdate1.txt in Resources */,
+				6F4E9A19191C0A1100B6B2E5 /* echaney.p12 in Resources */,
+				157D813A19255BEE00A67941 /* whoami.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71AECE4EFC4C4565A24C7BDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8495CC5248D44C0F8E91E10D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9AC69ADBD64482094A6282B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBFFF7663404A4A977C6EC9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F12BD4C188EF12400D8CB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4E9A1A191C0C8100B6B2E5 /* MNOLoginViewController.m in Sources */,
+				1584F921191BC7AE00640438 /* MNOChromeButton.m in Sources */,
+				6F361A2C1923F76C0086160F /* MNOSyncDashboardViewController.m in Sources */,
+				1584F922191BC7AE00640438 /* MNOChromeDrawer.m in Sources */,
+				15626AC118FF1CFB00BCC5E2 /* MNODashboardView.m in Sources */,
+				6F361A371923F7DE0086160F /* MNOAggressiveCacheViewController.m in Sources */,
+				1587691F1921434F007E2B41 /* MNOAppsMallStorefrontViewController.m in Sources */,
+				150AAE0D19000C0E0031A053 /* MNOAppsMallViewController.m in Sources */,
+				150AAE0A19000C0E0031A053 /* MNOAccountViewController.m in Sources */,
+				15626AF318FF2A7E00BCC5E2 /* MNORouteRequestManager.m in Sources */,
+				156779701901DF850040836C /* MNOAuthenticationHandler.m in Sources */,
+				150B70D719104292003211FB /* MNOResponse.m in Sources */,
+				15626A9618FF1CFB00BCC5E2 /* MNODBManager.m in Sources */,
+				158769261921755A007E2B41 /* MNOAppsMallManager.m in Sources */,
+				15626ACB18FF1CFB00BCC5E2 /* MNOAppLauncherWidgetView.m in Sources */,
+				15626AD118FF1CFB00BCC5E2 /* MNOTopMenuView.m in Sources */,
+				6F1670EE193FF7F200F400E2 /* MNOSyncWidgetsOp.m in Sources */,
+				1567795A1901DF640040836C /* MNOBatteryProcessor.m in Sources */,
+				1531BEFA1906D39800085690 /* MNOMapTile.m in Sources */,
+				15626A9718FF1CFB00BCC5E2 /* MNOProtocolManager.m in Sources */,
+				157BA3771922555F0058F296 /* MNOAppsMall.m in Sources */,
+				B026790219117D0200B41CC0 /* MNOOpenAMAuthenticationManager.m in Sources */,
+				B085C2361934CFF9002AD1C8 /* MNOModalManager.m in Sources */,
+				15626A9918FF1CFB00BCC5E2 /* MNOReachabilityManager.m in Sources */,
+				15626A9018FF1CFB00BCC5E2 /* MNOAppDelegate.m in Sources */,
+				15A6489E19376DFB00CC0CD3 /* MNOLoginInfo.m in Sources */,
+				6F1670EB193FF7CB00F400E2 /* MNOSyncDashboardOp.m in Sources */,
+				15626ACD18FF1CFB00BCC5E2 /* MNOAppsMallGridView.m in Sources */,
+				15775602190FE7CA009DE672 /* CacheUtils.m in Sources */,
+				158CA7F719117E85005D9581 /* MNONetworkWrapperProtocol.m in Sources */,
+				6F361A301923F7940086160F /* MNOIntentSettingsViewController.m in Sources */,
+				15626AD318FF1CFB00BCC5E2 /* MNOSwiperView.m in Sources */,
+				15626A9418FF1CFB00BCC5E2 /* MNONSURLCacheManager.m in Sources */,
+				156779711901DF850040836C /* MNOUtil.m in Sources */,
+				156779591901DF640040836C /* MNOAccelerometerProcessor.m in Sources */,
+				15626ABC18FF1CFB00BCC5E2 /* MNOEmpty.m in Sources */,
+				157D8119192532BE00A67941 /* MNOHeaderBarProcessor.m in Sources */,
+				15626ACE18FF1CFB00BCC5E2 /* MNOCustomGridView.m in Sources */,
+				15626A9F18FF1CFB00BCC5E2 /* Mono.xcdatamodeld in Sources */,
+				15626AC918FF1CFB00BCC5E2 /* MNOCustomIOS7AlertView.m in Sources */,
+				B085C2411934D05C002AD1C8 /* MNOSyncDashboardManager.m in Sources */,
+				152EB876192E8B21005E502B /* NSString+MNOAdditions.m in Sources */,
+				1551E9D6190EFBBD00577D92 /* MNOHttpStack.m in Sources */,
+				6FBA7F42190FF4460027F169 /* MNOAggressiveCache.m in Sources */,
+				15626AC418FF1CFB00BCC5E2 /* MNOAppView.m in Sources */,
+				150AAE1119000C0E0031A053 /* MNOMainViewController.m in Sources */,
+				15626ACA18FF1CFB00BCC5E2 /* MNOAppLauncherDashboardView.m in Sources */,
+				15626AC218FF1CFB00BCC5E2 /* MNOGreenTriangle.m in Sources */,
+				150AAE0B19000C0E0031A053 /* MNOAppLauncherViewController.m in Sources */,
+				15626A9B18FF1CFB00BCC5E2 /* MNODashboard.m in Sources */,
+				156779941901E3530040836C /* MNOIntentHandler.m in Sources */,
+				6F23866B195A36FA006EC9AC /* MNOUpdateCache.m in Sources */,
+				156779821901DFA60040836C /* MNOIntentSubscriberSaved.m in Sources */,
+				15626AD418FF1CFB00BCC5E2 /* UIWebView+OzoneWebView.m in Sources */,
+				156779671901DF7A0040836C /* MNOAccelerometerManager.m in Sources */,
+				1531BEF61906B78700085690 /* MNOTrackingStatus.m in Sources */,
+				6F5A63E919537DF9008A43A6 /* MNOCachedData.m in Sources */,
+				BE81B67A192509AE00C9FFFA /* NSURLRequest+NSURLRequestSSLY.m in Sources */,
+				6FBA7F3D190FF4100027F169 /* RNCachedData.m in Sources */,
+				15626AA018FF1CFB00BCC5E2 /* MNOSubscriber.m in Sources */,
+				15626ABD18FF1CFB00BCC5E2 /* MNOCustomUnwind.m in Sources */,
+				156779681901DF7A0040836C /* MNOBatteryManager.m in Sources */,
+				15626AF018FF2A7E00BCC5E2 /* MNOPublishSubscribeProcessor.m in Sources */,
+				156779781901DF950040836C /* MNOSettings.m in Sources */,
+				15626ACF18FF1CFB00BCC5E2 /* MNOCenterMenuView.m in Sources */,
+				1567798F1901DFE80040836C /* MNOGridHeaderView.m in Sources */,
+				15626AA118FF1CFB00BCC5E2 /* MNOGroup.m in Sources */,
+				15B6472219094DED00BF0A2E /* MNOTileInfo.m in Sources */,
+				1531BEFE1906D41400085690 /* NSManagedObject+BaseModel.m in Sources */,
+				15626AC318FF1CFB00BCC5E2 /* MNOAppMallView.m in Sources */,
+				156779691901DF7A0040836C /* MNOLocationManager.m in Sources */,
+				15626A9118FF1CFB00BCC5E2 /* MNOmain.m in Sources */,
+				150AAE1419000C0E0031A053 /* MNOSettingsViewController.m in Sources */,
+				15626A9518FF1CFB00BCC5E2 /* MNODatabase.m in Sources */,
+				BE537198192305590092EE60 /* MNONotificationManager.m in Sources */,
+				150AAE1319000C0E0031A053 /* MNOOzoneWebViewController.m in Sources */,
+				1531BEF31906B23A00085690 /* MNOMapCacheManager.m in Sources */,
+				15626AA218FF1CFB00BCC5E2 /* MNOUser.m in Sources */,
+				1567795B1901DF640040836C /* MNOLocationProcessor.m in Sources */,
+				F0A1FF83190567EE009D9C07 /* MNOCacheProcessor.m in Sources */,
+				150AAE0C19000C0E0031A053 /* MNOAppsBuilderViewController.m in Sources */,
+				1531BEEF1906AF1100085690 /* MNOMapCacheProcessor.m in Sources */,
+				6FBA8D56194A5E620024C39F /* MNOAppSwiperView.m in Sources */,
+				15626A9A18FF1CFB00BCC5E2 /* MNOWidgetManager.m in Sources */,
+				BE81B6741924FBDD00C9FFFA /* MNOConfigurationManager.m in Sources */,
+				B085C2421934D05C002AD1C8 /* MNOUserDownloadService.m in Sources */,
+				150AAE0F19000C0E0031A053 /* MNOContainerViewController.m in Sources */,
+				1502FF06193620B400A0612F /* MNOCertSelectorViewController.m in Sources */,
+				15626AF118FF2A7E00BCC5E2 /* MNOAPIResponse.m in Sources */,
+				BE53719B192305780092EE60 /* MNONotificationProcessor.m in Sources */,
+				1567796A1901DF7A0040836C /* MNOLocationManagerDelegate.m in Sources */,
+				150AAE1019000C0E0031A053 /* MNODashboardViewController.m in Sources */,
+				15626A9318FF1CFB00BCC5E2 /* MNOAccountManager.m in Sources */,
+				15AD3540192D319100ED7C87 /* MNOConnectivityProcessor.m in Sources */,
+				15626AA318FF1CFB00BCC5E2 /* MNOWidget.m in Sources */,
+				15626ACC18FF1CFB00BCC5E2 /* MNOIntentGrid.m in Sources */,
+				15626ABE18FF1CFB00BCC5E2 /* MNOWidgetSegue.m in Sources */,
+				150AAE1519000C0E0031A053 /* MNOWidgetViewController.m in Sources */,
+				B085C23A1934D01D002AD1C8 /* MNOModalProcessor.m in Sources */,
+				156779841901DFA60040836C /* MNOIntentWrapper.m in Sources */,
+				15626AF218FF2A7E00BCC5E2 /* MNOAPITypeAndMethod.m in Sources */,
+				15626AEE18FF2A7E00BCC5E2 /* MNOIntentsProcessor.m in Sources */,
+				15626AD018FF1CFB00BCC5E2 /* MNOMenuView.m in Sources */,
+				15626AEF18FF2A7E00BCC5E2 /* MNOPersistentStorageProcessor.m in Sources */,
+				15626AD218FF1CFB00BCC5E2 /* MNOIntentSwiperView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12BD70188EF12500D8CB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AD3539192D13DB00ED7C87 /* MNOReachabilityManagerTests.m in Sources */,
+				B085C1EE19271167002AD1C8 /* MNOOpenAMAuthenticationManagerTests.m in Sources */,
+				157D813619255BB200A67941 /* TestUtils.m in Sources */,
+				F0AA458A1912AED0002FEAEB /* MNOAggressiveCacheDelegateTest.m in Sources */,
+				6F4E9A1F191C7B7300B6B2E5 /* MNOTestDB.m in Sources */,
+				F0AA458B1912AED0002FEAEB /* MNOMapCacheManagerTests.m in Sources */,
+				F0AA458C1912AED0002FEAEB /* MNOAPIProcessingTests.m in Sources */,
+				6F51E7CB1921867A00BBA01D /* MNOSyncDashboardTests.m in Sources */,
+				157BA3791922718E0058F296 /* MNOAppsMallTests.m in Sources */,
+				F0AA458D1912AED0002FEAEB /* MNODatabaseTests.m in Sources */,
+				F0AA458F1912AED0002FEAEB /* MNORequestRouterTests.m in Sources */,
+				1584F915191BBC0100640438 /* MNOAccountManagerTests.m in Sources */,
+				1584F91B191BC5FA00640438 /* MNOChromeButton.m in Sources */,
+				15B420041911A112002B58F8 /* BatteryManagerTests.m in Sources */,
+				15B420031911A0DC002B58F8 /* MNOAggressiveCacheTests.m in Sources */,
+				6F4E9A13191C092B00B6B2E5 /* MNOLogInTests.m in Sources */,
+				6F1670F31940A79E00F400E2 /* MNOSyncWidgetsTest.m in Sources */,
+				1584F91C191BC5FA00640438 /* MNOChromeDrawer.m in Sources */,
+				15B420051911A112002B58F8 /* GPSManagerTests.m in Sources */,
+				B085C1F2192B878D002AD1C8 /* MNOHttpStackTests.m in Sources */,
+				6F4E9A10191C091E00B6B2E5 /* XCTestCase+XCTestCaseExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F12BD7A188EF12500D8CB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F12BD4F188EF12400D8CB8B /* Mono */;
+			targetProxy = 6F12BD79188EF12500D8CB8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		156269D218FF1CFA00BCC5E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156269D318FF1CFA00BCC5E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		157755F6190FE7CA009DE672 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157755F7190FE7CA009DE672 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F12BD83188EF12500D8CB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F12BD84188EF12500D8CB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F12BD86188EF12500D8CB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDDBE513FFB466AA3C16FA7 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Main/Mono-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/AsyncImageDownloader\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"${PODS_ROOT}/Headers/TMCache\"",
+					"\"${PODS_ROOT}/Headers/hpple\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Main/Mono-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Mono;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F12BD87188EF12500D8CB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDDBE513FFB466AA3C16FA7 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Main/Mono-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/AsyncImageDownloader\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"${PODS_ROOT}/Headers/TMCache\"",
+					"\"${PODS_ROOT}/Headers/hpple\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "Main/Mono-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Mono;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F12BD89188EF12500D8CB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDDBE513FFB466AA3C16FA7 /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mono.app/Mono";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Main/Mono-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/AsyncImageDownloader\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"${PODS_ROOT}/Headers/TMCache\"",
+					"\"${PODS_ROOT}/Headers/hpple\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = "MonoTests/MonoTests-Info.plist";
+				PRODUCT_NAME = MonoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F12BD8A188EF12500D8CB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDDBE513FFB466AA3C16FA7 /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mono.app/Mono";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Main/Mono-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/AsyncImageDownloader\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"${PODS_ROOT}/Headers/TMCache\"",
+					"\"${PODS_ROOT}/Headers/hpple\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = "MonoTests/MonoTests-Info.plist";
+				PRODUCT_NAME = MonoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F12BD4B188EF12400D8CB8B /* Build configuration list for PBXProject "Mono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12BD83188EF12500D8CB8B /* Debug */,
+				6F12BD84188EF12500D8CB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F12BD85188EF12500D8CB8B /* Build configuration list for PBXNativeTarget "Mono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12BD86188EF12500D8CB8B /* Debug */,
+				6F12BD87188EF12500D8CB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F12BD88188EF12500D8CB8B /* Build configuration list for PBXNativeTarget "MonoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12BD89188EF12500D8CB8B /* Debug */,
+				6F12BD8A188EF12500D8CB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		156269FC18FF1CFB00BCC5E2 /* Mono.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				156269FD18FF1CFB00BCC5E2 /* Mono.xcdatamodel */,
+			);
+			currentVersion = 156269FD18FF1CFB00BCC5E2 /* Mono.xcdatamodel */;
+			path = Mono.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F12BD48188EF12400D8CB8B /* Project object */;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/primary1">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imgMenu"
+        android:src="@drawable/menu_2x"
+        android:tint="@color/textGray"
+        android:layout_centerVertical="true"
+        android:padding="12dp"
+        android:background="@drawable/clickable_view"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imgMenu"
+        android:id="@+id/rlLogoLayout">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="32dp"
+            android:id="@+id/imgBanner"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/logo_ozone_300x100_2x"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imgAppsMall"
+            android:src="@drawable/appsmall_2x"
+            android:tint="@color/textGray"
+            android:layout_centerVertical="true"
+            android:background="@drawable/clickable_view"
+            android:padding="12dp"/>
+
+        <View android:layout_height="24dp" android:layout_width="1dp" android:background="@color/highlight1"
+              android:layout_centerVertical="true"
+              android:layout_toRightOf="@+id/imgAppsMall"
+              android:id="@+id/divAppsMall"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imgAppsBuilder"
+            android:src="@drawable/appsbuilder_2x"
+            android:tint="@color/textGray"
+            android:layout_toRightOf="@+id/divAppsMall"
+            android:layout_centerVertical="true"
+            android:background="@drawable/clickable_view"
+            android:padding="12dp"/>
+
+        <View android:layout_height="24dp" android:layout_width="1dp" android:background="@color/highlight1"
+              android:layout_centerVertical="true"
+              android:layout_toRightOf="@+id/imgAppsBuilder"
+              android:id="@+id/divAppsBuilder"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imgRefresh"
+            android:src="@drawable/ic_action_refresh"
+            android:tint="@color/textGray"
+            android:layout_toRightOf="@+id/divAppsBuilder"
+            android:layout_centerVertical="true"
+            android:background="@drawable/clickable_view"
+            android:padding="12dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<html manifest="cache.manifest">
+	<head>
+        <script type="text/javascript" src="/presentationGrails/static/js/lib/jquery/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="/presentationGrails/static/js/widget/owf-widget-min.js"></script>
+	</head>
+    <body><p id="info"></p>
+        
+        <div>
+            <h3> Show Location</h3>
+            <span>lat,long: </span><b id="latlon"></b><br/>
+            
+            <button id="location">Get Location</button><br/><br/>
+            <b id="errorMsg"></b><br/>
+        </div>
+        
+    </body>
+	<script type="text/javascript">
+		$(function(){
+          
+          function updateLocation(data){
+          
+            if (!data.message)
+            {
+                $("#latlon").html(data.coords.lat +", " + data.coords.lon);
+            }
+            else
+            {
+                $("#errorMsg").html(data.status.message);
+            }
+          }
+          
+          $(document).on('click', 'button[id="location"]', function(event){
+                         $("#latlon").html("");
+                         Mono.Location.GetCurrentLocation({interval: 20}, updateLocation);
+                         });
+          });
+          
+        </script>
+</html>

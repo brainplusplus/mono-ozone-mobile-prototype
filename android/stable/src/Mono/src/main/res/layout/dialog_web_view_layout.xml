@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="375dp"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    style="@style/alert"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/primary1"
+        android:hint="Title"
+        android:id="@+id/txtTitle"
+        style="@style/pageTitle"
+        android:layout_gravity="center_horizontal" />
+
+    <com.fourtwosix.mono.views.WidgetWebView
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:background="@color/primary1"
+        android:id="@+id/wbvWebViewDial"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btnNegative"
+            android:layout_weight="1"
+            style="@style/GreenButton"
+            android:textColor="@color/primary1"
+            android:layout_marginRight="2.5dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btnPositive"
+            android:layout_weight="1"
+            style="@style/GreenButton"
+            android:textColor="@color/primary1"
+            android:layout_marginLeft="2.5dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

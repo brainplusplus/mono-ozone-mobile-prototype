@@ -1,0 +1,21 @@
+{
+    "renderers": [
+        {
+            "name": "Google Maps V2",
+            "config": "googleMapsV2"
+        },
+        {
+            "name": "Google Maps V3",
+            "config": "googleMapsV3"
+        },
+        {
+            "name": "Google Earth",
+            "note": "(requires plugin)",
+            "config": "googleEarth"
+        },
+        {
+            "name": "Open Layers",
+            "config": "openLayers"
+        }
+    ]
+}

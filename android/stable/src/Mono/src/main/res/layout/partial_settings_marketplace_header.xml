@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+    <View style="@style/divider" />
+
+    <TextView
+        style="@style/settingsCategoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARKETPLACE"
+        android:id="@+id/textView2"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/txtStoreUrl"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/marketplaceAddText"
+        style="@style/editText">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtStoreName"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/marketplaceNameText"
+        style="@style/editText">
+    </EditText>
+
+    <View style="@style/divider"
+          android:layout_marginTop="8dp"
+          android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btnAddStorefront"
+        android:background="@color/primary3"
+        />
+
+    <!-- Add list view tied to appsMall array here -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ERROR"
+        android:textColor="@color/error_color"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/txtStoreError"
+        android:gravity="center"
+        android:visibility="invisible"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

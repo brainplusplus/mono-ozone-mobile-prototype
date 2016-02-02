@@ -1,0 +1,8 @@
+{
+	"owf": "http://localhost:8080/owf",
+	"owfRelay": "/common/rpc_relay.uncompressed.html",
+	"gcssSuiteUrl": "https://ngc-usfl2.gcss.ms.northropgrumman.com/",
+	"proxy": "../proxy.jsp?url=",
+	"columnWidth": 48,
+	"showNonMatchedPopup": true
+}

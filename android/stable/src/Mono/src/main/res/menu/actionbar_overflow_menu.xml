@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="View All" android:id="@+id/menuViewAll"/>
+        <item android:title="View Mobile Ready" android:id="@+id/menuViewMobileReady"/>
+    </group>
+    <item android:title="Refresh Apps" />
+</menu>

@@ -1,0 +1,54 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #define gpsWidget 1
+    #define gpsDashboard 1
+
+
+    #define accelerometerWidget 2
+    #define accelerometerDashboard 2
+
+    #define batteryWidget 3
+    #define batteryDashboard 3
+
+    #define persistWidget 4
+    #define persistDashboard 4
+
+    #define APIsuccess @"success"
+    #define APIfailure @"failure"
+    #define APIstatus @"status"
+    #define APIcallback @"callback"
+    #define APIsetup @"setup"
+    #define APIinterval @"interval"
+
+    typedef unsigned long TMIndex;
+
+    #define dashboardSwitched @"MonoFooDidSwitchDashboard"
+
+    #define dashboardUDID @"dashboardGuid"
+    #define dashboardUDIDPrev @"dashboardGuidPrev"
+    #define dashboardUDIDNew @"dashboardGuidNew"
+
+    #define widgetUDID @"widgetGuid"
+    #define widgetUDIDPrev @"widgetGuidPrev"
+    #define widgetUDIDNew @"widgetGuidNew"
+    #define callbackID @"callback"
+
+    #define monoCallbackName @"Mono.callback"
+    #define monoCallbackFn @"fn"
+    #define monoCallbackArgs @"args"
+
+#endif
